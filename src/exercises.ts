@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 2, complete: false, totalScanPages: 138,
+  version: 3, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -132,6 +132,26 @@ export const exercises: Exercise[] = [
     history: 'Section XIV-B3 describes the extended index finger moving slowly from side to side.', sourceDuration: { kind: 'not-specified', details: 'No numerical duration or repetition count is specified for this exercise on PDF p. 124.' }, timerProvenance: 'modern-choice',
     guided: ['Support a hand in a comfortable position.', 'If easy, move the index finger gently from side to side and notice its tip.', 'Release the hand and rest whenever needed.'],
     modernAdaptations: ['Any comfortable support, relaxed fingers and a one-minute optional timer replace the prescribed fist/knee position.'], accessibleAlternatives: ['Observe a static point or listen to a movement description.'], prerequisites: ['Comfortable supported hand or a nonmovement alternative.'], objectives: ['Keep voluntary attention on a small movement.'], evidence: 'historical-attention-practice', notice: 'Do not force the finger or fist position. Stop before discomfort.', reflection,
+  },
+  {
+    id: 'fixed-mark-head-motion', title: 'Fixed Mark Observation', discipline: 'Attention', lesson: 'VII', pdfPages: '54', minutes: 1,
+    source: source(['VII-3'], [54], 'самое же упражненіе должно производить вначалѣ очень умѣренно, не утомляя глазъ.', 54),
+    originalProtocol: ['Stand facing a wall at a distance of three feet and attach a sheet of white paper at eye level.', 'Keep looking at the mark while rotating the head, changing the direction of rotation.', 'The author says to begin very moderately without tiring the eyes. His claimed development of eye nerves and muscles is a historical claim, not an app benefit.'],
+    history: 'Lesson VII, exercise III, describes a fixed mark with head rotation. It gives no numerical duration; the app does not recommend reproducing head circles.',
+    sourceDuration: { kind: 'not-specified', details: 'PDF p. 54 specifies a very moderate beginning without eye fatigue, but no timer or repetition count.' }, timerProvenance: 'modern-choice',
+    guided: ['Choose a stationary point at a comfortable distance and keep your head in a comfortable position.', 'If comfortable, make a small, slow head turn while noticing the point; blinking and looking away are allowed.', 'Skip movement entirely or stop immediately for dizziness, pain or visual discomfort.'],
+    modernAdaptations: ['Small optional turns replace historical head rotation; full head circles are not required.', 'Seated support, natural blinking and the one-minute optional timer are modern choices.'],
+    accessibleAlternatives: ['Keep the head still and attend to a point, sound or held object instead; these are modern alternatives.'], prerequisites: ['A comfortable observation point; head movement is optional.'], objectives: ['Notice attention during a small optional change of position.'], evidence: 'historical-attention-practice', notice: 'Stop for dizziness, neck pain or eye discomfort. No eyesight or eye-muscle benefit is claimed.', reflection,
+  },
+  {
+    id: 'wall-point-shifting', title: 'Attention Between Points', discipline: 'Attention', lesson: 'VII', pdfPages: '54', minutes: 1,
+    source: source(['VII-4'], [54], 'Упражненіе это слѣдуетъ немедленно прекратить, какъ только глаза станутъ уставать.', 54),
+    originalProtocol: ['Stand with your back to a wall, facing the opposite wall.', 'Move the gaze rapidly between points on that wall: right, left, up, down, in zigzags, circles and other directions.', 'Stop immediately when the eyes begin to tire. Before finishing, the author recommends resting the gaze on one point. His eye-strengthening claim is not an established app benefit.'],
+    history: 'Lesson VII, exercise IV, describes rapid gaze shifts and an explicit fatigue stop. Slow comfortable shifts in guided mode are a modern adaptation.',
+    sourceDuration: { kind: 'not-specified', details: 'PDF p. 54 gives a fatigue-based stop and a final stationary point, but no numerical duration or repetition count.' }, timerProvenance: 'modern-choice',
+    guided: ['Choose two stationary points that are easy to see without strain.', 'Shift attention slowly between them at your own pace; blink naturally and avoid large or rapid eye movements.', 'Stop for fatigue or discomfort. If comfortable, finish by resting attention on one point.'],
+    modernAdaptations: ['Two points and slow self-paced shifts replace rapid multidirectional movements.', 'A seated position and a one-minute optional timer are modern choices; the timer never overrides discomfort.'],
+    accessibleAlternatives: ['Attend to one stationary point, or alternate between two sounds or tactile objects; these are modern alternatives.'], prerequisites: ['Comfortable stationary points or a nonvisual alternative.'], objectives: ['Choose where to direct attention and notice a change of focus.'], evidence: 'historical-attention-practice', notice: 'Stop immediately for eye fatigue, dizziness or discomfort. No eyesight benefit is claimed.', reflection,
   },
 ];
 

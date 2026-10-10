@@ -69,3 +69,18 @@ remain incomplete. The catalog must not be marked complete.
 - Do not silently invent historically attributed exercises or durations.
 - Obtain the scanned PDF through an authorized accessible workspace if exact transcription or complete extraction is requested.
 
+
+## Additional scan check — Lesson VII, PDF p. 54 (printed p. 42)
+
+The user-uploaded original PDF is byte-identical to the archived primary PDF above.
+Exercise III specifies standing three feet from the wall, white paper at eye level,
+keeping the mark in view while rotating the head in different directions, and
+beginning very moderately without tiring the eyes. Exercise IV specifies standing
+with the back to a wall, rapid gaze shifts across the opposite wall in several
+directions, immediate cessation at eye fatigue, and a final stationary point.
+Neither passage specifies a timer or repetition count. Short Russian excerpts
+were visually checked against the original scan. Guided small optional head turns,
+slow two-point shifts, seated support, nonvisual alternatives and one-minute timers
+are modern additions. Historical eye-strengthening claims are attributed to the
+author and are not promised benefits. This is an excerpt check, not full-page
+transcription or verification of the partner exercise that follows on this page.

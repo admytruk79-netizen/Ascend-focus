@@ -401,7 +401,10 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1712,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VII-3",
+        "VII-4"
+      ]
     },
     {
       "pdfPage": 55,

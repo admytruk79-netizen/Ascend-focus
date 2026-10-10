@@ -49,3 +49,16 @@ test('does not turn source influence claims into stranger-targeting guided actio
   assert.match(rapport.guided.join(' '), /without attempting to control/);
   assert.match(rapport.history, /not established communication/);
 });
+
+test('page 54 gaze practices preserve fatigue stops without invented source timers', () => {
+  for (const id of ['fixed-mark-head-motion', 'wall-point-shifting']) {
+    const e = exercises.find(e => e.id === id);
+    assert.deepEqual(e.source.scanPages, [54]);
+    assert.deepEqual(e.source.printedPages, [42]);
+    assert.equal(e.sourceDuration.kind, 'not-specified');
+    assert.equal(e.timerProvenance, 'modern-choice');
+    assert.match(e.notice, /No eyesight/);
+  }
+  assert.match(exercises.find(e => e.id === 'wall-point-shifting').originalProtocol.join(' '), /Stop immediately/);
+  assert.match(exercises.find(e => e.id === 'fixed-mark-head-motion').modernAdaptations.join(' '), /replace historical head rotation/);
+});
