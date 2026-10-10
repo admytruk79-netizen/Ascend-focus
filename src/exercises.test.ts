@@ -1,0 +1,3 @@
+import {describe,it,expect} from "vitest";
+import {exercises} from "./exercises";
+describe("Atkinson exercise catalog",()=>{it("has unique ids with source references",()=>{expect(exercises.length).toBeGreaterThan(4);expect(new Set(exercises.map(x=>x.id)).size).toBe(exercises.length);for(const e of exercises){expect(e.lesson).toMatch(/^[IVX]+$/);expect(e.pdfPages).toBeTruthy();expect(e.guided.length).toBeGreaterThan(1);expect(e.notice).toBeTruthy();expect(e.minutes).toBeGreaterThan(0)}});it("attributes historical mental rapport without claiming established telepathy",()=>{const e=exercises.find(x=>x.id==="rapport")!;expect(e.notice.toLowerCase()).toContain("not scientifically established")})});
