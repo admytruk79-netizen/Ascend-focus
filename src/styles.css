@@ -22,3 +22,20 @@
  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
 .app.quiet *,.app.quiet *::before,.app.quiet *::after{animation:none!important;transition:none!important}
+
+/* The visual attention object is user-controlled; defaults to a stationary dot. */
+.attention-training{margin:25px 0;padding:16px;border:1px solid #385263;border-radius:14px;background:#102431}
+.attention-training h3{margin:0 0 6px;font-family:Georgia,serif}
+.attention-controls{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:10px;margin:12px 0}
+.attention-controls label{font-size:13px;color:#d3dddf}
+.attention-controls select{background:#182f41;color:#f5f0e8;border:1px solid #647989;padding:12px;border-radius:9px;min-height:44px;width:100%;font:inherit}
+.attention-controls select:disabled{opacity:.5}
+.attention-stage{height:145px;border:1px solid #395464;border-radius:12px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#243d4c,#10212e);overflow:hidden}
+.attention-dot{width:16px;height:16px;background:#d5b783;border-radius:50%;box-shadow:0 0 20px #d5b78340}
+@media(prefers-reduced-motion:no-preference){
+ .app:not(.quiet) .attention-stage.playing.motion-horizontal .attention-dot{animation:attention-horizontal 10s ease-in-out infinite alternate}
+ .app:not(.quiet) .attention-stage.playing.motion-vertical .attention-dot{animation:attention-vertical 10s ease-in-out infinite alternate}
+ .app:not(.quiet) .attention-stage.playing.pace-gentle.motion-horizontal .attention-dot,.app:not(.quiet) .attention-stage.playing.pace-gentle.motion-vertical .attention-dot{animation-duration:6s}
+}
+@keyframes attention-horizontal{from{transform:translateX(-72px)}to{transform:translateX(72px)}}
+@keyframes attention-vertical{from{transform:translateY(-48px)}to{transform:translateY(48px)}}
