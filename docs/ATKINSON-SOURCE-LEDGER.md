@@ -34,6 +34,7 @@ Modern adaptation must not claim telepathic communication is scientifically esta
 - XIV-A2 PDF 121–122: Observe the fingers of an extended arm, starting with 1 minute; stop physical discomfort.
 - XIV-A3 PDF 122: Hold water-filled glass still, watch liquid; safer app uses partial-filled unbreakable container.
 - XIV-A4 PDF 122–123: Observe movement habits; do not stigmatize fidgeting/neurodivergence.
+- XIV-B1 PDF 123: Sit at a table with fists palms upward; extend thumb, then each finger in sequence, then fold back in reverse order. Repeat using the other hand. The original suggests five repetitions, progressing to ten. Adapt with pain-free movement or optional imagery. This wording has been checked in text extraction; visual proofreading is still required.
 - XIV-B2 PDF 124: Interlace fingers and rotate thumbs slowly while observing the movement.
 - XIV-B3 PDF 124: Extend index finger and move side to side while attending to it.
 - XIV-C PDF 125: Study a pencil for five minutes, investigating shape, materials, purpose and manufacture.
@@ -45,3 +46,16 @@ Modern adaptation must not claim telepathic communication is scientifically esta
 - Never claim the exercise inventory is complete until all 138 PDF pages are audited, including the continuation beyond PDF 125.
 - Do not silently invent historically attributed exercises or durations.
 - Obtain the scanned PDF through an authorized accessible workspace if exact transcription or complete extraction is requested.
+
+## Lesson XII — Thought absorption (PDF pp 107–109; printed pp 95–97)
+These six numbered instructions belong to ONE continuous historical protocol, not six unrelated lessons.
+- XII-1 Seek quiet and relative seclusion.
+- XII-2 Adopt comfortable rest and relax; original includes deep breathing and breath retention. Modern version uses natural breathing and avoids breath holds.
+- XII-3 Direct attention inward while letting unrelated impressions settle.
+- XII-4 Choose a quality/word (author uses fearlessness) and concentrate on its meaning.
+- XII-5 Imagine acting as if already exhibiting the quality and use the historical 'I am' affirmation.
+- XII-6 Repeat the practice optionally, sometimes before sleep according to the source; do not imply psychological treatment or guaranteed change.
+Review: scan text verified on PDF pp 107–109, image proofreading still pending.
+
+## Full application specification
+[ASCEND Focus Complete Application Master Specification v2](https://docs.google.com/document/d/16U1Rs7_o1CjWGCzHBDjXCB2-hjpxapimrF27x4Qhebk/edit) defines screens, user journeys, state machine, AND/OR gates, matching and adaptation algorithms, data flows, API, backend permissions, community, paired experiments, animations, neuroinclusive requirements, acceptance tests and delivery stages. This does not mean all features exist in code.
