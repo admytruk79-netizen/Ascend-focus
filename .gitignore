@@ -8,3 +8,6 @@ data/
 .env.*
 !.env.example
 *.tsbuildinfo
+references/*.pdf
+references/review/
+references/ocr/

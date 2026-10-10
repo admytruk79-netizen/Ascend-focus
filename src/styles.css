@@ -44,3 +44,5 @@ fieldset{border:0;padding:0;margin:0;min-width:0}legend{font-size:20px;padding:0
 @keyframes attention-horizontal{from{transform:translateX(-72px)}to{transform:translateX(72px)}}
 @keyframes attention-vertical{from{transform:translateY(-48px)}to{transform:translateY(48px)}}
 
+
+#practice-duration{min-height:44px;background:#0d1b28;color:#f0ede5;border:1px solid #62707a;border-radius:10px;font:inherit;padding:10px;width:100%;margin:10px 0}blockquote{margin:20px 0;padding:16px;border-left:2px solid #bb9d71;background:#10212e}blockquote p{overflow-wrap:anywhere}a{color:#edc991}a:focus-visible,summary:focus-visible{outline:3px solid #e8cf9b;outline-offset:3px}

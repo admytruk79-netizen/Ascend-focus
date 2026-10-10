@@ -1,0 +1,1006 @@
+{
+  "version": 1,
+  "sourceUrl": "https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view",
+  "sha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "scanPageCount": 138,
+  "complete": false,
+  "rawEmbeddedTextPages": 125,
+  "note": "Raw embedded OCR is not a verified transcription. Excerpt checks do not constitute a full-page audit. No original instruction is reconstructed from missing text.",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 2,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 3,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 4,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 5,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 6,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 7,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 188,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 8,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 9,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 3005,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 10,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 3175,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 11,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 3232,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 12,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 2262,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 13,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1496,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 14,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 395,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 15,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1422,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 16,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1749,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 17,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1751,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 18,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1696,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 19,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 319,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 20,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1622,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 21,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1758,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 22,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1776,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 23,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1813,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 24,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1695,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 25,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1515,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 26,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1638,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 27,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1686,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 28,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1638,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 29,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 2002,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 30,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 2041,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 31,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1562,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 32,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1996,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 33,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1885,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 34,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1731,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 35,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1802,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 36,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1818,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 37,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1829,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 38,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1777,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 39,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1790,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 40,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 816,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 41,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1524,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 42,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1785,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 43,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1782,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 44,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1767,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 45,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1611,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 46,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1501,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 47,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1727,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 48,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1806,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 49,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1837,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 50,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1581,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 51,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1631,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 52,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1649,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "VII-1"
+      ]
+    },
+    {
+      "pdfPage": 53,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1751,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "VII-2"
+      ]
+    },
+    {
+      "pdfPage": 54,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1712,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 55,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1659,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 56,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 380,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 57,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1550,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 58,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1776,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 59,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1802,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 60,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1756,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 61,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1575,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 62,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1700,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 63,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1836,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 64,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1757,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 65,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1766,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 66,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1702,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 67,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1737,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 68,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1809,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 69,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1656,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 70,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1754,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 71,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1789,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 72,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1705,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 73,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1770,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 74,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 713,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 75,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1639,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 76,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1754,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 77,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1896,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 78,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1797,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 79,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1802,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "X-1",
+        "X-2",
+        "X-3"
+      ]
+    },
+    {
+      "pdfPage": 80,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1783,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "X-3",
+        "X-4"
+      ]
+    },
+    {
+      "pdfPage": 81,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1750,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "X-4"
+      ]
+    },
+    {
+      "pdfPage": 82,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1825,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 83,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1756,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 84,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1805,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 85,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1402,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 86,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1589,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 87,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1714,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 88,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1927,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 89,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1820,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 90,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1772,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 91,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1809,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 92,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1801,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 93,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1699,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 94,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1696,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 95,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1792,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 96,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1510,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 97,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1890,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 98,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1725,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 99,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1728,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 100,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1813,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 101,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1759,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 102,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1805,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 103,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1748,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 104,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1753,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 105,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1726,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 106,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1750,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 107,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1509,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 108,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1672,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 109,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1863,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 110,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 330,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 111,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1636,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 112,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1768,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 113,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1909,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 114,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1815,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 115,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1766,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 116,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1904,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 117,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1784,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 118,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1925,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 119,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 466,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 120,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1513,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 121,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1786,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "XIV-A1",
+        "XIV-A2"
+      ]
+    },
+    {
+      "pdfPage": 122,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1751,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "XIV-A2",
+        "XIV-A3"
+      ]
+    },
+    {
+      "pdfPage": 123,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1743,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "XIV-B1"
+      ]
+    },
+    {
+      "pdfPage": 124,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1839,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "XIV-B1",
+        "XIV-B2",
+        "XIV-B3"
+      ]
+    },
+    {
+      "pdfPage": 125,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1804,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "XIV-C"
+      ]
+    },
+    {
+      "pdfPage": 126,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1764,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": [
+        "XIV-C"
+      ]
+    },
+    {
+      "pdfPage": 127,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1736,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 128,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1537,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 129,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1829,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 130,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1817,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 131,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1748,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 132,
+      "embeddedTextPresent": true,
+      "embeddedTextCharacters": 1616,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 133,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 134,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 135,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 136,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 137,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    },
+    {
+      "pdfPage": 138,
+      "embeddedTextPresent": false,
+      "embeddedTextCharacters": 0,
+      "fullPageTranscriptionStatus": "needs-page-review",
+      "scanCheckedExcerpts": []
+    }
+  ]
+}

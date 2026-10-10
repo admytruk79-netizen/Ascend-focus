@@ -7,7 +7,8 @@ export function VisualAttentionTarget({enabled}:{enabled:boolean}){
  const [mode,setMode]=useState<"static"|"horizontal"|"vertical">("static");
  const [pace,setPace]=useState<"slow"|"gentle">("slow");
  return <section className="attention-training" aria-label="Visual attention target">
-   <h3>Attention target</h3>
+   <h3>Modern screen attention target</h3>
+   <p className="notice">Screen movement and pace controls are modern additions, not Atkinson’s paper-target instructions.</p>
    <p className="muted">Follow comfortably if you choose movement. Blink naturally; stop if your eyes become tired. No need to stare.</p>
    <div className="attention-controls">
     <label htmlFor="attention-mode">Target motion</label>
@@ -25,3 +26,4 @@ export function VisualAttentionTarget({enabled}:{enabled:boolean}){
    <p className="muted">Movement is decorative only when selected; reduced-motion settings keep the dot stationary.</p>
   </section>;
 }
+
