@@ -5,49 +5,61 @@
   "scanPageCount": 138,
   "complete": false,
   "rawEmbeddedTextPages": 125,
-  "note": "Raw embedded OCR is not a verified transcription. Excerpt checks do not constitute a full-page audit. No original instruction is reconstructed from missing text.",
+  "note": "Raw embedded OCR is not a verified transcription. Excerpt checks do not constitute a full-page audit. Pages lacking embedded OCR were visually checked: these are binding/endpapers/blank leaves and the lettered cover (PDF 3), not missing exercise pages. Cover lettering and remaining page transcriptions still need review. No original instruction is reconstructed from missing text.",
   "pages": [
     {
       "pdfPage": 1,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "outer-binding",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 2,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "endpaper",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 3,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "pageKind": "lettered-cover",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 4,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "decorative-endpaper",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 5,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "decorative-endpaper",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 6,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "blank-leaf",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 7,
@@ -60,8 +72,10 @@
       "pdfPage": 8,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "blank-leaf",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 9,
@@ -964,43 +978,70 @@
       "pdfPage": 133,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "blank-leaf",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 134,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "decorative-endpaper",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 135,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "decorative-endpaper",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 136,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "binding",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 137,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "endpaper",
+      "nonExerciseVisualCheck": true
     },
     {
       "pdfPage": 138,
       "embeddedTextPresent": false,
       "embeddedTextCharacters": 0,
-      "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "fullPageTranscriptionStatus": "not-applicable-no-instruction-text",
+      "scanCheckedExcerpts": [],
+      "pageKind": "outer-binding",
+      "nonExerciseVisualCheck": true
     }
+  ],
+  "visuallyCheckedNonExercisePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138
   ]
 }

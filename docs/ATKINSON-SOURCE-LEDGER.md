@@ -56,7 +56,7 @@ Line breaks and spacing in the short excerpts are normalized; they are not compl
 transcriptions. No missing wording is reconstructed from uncertain OCR.
 
 Page-separated raw embedded OCR was extracted locally for all 138 pages; 125 have
-nonempty text and 13 have none. None of that raw OCR is automatically accepted as a
+nonempty text and 13 have no embedded OCR. Visual checks identify those 13 as binding, endpapers, blank leaves and a lettered cover (PDF p. 3), not missing exercise pages. The cover lettering remains untranscribed. None of that raw OCR is automatically accepted as a
 verified page transcription. `references/SOURCE-REVIEW.json` records the page states
 and excerpt checks. Full-page review, absent OCR and exhaustive curriculum extraction
 remain incomplete. The catalog must not be marked complete.
