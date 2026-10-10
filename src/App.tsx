@@ -1,7 +1,7 @@
 import {useEffect,useState} from "react";
 import {FocusOrb} from "./FocusOrb";
 import {VisualAttentionTarget} from "./VisualAttentionTarget";
-import {BookOpen,Brain,CalendarDays,Compass,Home,Pause,Play,Users,UserRound,CheckCircle2} from "lucide-react";
+import {BookOpen,Brain,Compass,Home,Pause,Play,Users,UserRound,CheckCircle2} from "lucide-react";
 import {exercises,type Exercise} from "./exercises";
 type Tab="Today"|"Practice"|"Journal"|"Community"|"Profile";
 type Entry={id:string;exercise:string;date:string;notes:string};
