@@ -1,0 +1,36 @@
+import {useEffect,useState} from "react";
+import {BookOpen,Brain,CalendarDays,Compass,Home,Pause,Play,Users,UserRound,CheckCircle2} from "lucide-react";
+import {exercises,type Exercise} from "./exercises";
+type Tab="Today"|"Practice"|"Journal"|"Community"|"Profile";
+type Entry={id:string;exercise:string;date:string;notes:string};
+const store="ascend-focus-journal-v1";
+function load():Entry[]{try{return JSON.parse(localStorage.getItem(store)??"[]") as Entry[]}catch{return []}}
+const tabs:Tab[]=["Today","Practice","Journal","Community","Profile"];
+export default function App(){
+ const [tab,setTab]=useState<Tab>("Today");
+ const [active,setActive]=useState<Exercise|null>(null);
+ const [historical,setHistorical]=useState(false);
+ const [seconds,setSeconds]=useState(0);
+ const [running,setRunning]=useState(false);
+ const [entries,setEntries]=useState<Entry[]>(load);
+ const [notes,setNotes]=useState("");
+ const [quiet,setQuiet]=useState(false);
+ useEffect(()=>{if(!running)return;const timer=setInterval(()=>setSeconds(s=>Math.max(0,s-1)),1000);return()=>clearInterval(timer)},[running]);
+ useEffect(()=>{if(running&&seconds===0)setRunning(false)},[seconds,running]);
+ function openExercise(e:Exercise){setActive(e);setSeconds(e.minutes*60);setRunning(false);setHistorical(false);setNotes("")}
+ function complete(){if(!active)return;const e={id:Date.now().toString(),exercise:active.title,date:new Date().toLocaleDateString(),notes};const next=[e,...entries];setEntries(next);localStorage.setItem(store,JSON.stringify(next));setActive(null);setTab("Journal");setRunning(false)}
+ const navIcon=[Home,Compass,BookOpen,Users,UserRound];
+ return <div className={quiet?"app quiet":"app"}>
+  <header><span className="mark">A</span><div><small>ASCEND</small><h1>Focus</h1></div><span className="edition">THE ART OF ATTENTION</span></header>
+  <main>
+  {active?<section className="panel"><button className="back" onClick={()=>{setActive(null);setRunning(false)}}>← All practices</button><p className="eyebrow">{active.discipline} · Lesson {active.lesson}</p><h2>{active.title}</h2><div className="mode"><button aria-pressed={!historical} onClick={()=>setHistorical(false)}>Guided practice</button><button aria-pressed={historical} onClick={()=>setHistorical(true)}>Historical source</button></div>{historical?<><p>{active.history}</p><p className="muted">Original Russian edition · PDF pages {active.pdfPages}. Historical claims are presented as attributed teachings.</p></>:<ol>{active.guided.map((s,i)=><li key={i}>{s}</li>)}</ol>}<p className="notice">{active.notice}</p><div className="timer" aria-live="off">{String(Math.floor(seconds/60)).padStart(2,"0")}:{String(seconds%60).padStart(2,"0")}</div><div className="actions"><button onClick={()=>setRunning(!running)}>{running?<Pause size={18}/>:<Play size={18}/>} {running?"Pause":"Start"}</button><button className="secondary" onClick={()=>{setRunning(false);setSeconds(active.minutes*60)}}>Reset</button></div><label htmlFor="reflection">Private reflection</label><textarea id="reflection" value={notes} onChange={e=>setNotes(e.target.value)} placeholder="What did you notice?" rows={3}/><button onClick={complete}><CheckCircle2 size={18}/> Complete and save</button></section>:<>
+  {tab==="Today"&&<><p className="eyebrow">YOUR PRACTICE TODAY</p><h2>Return to attention.</h2><p className="muted">A quiet space for deliberate practice. Your journal is saved on this device.</p><div className="feature"><span>RECOMMENDED · 5 MIN</span><h3>Comfortable Stillness</h3><p>Observe the body and settle the mind, one moment at a time.</p><button onClick={()=>openExercise(exercises[2]!)}>Begin practice <Play size={16}/></button></div><h3>Explore your path</h3><div className="tiles">{["Attention","Will","Imagination","Mental Rapport"].map(x=><button className="tile" key={x} onClick={()=>setTab("Practice")}><Brain size={22}/>{x}</button>)}</div></>}
+  {tab==="Practice"&&<><p className="eyebrow">THE LIBRARY</p><h2>Practices</h2><p className="muted">Source-grounded exercises from Atkinson's 1910 manual. Historical context and gentle guided instructions are kept separate.</p><div className="cards">{exercises.map(e=><button className="exercise" key={e.id} onClick={()=>openExercise(e)}><span className="eyebrow">{e.discipline} · {e.minutes} min</span><strong>{e.title}</strong><span className="muted">Lesson {e.lesson} · PDF pp. {e.pdfPages}</span><span className="open">Explore →</span></button>)}</div></>}
+  {tab==="Journal"&&<><p className="eyebrow">PERSONAL RECORD</p><h2>Your journal</h2><p className="muted">Private by default, stored only in this browser. Clearing browser storage will erase these entries.</p>{entries.length?entries.map(e=><article className="entry" key={e.id}><small>{e.date}</small><h3>{e.exercise}</h3><p>{e.notes||"Session completed."}</p></article>):<div className="empty">No entries yet. Finish a practice to begin your journal.</div>}<button className="secondary" onClick={()=>{const blob=new Blob([JSON.stringify(entries,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="ascend-focus-journal.json";a.click();URL.revokeObjectURL(url)}}>Export journal JSON</button></>}
+  {tab==="Community"&&<><p className="eyebrow">PRACTICE TOGETHER</p><h2>Community</h2><p className="muted">Practitioner circles, shared sessions and voluntary paired experiments are planned for the next phase.</p><div className="feature"><Users size={30}/><h3>ASCEND Circles</h3><p>Discuss practice, reflect together and organize guided sessions.</p><span className="status">Preview only — no community server connected</span></div><div className="feature"><h3>Paired mental imagery experiments</h3><p>Planned: consensual blinded trials with hidden targets and independently recorded responses.</p><span className="status">Not live — no messages are sent</span></div></>}
+  {tab==="Profile"&&<><p className="eyebrow">PREFERENCES</p><h2>Your practice, your pace.</h2><label className="toggle"><input type="checkbox" checked={quiet} onChange={e=>setQuiet(e.target.checked)}/> Reduced visual effects</label><p className="muted">No account required for solo practice. Local journal data stays on this device unless you export it.</p><p className="notice">Historical teachings are not medical advice or evidence of telepathy. Stop any practice causing discomfort.</p></>}
+  </>}
+  </main>
+  <nav aria-label="Main navigation">{tabs.map((t,i)=>{const Icon=navIcon[i]!;return <button className={tab===t?"selected":""} key={t} onClick={()=>{setActive(null);setRunning(false);setTab(t)}} aria-current={tab===t?"page":undefined}><Icon size={21}/><span>{t}</span></button>})}</nav>
+ </div>
+}
