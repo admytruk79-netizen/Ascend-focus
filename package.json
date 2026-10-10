@@ -7,7 +7,11 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run && npm run test:community && npm run test:backend",
+    "test:community": "node --experimental-strip-types src/community.checks.mjs",
+    "server": "node server/app.mjs",
+    "test:backend": "node server/community.test.mjs",
+    "test:backend:http": "ASCEND_HTTP_TESTS=1 node server/community.test.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
@@ -21,5 +25,8 @@
     "typescript": "^5.7.3",
     "vite": "^6.0.5",
     "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=24.0.0"
   }
 }

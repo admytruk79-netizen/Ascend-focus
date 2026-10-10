@@ -23,6 +23,10 @@
 }
 .app.quiet *,.app.quiet *::before,.app.quiet *::after{animation:none!important;transition:none!important}
 
+
+form input:not([type=checkbox]),form select{display:block;width:100%;min-height:44px;padding:12px;margin:10px 0 20px;background:#0d1b28;color:#f0ede5;border:1px solid #62707a;border-radius:10px;font:inherit}select:focus-visible{outline:3px solid #e8cf9b;outline-offset:3px}button:disabled{cursor:wait;opacity:.7}
+
+fieldset{border:0;padding:0;margin:0;min-width:0}legend{font-size:20px;padding:0;margin-bottom:20px}summary{cursor:pointer;min-height:44px;padding:10px 0}.community-body{white-space:pre-wrap;overflow-wrap:anywhere}.community-body,.entry p,.feature p{overflow-wrap:anywhere}.actions{align-items:center}input[type=checkbox]{flex-shrink:0}button:disabled{cursor:not-allowed}
 /* The visual attention object is user-controlled; defaults to a stationary dot. */
 .attention-training{margin:25px 0;padding:16px;border:1px solid #385263;border-radius:14px;background:#102431}
 .attention-training h3{margin:0 0 6px;font-family:Georgia,serif}
@@ -39,3 +43,4 @@
 }
 @keyframes attention-horizontal{from{transform:translateX(-72px)}to{transform:translateX(72px)}}
 @keyframes attention-vertical{from{transform:translateY(-48px)}to{transform:translateY(48px)}}
+

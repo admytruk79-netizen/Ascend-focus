@@ -3,8 +3,10 @@ on:
   push:
     paths:
       - 'src/**'
+      - 'server/**'
       - 'index.html'
       - 'package.json'
+      - 'package-lock.json'
       - 'tsconfig.json'
       - 'vite.config.ts'
       - '.github/workflows/ci.yml'
@@ -19,8 +21,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
       - run: npm install --no-audit --no-fund
       - run: npm run typecheck
       - run: npm test
+      - run: npm run test:backend:http
       - run: npm run build
+
