@@ -5,6 +5,8 @@ on:
       - 'src/**'
       - 'index.html'
       - 'package.json'
+      - 'package-lock.json'
+      - 'capacitor.config.ts'
       - 'tsconfig.json'
       - 'vite.config.ts'
       - 'capacitor.config.ts'
@@ -26,6 +28,8 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - uses: android-actions/setup-android@v3
+      - name: Install required Android SDK platforms
+        run: sdkmanager --install "platforms;android-35" "build-tools;35.0.0"
       - name: Install npm dependencies
         run: npm install --no-audit --no-fund
       - name: Validate web application
@@ -40,10 +44,21 @@ jobs:
       - name: Build debug APK
         working-directory: android
         run: bash ./gradlew assembleDebug --no-daemon
+      - name: Verify debug APK and write SHA-256
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          test -s "$APK"
+          file "$APK"
+          sha256sum "$APK" | tee android/app/build/outputs/apk/debug/SHA256SUMS.txt
+          ls -lh "$APK"
       - name: Publish debug APK
         uses: actions/upload-artifact@v4
         with:
           name: ascend-focus-android-debug
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: |
+            android/app/build/outputs/apk/debug/app-debug.apk
+            android/app/build/outputs/apk/debug/SHA256SUMS.txt
           if-no-files-found: error
           retention-days: 7
