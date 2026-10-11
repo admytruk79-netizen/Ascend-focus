@@ -1,0 +1,19 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+# Native tooling creates these during initialization. The Android and iOS
+# projects should be committed after generation and reviewed separately.
+android/.gradle/
+android/.idea/
+android/local.properties
+android/build/
+android/app/build/
+ios/App/Pods/
+ios/DerivedData/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
