@@ -44,3 +44,9 @@
 .library-controls label{font-size:13px;color:#e5dccb}
 .library-controls input,.library-controls select{font:inherit;color:#f0ede5;background:#132b39;border:1px solid #627887;border-radius:10px;min-height:44px;padding:11px 14px;width:100%;appearance:auto}
 .library-controls input:focus-visible,.library-controls select:focus-visible{outline:3px solid #e8cf9b;outline-offset:2px}
+
+.guided-steps{margin:22px 0;padding:20px;background:#112738;border:1px solid #3a5362;border-radius:14px}
+.guided-steps progress{width:100%;height:8px;accent-color:#d2b386}
+.guided-instruction{font-family:Georgia,serif;font-size:clamp(21px,4vw,29px);line-height:1.5;min-height:110px}
+.guided-steps .actions{justify-content:space-between}
+.guided-steps button:disabled{opacity:.45;cursor:not-allowed}
