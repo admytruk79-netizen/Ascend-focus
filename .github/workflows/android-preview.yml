@@ -27,9 +27,16 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
-      - uses: android-actions/setup-android@v3
-      - name: Install required Android SDK platforms
-        run: sdkmanager --install "platforms;android-35" "build-tools;35.0.0"
+      - name: Use preinstalled Android SDK and install required components
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "ANDROID_HOME=${ANDROID_HOME:-unset}"
+          SDKMANAGER="${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager"
+          test -x "$SDKMANAGER"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" --install "platforms;android-35" "build-tools;35.0.0"
+          "$SDKMANAGER" --list_installed | grep -E "platforms;android-35|build-tools;35.0.0"
       - name: Install npm dependencies
         run: npm install --no-audit --no-fund
       - name: Validate web application
