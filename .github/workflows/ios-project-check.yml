@@ -1,0 +1,30 @@
+name: ASCEND Focus iOS project check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ios-project:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build web app
+        run: npm run build
+      - name: Create and sync iOS native project
+        run: |
+          npx cap add ios
+          npx cap sync ios
+      - name: Inspect Xcode project
+        run: xcodebuild -list -project ios/App/App.xcodeproj
+      - name: Save unsigned iOS project
+        uses: actions/upload-artifact@v4
+        with:
+          name: ascend-focus-ios-project-unsigned
+          path: ios/
+          retention-days: 7
