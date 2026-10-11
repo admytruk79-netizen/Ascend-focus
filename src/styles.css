@@ -39,3 +39,8 @@
 }
 @keyframes attention-horizontal{from{transform:translateX(-72px)}to{transform:translateX(72px)}}
 @keyframes attention-vertical{from{transform:translateY(-48px)}to{transform:translateY(48px)}}
+
+.library-controls{display:grid;grid-template-columns:1fr;gap:9px;margin:20px 0 24px}
+.library-controls label{font-size:13px;color:#e5dccb}
+.library-controls input,.library-controls select{font:inherit;color:#f0ede5;background:#132b39;border:1px solid #627887;border-radius:10px;min-height:44px;padding:11px 14px;width:100%;appearance:auto}
+.library-controls input:focus-visible,.library-controls select:focus-visible{outline:3px solid #e8cf9b;outline-offset:2px}
