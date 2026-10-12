@@ -258,3 +258,15 @@ Three documentary records, no new executable practices; catalog remains14.
 The paragraph on64 continues on65 and has not been reconstructed. This is a
 partial IX reading, not completion of the six later experiments or whole lesson.
 Next sequential reading: PDF65 / printed53. Full transcription remains incomplete.
+
+## Sequential reading — Lesson IX continuation, PDF65–68 (printed53–56)
+
+All four OCR pages and scans checked. See references/reading/READING-065-068.md
+and INSTRUCTIONS-065-068.json. Five documentary records: real-self prerequisite,
+silent I-am/concentration reference, conversational mental demand procedure,
+resistance/practice claims and warning against misuse. Author explicitly gives
+no special recognition instructions; do not supply missing stages or timing.
+The general influence procedure is preserved historically and excluded from
+guided coercive tasks. The warning against harm does not supply informed consent.
+No new numbered sequence or runnable module; catalog remains14. Next PDF69 /
+printed57; Lesson IX and full transcription remain incomplete.

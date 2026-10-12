@@ -953,28 +953,61 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1766,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "Я не могу дать вамъ спеціальныхъ указаній для пріобрѣтенія такой способности къ познанію.",
+          "note": "Explicit absence of special recognition instructions; wrapping normalized."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX continuation: references/reading/READING-065-068.md; next sequential page69; full transcription incomplete.",
+      "readingCategories": [
+        "historical-metaphysical-prerequisite"
+      ]
     },
     {
       "pdfPage": 66,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1702,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX continuation: references/reading/READING-065-068.md; next sequential page69; full transcription incomplete.",
+      "readingCategories": [
+        "historical-metaphysical-prerequisite",
+        "general-practice-reference",
+        "historical-attempted-influence-procedure"
+      ]
     },
     {
       "pdfPage": 67,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1737,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX continuation: references/reading/READING-065-068.md; next sequential page69; full transcription incomplete.",
+      "readingCategories": [
+        "historical-attempted-influence-procedure",
+        "historical-unverified-claim",
+        "historical-ethical-warning"
+      ]
     },
     {
       "pdfPage": 68,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1809,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX continuation: references/reading/READING-065-068.md; next sequential page69; full transcription incomplete.",
+      "readingCategories": [
+        "historical-ethical-warning"
+      ]
     },
     {
       "pdfPage": 69,
