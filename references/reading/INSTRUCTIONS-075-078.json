@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "X",
+    "pdfPages": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "printedPages": [
+      63,
+      64,
+      65,
+      66
+    ],
+    "pageImagesChecked": [
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  "records": [
+    {
+      "id": "X-established-telepathy-assertion",
+      "lesson": "X",
+      "pdfPages": [
+        75
+      ],
+      "printedPages": [
+        63
+      ],
+      "classification": "historical-unverified-claim",
+      "normalizedEnglish": "The author declines to prove telepathy and calls it established, comparing it to X-rays and wireless telegraphy. No named study, controlled data or evidence sufficient to establish the claim is supplied.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalRussian": "Я не желаю отнимать у васъ время, доказывая вамъ существованіе телепатіи.",
+      "scanCheckedQuotePage": 75
+    },
+    {
+      "id": "X-directed-thought-wave-analogy",
+      "lesson": "X",
+      "pdfPages": [
+        75,
+        77,
+        78
+      ],
+      "printedPages": [
+        63,
+        65,
+        66
+      ],
+      "classification": "historical-theory-and-analogy",
+      "normalizedEnglish": "Thought is said to emit spatial vibrations; directed intent is compared to a bullet versus shot, ripples from stones and telegraphy. These are analogies and author theory, not a measured mechanism or instructions to use firearms or throw stones.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "X-secret-practitioners-and-scope",
+      "lesson": "X",
+      "pdfPages": [
+        76,
+        77
+      ],
+      "printedPages": [
+        64,
+        65
+      ],
+      "classification": "historical-anecdote-and-scope",
+      "normalizedEnglish": "The author invokes unnamed practitioners, years of practice, unusual lifestyles and promised secrecy. He limits the chapter to attracting attention for everyday influence, even beyond a hundred versts. No quantified training timetable or verified distance performance is supplied.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "X-interest-and-expectation-example",
+      "lesson": "X",
+      "pdfPages": [
+        77,
+        78
+      ],
+      "printedPages": [
+        65,
+        66
+      ],
+      "classification": "historical-attempted-influence-example",
+      "normalizedEnglish": "Persistently think about wanting another person to take interest in you and assume they do; the author contrasts diffuse with directed alleged impulses. This is historical attempted influence, not consent or demonstrated remote communication.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "X-concentration-and-rapport-preparation",
+      "lesson": "X",
+      "pdfPages": [
+        78
+      ],
+      "printedPages": [
+        66
+      ],
+      "classification": "historical-prerequisite-and-scenario",
+      "normalizedEnglish": "The author recommends concentration exercises from the manual for best results while allowing alleged results without them, asserting tenfold amplification. He introduces an upcoming business conversation and a wish to establish rapport beforehand; the scenario continues79. No scored prerequisite, timer or ten-stage progression is supplied.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 79,
+  "nextLesson": "X"
+}

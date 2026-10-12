@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 6, complete: false, totalScanPages: 138,
+  version: 7, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -92,7 +92,7 @@ export const exercises: Exercise[] = [
   {
     id: 'rapport', title: 'Mental Rapport Visualization', discipline: 'Mental Rapport', lesson: 'X', pdfPages: '79–81', minutes: 4,
     source: source(['X-1', 'X-2', 'X-3', 'X-4'], [79, 80, 81], 'Вы можете имѣть хорошіе результаты и безъ примѣненія трубы, однако лучшіе результаты получатъ тѣ, кто окажется способнымъ воспользоваться ею.', 81),
-    originalProtocol: ['In a quiet place, sit or lie comfortably, relax the muscles and settle distracting thoughts.', 'Form an image of the intended person, remaining relaxed rather than frowning or clenching the fists.', 'Atkinson asks the reader to imagine that person carrying out the reader’s wishes; he interprets increasingly vivid imagery as rapport.', 'He proposes imagining a long hollow tube about one foot in diameter between the imagined people, gradually extending it; he also says the tube is not essential.'],
+    originalProtocol: ['In a quiet place, sit or lie comfortably, relax the muscles and settle distracting thoughts.', 'Think intently but calmly about the intended person, remaining relaxed rather than frowning or clenching the fists. Closing the eyes may help; if the person has never been seen, the source permits a vague figure.', 'Atkinson asks the reader to imagine that person carrying out the reader’s wishes; he interprets increasingly vivid imagery as rapport.', 'He proposes imagining a long hollow tube about one foot in diameter, with the practitioner at one end and the intended person at the other.', 'The source describes a faint shadowy ring becoming clearer, forming the open end of a tube and lengthening until one imagines seeing through it. It says imagery can be difficult and the tube is not essential; no fixed number of attempts or time is supplied.'],
     history: 'This is Atkinson’s historical telepathic-will claim, not established communication. The original wish-influence framing differs from the consensual, nonmanipulative guided visualization.',
     sourceDuration: { kind: 'not-specified', details: 'No numerical session duration is specified in PDF pp. 79–81.' }, timerProvenance: 'modern-choice',
     guided: ['Rest comfortably and let breathing be natural.', 'If you imagine another person, use someone who has agreed to this practice, or imagine a fictional person.', 'Optionally imagine a connecting corridor and a kind conversation, without attempting to control another person.', 'Record your own experience without assuming anyone else received it.'],

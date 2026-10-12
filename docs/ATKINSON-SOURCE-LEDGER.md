@@ -282,3 +282,26 @@ is an asserted outcome, not required repetitions or measured chance baseline.
 General progression is easy-to-harder, calm/no clenched fists; no numeric gates.
 Coercive street/word influence procedures preserved historically, not guided tasks.
 Next sequential reading: Lesson X, PDF75 / printed63.
+
+## Sequential reading — Lesson X opening, PDF75–78 (printed63–66)
+
+All four OCR pages and scans checked; references/reading/READING-075-078.md
+and INSTRUCTIONS-075-078.json. Five documentary records: assumed telepathy,
+thought-wave analogies, unnamed secret practitioners/scope, interest expectation
+and concentration/rapport preparation. Historical assertions, not established
+science. “Tenfold” is a claimed amplification, not repetitions or an app gate;
+years of practice and hundred-verst distance are not prescribed training levels.
+The business scenario continues79; no missing continuation reconstructed.
+No new runnable modules or timings; catalog14. Next PDF79 / printed67.
+Full transcription/extraction and independent review remain incomplete.
+
+## Sequential reading — Lesson X procedure, PDF79–81 (printed67–69)
+
+Three OCR pages and scans checked: references/reading/READING-079-081.md and
+INSTRUCTIONS-079-081.json. Reconciles existing rapport module, adding historical
+optional eye closing, vague figure if never seen, and shadowy-ring/open-end/
+lengthening-tube sequence. No fixed time or repetitions; optional tube retained.
+Imagery vividness and passive-receiver claims are not external evidence.
+I-am/protective-wave paragraph on81 continues82, documentary only for now.
+Catalog14/source revision7; guided consent and modern four-minute choice distinct.
+Next PDF82 / printed70; lesson and whole-book transcription incomplete.

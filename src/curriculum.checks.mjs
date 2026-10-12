@@ -97,3 +97,14 @@ test('Lesson VIII contemplation retains qualitative timing and separates spiritu
  assert.match(e.guided.join(' '), /skip the phrase/); assert.match(e.notice, /not scientifically established/);
  assert.equal(e.reflection.privateByDefault, true);
 });
+
+test('Lesson X distinguishes imagery development from evidence of external rapport', () => {
+ const e = exercises.find(e => e.id === 'rapport');
+ assert.match(e.originalProtocol.join(' '), /vague figure/);
+ assert.match(e.originalProtocol.join(' '), /shadowy ring/);
+ assert.match(e.originalProtocol.join(' '), /tube is not essential/);
+ assert.equal(e.sourceDuration.kind, 'not-specified');
+ assert.equal(e.timerProvenance, 'modern-choice');
+ assert.match(e.guided.join(' '), /without assuming anyone else received it/);
+ assert.doesNotMatch(e.guided.join(' '), /shadowy ring|carrying out.*wishes/);
+});

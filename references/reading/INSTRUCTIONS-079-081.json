@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "X",
+    "pdfPages": [
+      79,
+      80,
+      81
+    ],
+    "printedPages": [
+      67,
+      68,
+      69
+    ],
+    "pageImagesChecked": [
+      79,
+      80,
+      81
+    ]
+  },
+  "records": [
+    {
+      "id": "X-relaxation-and-person-image",
+      "lesson": "X",
+      "pdfPages": [
+        79
+      ],
+      "printedPages": [
+        67
+      ],
+      "classification": "historical-protocol-component",
+      "normalizedEnglish": "Quiet place; lie or sit comfortably, relax muscles and settle distracting thoughts. Think intently yet calmly about the intended person without frowning or clenched fists. Eye closing may help; if never seen, imagine vague outlines. Vividness is interpreted by the author as rapport, not established external evidence.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "rapport"
+    },
+    {
+      "id": "X-wish-compliance-image",
+      "lesson": "X",
+      "pdfPages": [
+        79,
+        80
+      ],
+      "printedPages": [
+        67,
+        68
+      ],
+      "classification": "historical-protocol-component",
+      "normalizedEnglish": "Imagine suggesting wishes to the person and that person carrying them out. This coercive historical framing differs from modern consent-based kind-conversation imagery.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "rapport"
+    },
+    {
+      "id": "X-tube-development",
+      "lesson": "X",
+      "pdfPages": [
+        80,
+        81
+      ],
+      "printedPages": [
+        68,
+        69
+      ],
+      "classification": "historical-protocol-component",
+      "normalizedEnglish": "Imagine a long tube roughly one foot in diameter, with yourself and the intended person at opposite ends. A faint shadowy ring becomes clearer, an open tube end forms and extends; eventually imagine looking through the length. Some practice or several exercises is qualitative, not a numeric count or timer. The tube is explicitly optional; imagery is described as difficult.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "rapport",
+      "originalRussian": "Вы можете имѣть хорошіе результаты и безъ примѣненія трубы, однако лучшіе результаты получатъ тѣ, кто окажется способнымъ воспользоваться ею.",
+      "scanCheckedQuotePage": 81
+    },
+    {
+      "id": "X-receptivity-claims",
+      "lesson": "X",
+      "pdfPages": [
+        80
+      ],
+      "printedPages": [
+        68
+      ],
+      "classification": "historical-unverified-claim",
+      "normalizedEnglish": "Author treats tube imagery as a sure sign of full rapport, claims another person’s passivity helps and positive mental state resists. These are historical claims, not actual detection of a receiver or an app matching algorithm.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null
+    },
+    {
+      "id": "X-mental-boundary-opening",
+      "lesson": "X",
+      "pdfPages": [
+        81
+      ],
+      "printedPages": [
+        69
+      ],
+      "classification": "historical-belief-and-procedure-opening",
+      "normalizedEnglish": "Author recommends a positive mental state and mentally saying I am when one feels outside influence, claiming protection from thought vibrations. The discussion continues82. This is historical belief, not proof that an outside influence exists or a modern protective treatment.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newRunnableModules": 0,
+  "existingModuleRefined": "rapport",
+  "nextSequentialPage": 82,
+  "nextLesson": "X"
+}

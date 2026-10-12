@@ -1102,28 +1102,62 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1639,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "Я не желаю отнимать у васъ время, доказывая вамъ существованіе телепатіи.",
+          "note": "Historical assertion, not app endorsement; wrapping normalized."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X opening: references/reading/READING-075-078.md; next79, full transcription incomplete.",
+      "readingCategories": [
+        "historical-unverified-claim",
+        "historical-theory-and-analogy"
+      ]
     },
     {
       "pdfPage": 76,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1754,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X opening: references/reading/READING-075-078.md; next79, full transcription incomplete.",
+      "readingCategories": [
+        "historical-anecdote-and-scope"
+      ]
     },
     {
       "pdfPage": 77,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1896,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X opening: references/reading/READING-075-078.md; next79, full transcription incomplete.",
+      "readingCategories": [
+        "historical-theory-and-analogy",
+        "historical-anecdote-and-scope",
+        "historical-attempted-influence-example"
+      ]
     },
     {
       "pdfPage": 78,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1797,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X opening: references/reading/READING-075-078.md; next79, full transcription incomplete.",
+      "readingCategories": [
+        "historical-theory-and-analogy",
+        "historical-attempted-influence-example",
+        "historical-prerequisite-and-scenario"
+      ]
     },
     {
       "pdfPage": 79,
@@ -1134,6 +1168,13 @@
         "X-1",
         "X-2",
         "X-3"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential procedure reviewed; references/reading/READING-079-081.md. Next82; transcription incomplete.",
+      "readingCategories": [
+        "historical-protocol-component",
+        "historical-protocol-component"
       ]
     },
     {
@@ -1144,6 +1185,14 @@
       "scanCheckedExcerpts": [
         "X-3",
         "X-4"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential procedure reviewed; references/reading/READING-079-081.md. Next82; transcription incomplete.",
+      "readingCategories": [
+        "historical-protocol-component",
+        "historical-protocol-component",
+        "historical-unverified-claim"
       ]
     },
     {
@@ -1153,6 +1202,13 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "X-4"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential procedure reviewed; references/reading/READING-079-081.md. Next82; transcription incomplete.",
+      "readingCategories": [
+        "historical-protocol-component",
+        "historical-belief-and-procedure-opening"
       ]
     },
     {
