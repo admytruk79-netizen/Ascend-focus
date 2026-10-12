@@ -16,13 +16,13 @@ Verified file: 5,272,295 bytes, 138 scan pages, SHA-256 `aae7f2aae38b281177fa0ee
 
 ## Lesson IX — Will and attempted influence (selected experiments: PDF pp. 69–74, printed pp. 57–62)
 Six historical experiments are described. Their purported remote influence effects are unverified and should never be implemented as covert behavioral manipulation.
-- IX-1 PDF 69–70: Imagine prompting a person walking ahead to turn.
-- IX-2 PDF 70: Imagine drawing the attention of a seated person.
-- IX-3 PDF 70–71: Attempt to attract another's attention without gaze.
-- IX-4 PDF 71: Imagine transmitting a word to a person searching for it.
-- IX-5 PDF 72–73: Imagine influencing movement direction.
-- IX-6 PDF 73: From a window imagine a passerby looking toward you.
-Modern adaptations: private visualization, optional consenting paired word/picture guessing, and pre-registered blind trials; not stranger targeting.
+- IX-1 PDF 69–70: Gaze at the back of the head of a person walking ahead (about6–10 feet, greater allowed); will them to turn.
+- IX-2 PDF 70: Gaze at a person ahead in a gathering and will a turn; seating not explicitly prescribed.
+- IX-3 PDF 70–71: Conceal observation of a person across the street while keeping them in view; mentally demand a look.
+- IX-4 PDF 71: Persistent gaze and mental suggestion of a contextually suitable word when a speaker searches for one.
+- IX-5 PDF 72–73: Attempt right/left pedestrian-direction influence; includes maintaining a straight path toward another person (historical only).
+- IX-6 PDF 73: From a window gaze and will a passerby to look; reverse variant and lower-floor preference. Claimed7/10 is not a prescribed trial count.
+Possible modern adaptations (planned, not source instructions or a live service): private visualization, consenting paired word/picture guessing and pre-registered blinded trials; no stranger targeting.
 
 ## Lesson X — Telepathic Will (PDF pp. 75–85, printed pp. 63–73)
 - X-1 PDF 79: Find a quiet place; sit or lie comfortably; relax muscles and settle thoughts.
@@ -270,3 +270,15 @@ The general influence procedure is preserved historically and excluded from
 guided coercive tasks. The warning against harm does not supply informed consent.
 No new numbered sequence or runnable module; catalog remains14. Next PDF69 /
 printed57; Lesson IX and full transcription remain incomplete.
+
+## Sequential reading — Lesson IX experiments, PDF69–74 (printed57–62)
+
+Six OCR pages and scans checked; READING-069-074.md and INSTRUCTIONS-069-074.json
+in references/reading. Full sequential IX reading now covers62–74; full transcription
+and independent review are still incomplete. Six previously indexed numbered
+experiments verified, no newly discovered sequence or runnable addition (catalog14).
+Corrected III: covert visual observation, not absence of gaze. Corrected VI:7/10
+is an asserted outcome, not required repetitions or measured chance baseline.
+General progression is easy-to-harder, calm/no clenched fists; no numeric gates.
+Coercive street/word influence procedures preserved historically, not guided tasks.
+Next sequential reading: Lesson X, PDF75 / printed63.

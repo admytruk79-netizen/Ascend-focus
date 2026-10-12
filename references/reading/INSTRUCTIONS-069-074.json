@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "IX",
+    "pdfPages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "printedPages": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "pageImagesChecked": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  },
+  "records": [
+    {
+      "id": "IX-1",
+      "lesson": "IX",
+      "pdfPages": [
+        69,
+        70
+      ],
+      "printedPages": [
+        57,
+        58
+      ],
+      "classification": "numbered-historical-attempted-influence-experiment",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "While walking, select a person directly ahead, historically about 6–10 feet away; the author says greater distance is not an obstacle.",
+        "Fix a firm persistent gaze on the back of the head at the base of the brain.",
+        "Will the person to turn and look at you."
+      ],
+      "editorialNote": "Claims practice improves results and that women are more receptive; neither is established by this passage.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "evidence": "historical-unverified-claim",
+      "guidedPublication": "documentary-only; covert targeting excluded; consensual redesign would be a modern adaptation"
+    },
+    {
+      "id": "IX-2",
+      "lesson": "IX",
+      "pdfPages": [
+        70
+      ],
+      "printedPages": [
+        58
+      ],
+      "classification": "numbered-historical-attempted-influence-experiment",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "In a church, theatre, concert or similar gathering, gaze at a person ahead at the same point as exercise I.",
+        "Persistently will the person to turn toward you."
+      ],
+      "editorialNote": "Predicts restlessness and a half-turn; claims acquaintances respond better. No explicit seated posture requirement is stated.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "evidence": "historical-unverified-claim",
+      "guidedPublication": "documentary-only; covert targeting excluded; consensual redesign would be a modern adaptation"
+    },
+    {
+      "id": "IX-3",
+      "lesson": "IX",
+      "pdfPages": [
+        70,
+        71
+      ],
+      "printedPages": [
+        58,
+        59
+      ],
+      "classification": "numbered-historical-attempted-influence-experiment",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "Select a person across the street, slightly to the right or left of directly opposite.",
+        "Look ahead without appearing to watch the person, while keeping them in the field of view.",
+        "Direct an unyielding mental demand that the person look toward you."
+      ],
+      "editorialNote": "Not absence of visual observation: concealment of attention while keeping the subject visible. Outcomes described as spontaneous or abrupt looks.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "evidence": "historical-unverified-claim",
+      "guidedPublication": "documentary-only; covert targeting excluded; consensual redesign would be a modern adaptation"
+    },
+    {
+      "id": "IX-4",
+      "lesson": "IX",
+      "pdfPages": [
+        71
+      ],
+      "printedPages": [
+        59
+      ],
+      "classification": "numbered-historical-attempted-influence-experiment",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "When a conversational partner cannot find a word or expression, direct a persistent gaze and strong mental suggestion toward them.",
+        "The intended word must suit the context."
+      ],
+      "editorialNote": "Claimed immediate word production is not independently measured. Public-speaker anecdotes continue71; examination anecdote72 is not another numbered exercise.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "evidence": "historical-unverified-claim",
+      "guidedPublication": "documentary-only; covert targeting excluded; consensual redesign would be a modern adaptation"
+    },
+    {
+      "id": "IX-5",
+      "lesson": "IX",
+      "pdfPages": [
+        72,
+        73
+      ],
+      "printedPages": [
+        60,
+        61
+      ],
+      "classification": "numbered-historical-attempted-influence-experiment",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "Walking behind someone, fix the gaze as previously instructed and attempt to will a chosen passing direction when pedestrians meet.",
+        "Alternative: face an approaching pedestrian, continue without turning aside, gaze at them and mentally command a turn right or left."
+      ],
+      "editorialNote": "Historical street-direction manipulation; the antecedent of the later person in the first variant is ambiguous. Do not silently decide it. Straight-path variant is not safe modern guidance.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "evidence": "historical-unverified-claim",
+      "guidedPublication": "documentary-only; covert targeting excluded; consensual redesign would be a modern adaptation"
+    },
+    {
+      "id": "IX-6",
+      "lesson": "IX",
+      "pdfPages": [
+        73
+      ],
+      "printedPages": [
+        61
+      ],
+      "classification": "numbered-historical-attempted-influence-experiment",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "Stand at a window, gaze at a passerby and persistently will them to turn and look at you.",
+        "The author favors a lower-floor window over upper floors.",
+        "Alternative: while passing a window, attempt to draw the attention of someone at it."
+      ],
+      "editorialNote": "Seven out of ten is an asserted outcome, not a required ten-trial protocol, chance baseline or established success rate.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "evidence": "historical-unverified-claim",
+      "guidedPublication": "documentary-only; covert targeting excluded; consensual redesign would be a modern adaptation"
+    },
+    {
+      "id": "IX-common-preparation",
+      "lesson": "IX",
+      "pdfPages": [
+        69,
+        70
+      ],
+      "printedPages": [
+        57,
+        58
+      ],
+      "classification": "historical-common-guidance",
+      "rawRecordExecutable": false,
+      "originalRussian": "Сначала приступайте только къ легкимъ задачамъ и послѣ постепенно уже переходите къ болѣе труднымъ.",
+      "scanCheckedQuotePage": 69,
+      "normalizedEnglish": "Begin with easy tasks and gradually move to harder ones; do not wrinkle the brow or clench fists, remain calm, express a gentle persistent demand and expect fulfillment. Concentration is recommended. The source blames difficulty on insufficient concentration; this is not a validated assessment or app gate.",
+      "progression": {
+        "kind": "qualitative",
+        "objectiveThreshold": null
+      }
+    },
+    {
+      "id": "IX-examination-anecdote",
+      "lesson": "IX",
+      "pdfPages": [
+        71,
+        72
+      ],
+      "printedPages": [
+        59,
+        60
+      ],
+      "classification": "historical-anecdote",
+      "rawRecordExecutable": false,
+      "normalizedEnglish": "The author recalls an unnamed German-translated work about a student allegedly steering oral examination questions, then failing to do so when questions were set in writing. No identified study, exercise protocol or independently confirmed outcome."
+    },
+    {
+      "id": "IX-closing-advice",
+      "lesson": "IX",
+      "pdfPages": [
+        73,
+        74
+      ],
+      "printedPages": [
+        61,
+        62
+      ],
+      "classification": "historical-closing-guidance",
+      "rawRecordExecutable": false,
+      "normalizedEnglish": "The author calls these minor preparatory experiments, encourages further variants and frequent practice, and discourages entertainment or public demonstrations, preferring private knowledge and good intentions. No fixed frequency or consent protocol is provided."
+    }
+  ],
+  "numberedSequencesVerifiedInThisBatch": 6,
+  "newlyDiscoveredNumberedSequences": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 75,
+  "nextLesson": "X",
+  "lessonSequentialReading": {
+    "pdfPages": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  }
+}

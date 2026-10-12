@@ -1014,42 +1014,88 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1656,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "Сначала приступайте только къ легкимъ задачамъ и послѣ постепенно уже переходите къ болѣе труднымъ.",
+          "note": "Qualitative progression; no numeric threshold. Wrapping normalized."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Full sequential Lesson IX context read through74; references/reading/READING-069-074.md. Full transcription remains incomplete.",
+      "readingCategories": [
+        "numbered-historical-attempted-influence-experiment",
+        "historical-common-guidance"
+      ]
     },
     {
       "pdfPage": 70,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1754,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Full sequential Lesson IX context read through74; references/reading/READING-069-074.md. Full transcription remains incomplete.",
+      "readingCategories": [
+        "numbered-historical-attempted-influence-experiment",
+        "historical-common-guidance"
+      ]
     },
     {
       "pdfPage": 71,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1789,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Full sequential Lesson IX context read through74; references/reading/READING-069-074.md. Full transcription remains incomplete.",
+      "readingCategories": [
+        "numbered-historical-attempted-influence-experiment",
+        "historical-anecdote"
+      ]
     },
     {
       "pdfPage": 72,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1705,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Full sequential Lesson IX context read through74; references/reading/READING-069-074.md. Full transcription remains incomplete.",
+      "readingCategories": [
+        "numbered-historical-attempted-influence-experiment",
+        "historical-anecdote"
+      ]
     },
     {
       "pdfPage": 73,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1770,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Full sequential Lesson IX context read through74; references/reading/READING-069-074.md. Full transcription remains incomplete.",
+      "readingCategories": [
+        "numbered-historical-attempted-influence-experiment",
+        "historical-closing-guidance"
+      ]
     },
     {
       "pdfPage": 74,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 713,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Full sequential Lesson IX context read through74; references/reading/READING-069-074.md. Full transcription remains incomplete.",
+      "readingCategories": [
+        "historical-closing-guidance"
+      ]
     },
     {
       "pdfPage": 75,
