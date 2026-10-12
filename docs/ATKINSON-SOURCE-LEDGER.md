@@ -158,3 +158,23 @@ supplied. Rhetorical counts of refusals are not practice repetitions; the second
 reading is a study order, not a timer. No new runnable module is activated.
 Exact transcription and independent translation review remain pending.
 Next sequential reading: Lesson V, PDF41 / printed29.
+
+## Sequential reading — Lesson V, PDF41–45 (printed29–33)
+
+All five text pages and scans reviewed; see references/reading/READING-041-045.md
+and INSTRUCTIONS-041-045.json. Nine practical guidance groups are indexed, not
+source-numbered exercises: listening, appearance, restraint/character study, dignity
+and regard, reciprocity thought/action, open/serious manner, handshake with gaze,
+voice procedure and closing study advice. The source's listening procedure includes
+finding interests, raising a favorite topic, being silent and listening; its aim
+includes lowering vigilance. Modern empathic listening must not be misattributed
+to that historical purpose. The voice procedure asks for pleasant speech without
+shouting, lowering one's voice when the other is loud, and calm/confident delivery;
+its predicted shame/advantage is a historical claim, not a promised result.
+
+The three-hour Carlyle story is an anecdote, not a practice duration. No numerical
+exercise timer, repetitions or advancement schedule is specified. Reciprocity is
+genuine thought/action advice; mandatory touch/gaze and judgments of weak handshakes
+are not adopted as modern accessibility rules. All records remain documentary, not
+runtime-published. No new runnable module is added. Full transcription and review
+remain incomplete. Next: Lesson VI, PDF46 / printed34.

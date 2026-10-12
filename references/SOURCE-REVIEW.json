@@ -541,35 +541,89 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1524,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "V-listening"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-041-045.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "practical-social-advice",
+        "historical-influence-context"
+      ]
     },
     {
       "pdfPage": 42,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1785,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "V-appearance"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-041-045.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "practical-social-advice",
+        "historical-influence-context"
+      ]
     },
     {
       "pdfPage": 43,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1782,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "V-restraint-and-character-study",
+        "V-dignity-and-regard"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-041-045.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "practical-social-advice",
+        "historical-influence-context"
+      ]
     },
     {
       "pdfPage": 44,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1767,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "V-reciprocity-thought-and-action",
+        "V-open-serious-manner",
+        "V-handshake-and-eye-contact",
+        "V-voice-procedure"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-041-045.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "practical-social-advice",
+        "historical-influence-context"
+      ]
     },
     {
       "pdfPage": 45,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1611,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "V-closing-study-advice"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-041-045.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "practical-social-advice",
+        "historical-influence-context"
+      ]
     },
     {
       "pdfPage": 46,

@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "V",
+    "pdfPages": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "printedPages": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "pageImagesChecked": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  "records": [
+    {
+      "id": "V-listening",
+      "lesson": "V",
+      "pdfPages": [
+        41,
+        42
+      ],
+      "printedPages": [
+        29,
+        30
+      ],
+      "classification": "applied-interpersonal-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 41,
+      "originalRussian": "Говорите съ нимъ до тѣхъ поръ, пока не натолкнете его на его излюбленную тему, и тогда—молчите.",
+      "normalizedEnglish": "Identify interests, raise a preferred subject without dominating, then be silent and listen; the historical purpose includes weakening vigilance.",
+      "originalProcedureParaphrase": [
+        "Find what interests the conversational partner.",
+        "Raise a favorite topic without speaking excessively.",
+        "Be silent and listen attentively, while retaining one's own firmness."
+      ],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "Three-hour Carlyle anecdote is not a practice timer. Modern empathic listening would change the historical influence purpose."
+    },
+    {
+      "id": "V-appearance",
+      "lesson": "V",
+      "pdfPages": [
+        42,
+        43
+      ],
+      "printedPages": [
+        30,
+        31
+      ],
+      "classification": "social-conduct-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 42,
+      "originalRussian": "Платье должно быть просто, чисто и изящно.",
+      "normalizedEnglish": "The author recommends simple, clean, tasteful clothing, attention to hat/shoes/linen and avoiding strong perfume.",
+      "originalProcedureParaphrase": [],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "Historical dress/class/gender norms are not prerequisites for solo practice."
+    },
+    {
+      "id": "V-restraint-and-character-study",
+      "lesson": "V",
+      "pdfPages": [
+        43
+      ],
+      "printedPages": [
+        31
+      ],
+      "classification": "general-practice-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 43,
+      "originalRussian": "Сдержанность въ нѣкоторой степени всегда желательна, а также и умѣніе управлять своимъ настроеніемъ.",
+      "normalizedEnglish": "The author recommends restraint, managing mood and fearlessness, and points to the character-development lesson.",
+      "originalProcedureParaphrase": [],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "No specific regulation protocol is supplied. Historical blame for irritability is not guided advice."
+    },
+    {
+      "id": "V-dignity-and-regard",
+      "lesson": "V",
+      "pdfPages": [
+        43,
+        44
+      ],
+      "printedPages": [
+        31,
+        32
+      ],
+      "classification": "social-conduct-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 43,
+      "originalRussian": "Ваши манеры должны всегда выражать собою чувство собственнаго достоинства, но въ то же время въ нихъ должно отражаться и нѣкоторое вниманіе къ чувствамъ и вкусамъ другихъ.",
+      "normalizedEnglish": "Combine self-respect with regard for the feelings and tastes of others.",
+      "originalProcedureParaphrase": [],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "A general social prescription, not a quantified exercise."
+    },
+    {
+      "id": "V-reciprocity-thought-and-action",
+      "lesson": "V",
+      "pdfPages": [
+        44
+      ],
+      "printedPages": [
+        32
+      ],
+      "classification": "thought-and-action-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 44,
+      "originalRussian": "Я буду поступать въ отношеніи васъ такъ, какъ хотѣлъ бы, чтобы вы поступали со мной",
+      "normalizedEnglish": "Keep reciprocal treatment in mind and translate it into behavior.",
+      "originalProcedureParaphrase": [
+        "Keep the stated reciprocal-treatment thought in mind.",
+        "Put it into actual conduct."
+      ],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "No app reflection prompt or daily quota is attributed to the source."
+    },
+    {
+      "id": "V-open-serious-manner",
+      "lesson": "V",
+      "pdfPages": [
+        44
+      ],
+      "printedPages": [
+        32
+      ],
+      "classification": "social-conduct-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 44,
+      "originalRussian": "Воспитайте въ себѣ свободныя открытыя манеры обращенія; большинству людей это нравится.",
+      "normalizedEnglish": "Develop open manners and seriousness of speech; author claims benefits for suggestion and thought waves.",
+      "originalProcedureParaphrase": [],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "Historical thought-wave claims are not established findings."
+    },
+    {
+      "id": "V-handshake-and-eye-contact",
+      "lesson": "V",
+      "pdfPages": [
+        44
+      ],
+      "printedPages": [
+        32
+      ],
+      "classification": "physical-social-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 44,
+      "originalRussian": "Затѣмъ всякому смотрите прямо въ глаза.",
+      "normalizedEnglish": "The author prescribes a firm handshake and direct eye contact, presented as complementary.",
+      "originalProcedureParaphrase": [],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "No duration. Consent, optional touch/gaze and accessible alternatives would be modern safeguards, not original qualifications."
+    },
+    {
+      "id": "V-voice-procedure",
+      "lesson": "V",
+      "pdfPages": [
+        44,
+        45
+      ],
+      "printedPages": [
+        32,
+        33
+      ],
+      "classification": "applied-interpersonal-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 44,
+      "originalRussian": "Если вашъ собесѣдникъ дѣйствительно будетъ говорить громко, то понизьте тонъ вашего голоса, и онъ вскорѣ заговоритъ также спокойно.",
+      "normalizedEnglish": "Use a pleasant expressive voice without mumbling/shouting; when the other speaks loudly, lower one's own voice and remain calm/confident.",
+      "originalProcedureParaphrase": [
+        "Avoid mumbling and sharp shouting; use a pleasant expressive voice.",
+        "Adjust to the partner's voice without trying to outshout them.",
+        "If they speak loudly, lower your own voice and speak calmly/confidently."
+      ],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "Author predicts reduced excitement and shame giving the practitioner an advantage; not a guaranteed outcome. No unsafe confrontation task is published."
+    },
+    {
+      "id": "V-closing-study-advice",
+      "lesson": "V",
+      "pdfPages": [
+        45
+      ],
+      "printedPages": [
+        33
+      ],
+      "classification": "general-reader-instruction",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 45,
+      "originalRussian": "Отчаиваться читателю не слѣдуетъ, если ему недостаетъ нѣкоторыхъ изъ вышеупомянутыхъ вспомогательныхъ средствъ, важныхъ для успѣха.",
+      "normalizedEnglish": "Do not despair about missing qualities; author refers to character development and the following gaze lesson.",
+      "originalProcedureParaphrase": [],
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "Does not supply new training steps or establish universal ability."
+    }
+  ],
+  "excludedAsTimers": [
+    {
+      "pdfPage": 42,
+      "text": "three hours",
+      "reason": "Carlyle conversation anecdote, not practice duration."
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 46
+}
