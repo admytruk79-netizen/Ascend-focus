@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "VIII",
+    "pdfPages": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "printedPages": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "pageImagesChecked": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  "records": [
+    {
+      "id": "VIII-will-directed-terminology",
+      "lesson": "VIII",
+      "pdfPages": [
+        57,
+        58
+      ],
+      "printedPages": [
+        45,
+        46
+      ],
+      "classification": "historical-terminology",
+      "authorAttribution": "Main text; separate unsigned lexical footnote on58",
+      "rawRecordExecutable": false,
+      "normalizedEnglish": "Specialized will-directed intent distinguished from ordinary desire; thought-wave theory is historical and unverified.",
+      "editorialNote": "One Latin-letter form remains untranscribed; individual footnote authorship not inferred."
+    },
+    {
+      "id": "VIII-i-am-contemplation",
+      "lesson": "VIII",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        47
+      ],
+      "classification": "unnumbered-historical-practice",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "i-am-contemplation",
+      "scanCheckedQuotePage": 59,
+      "originalRussian": "Отложите въ сторону эту книгу на нѣсколько минутъ и, ослабивъ мускулы вашего тѣла съ приведеніемъ въ пассивное состояніе вашего ума, спокойно и хладнокровно думайте о словахъ «я есмь», и попробуйте представить себѣ ваше истинное «я», стоящее надъ разумомъ и тѣломъ.",
+      "normalizedEnglish": "Set the book aside for a few minutes, relax muscles and bring the mind into a passive state; calmly consider I am and imagine the true self above mind/body; continue the practice.",
+      "originalProcedureParaphrase": [
+        "Set book aside for a few minutes.",
+        "Relax muscles and bring mind into the source-described passive state.",
+        "Calmly think I am and imagine the true self above mind/body.",
+        "Continue; author predicts recognition and asserts immortality/indestructibility, not an objective completion criterion."
+      ],
+      "duration": {
+        "kind": "qualitative",
+        "originalPhrase": "на нѣсколько минутъ",
+        "normalizedEnglish": "for a few minutes",
+        "fixedSourceSeconds": null,
+        "guidedDefaultSeconds": 120,
+        "guidedDefaultProvenance": "modern-choice"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "qualitative",
+        "details": "Continue the practice; no quantified advancement schedule."
+      },
+      "evidence": "historical-unverified-metaphysical-claim",
+      "modernChanges": [
+        "Optional phrase and words instead of imagery.",
+        "Present experience/personal agency rather than required immortal higher-self belief.",
+        "Movement/stop/skip and optional two-minute timer."
+      ]
+    },
+    {
+      "id": "VIII-higher-self-framing",
+      "lesson": "VIII",
+      "pdfPages": [
+        58,
+        59,
+        60
+      ],
+      "printedPages": [
+        46,
+        47,
+        48
+      ],
+      "classification": "historical-metaphysical-claim",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "normalizedEnglish": "The source describes a higher self above mind/body and eternal/indestructible; not scientifically established by this passage."
+    },
+    {
+      "id": "VIII-will-development-textual-issue",
+      "lesson": "VIII",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        48
+      ],
+      "classification": "unresolved-textual-issue",
+      "authorAttribution": "Printed Russian main text",
+      "rawRecordExecutable": false,
+      "scanCheckedQuotePage": 60,
+      "originalRussian": "Воля достаточно сильна и нуждается въ «развитіи».",
+      "normalizedEnglish": "Will is sufficiently strong and needs development.",
+      "editorialNote": "No не (not) visible in checked sentence; do not insert it to resolve contextual tension. Independent edition comparison pending."
+    },
+    {
+      "id": "VIII-literary-illustration",
+      "lesson": "VIII",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        48
+      ],
+      "classification": "literary-illustration",
+      "authorAttribution": "Poem credited in scan to Charles H. Orr; Russian footnote unsigned",
+      "rawRecordExecutable": false,
+      "normalizedEnglish": "Poem and translated footnote illustrate the metaphysical framing, not exercise stages; authorship credit not independently verified."
+    },
+    {
+      "id": "VIII-active-thought-and-later-exercises",
+      "lesson": "VIII",
+      "pdfPages": [
+        58,
+        61
+      ],
+      "printedPages": [
+        46,
+        49
+      ],
+      "classification": "general-practice-reference-and-theory",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "normalizedEnglish": "Author promises concentration exercises, says active thinking develops through use and points to other unnamed works and the following will-directed lesson. No additional protocol or numerical schedule is supplied."
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newUnnumberedPractices": 1,
+  "newRunnableModules": 1,
+  "nextSequentialPage": 62,
+  "nextLesson": "IX",
+  "boundaryEvidence": {
+    "pdfPage": 62,
+    "printedPage": 50,
+    "scanChecked": true,
+    "heading": "Девятая лекція. Непосредственное хотѣніе."
+  }
+}

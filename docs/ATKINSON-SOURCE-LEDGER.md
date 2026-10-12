@@ -14,7 +14,7 @@ Verified file: 5,272,295 bytes, 138 scan pages, SHA-256 `aae7f2aae38b281177fa0ee
 - VII-4 Moving attention between targets (PDF 54): Shift gaze among points on a wall; source says to stop when fatigued. Modern app: adjustable slow motion and reduced-motion setting.
 - VII-5 Partner gaze (PDF 54–55): Atkinson suggests partner gaze and experiments with animals. App: only consensual, comfortable human partner; no distressing animals.
 
-## Lesson IX — Will and attempted influence (PDF pp. 69–74, printed pp. 57–62)
+## Lesson IX — Will and attempted influence (selected experiments: PDF pp. 69–74, printed pp. 57–62)
 Six historical experiments are described. Their purported remote influence effects are unverified and should never be implemented as covert behavioral manipulation.
 - IX-1 PDF 69–70: Imagine prompting a person walking ahead to turn.
 - IX-2 PDF 70: Imagine drawing the attention of a seated person.
@@ -227,3 +227,23 @@ Fidelity correction from this full scan check: PDF52 says “раза четыр
 right position (about four), not a rigid exact count. The catalog now preserves
 that approximation; the central “разъ пять” is also approximate, while left says
 five repetitions. This is source precision, not a new progression schedule.
+
+## Sequential reading — Lesson VIII, PDF57–61 (printed45–49)
+
+All five text pages/scans reviewed; see references/reading/READING-057-061.md
+and INSTRUCTIONS-057-061.json. One explicit unnumbered practice on59: set book
+aside for a few minutes, relax muscles, passive mind, calmly consider “я есмь”
+and imagine the true self above mind/body; continue. Metaphysical claims are
+attributed beliefs, not app findings. Qualitative “a few minutes” is preserved;
+two-minute guided suggestion, optional phrase, secular agency framing and accessible
+alternatives are modern. Distinct module i-am-contemplation, catalog14/revision6.
+
+Main text distinguishes specialized хотѣніе from желаніе. The lexical footnote is
+unsigned, with one Latin-letter form awaiting proofreading. On60 the scan prints
+“Воля достаточно сильна и нуждается въ «развитіи».” Do not invent a missing “не”
+to reconcile its context; independent edition comparison remains pending.
+
+The next heading is visibly LessonIX on PDF62 / printed50. Earlier IX pp69–74
+references cover selected experiments, not the entire lesson. Previewed62–64 is
+not yet a complete IX reading. Full transcription/review remain incomplete.
+Next sequential reading: LessonIX, PDF62.

@@ -85,3 +85,15 @@ test('Lesson VII chapter advice remains historical and repetitions retain their 
  for (const e of exercises.filter(e => e.lesson === 'VII')) assert.doesNotMatch(e.guided.join(' '), /cold.water|keep.*secret|without blinking/i);
  assert.match(dot.guided.join(' '), /Blink naturally/);
 });
+
+test('Lesson VIII contemplation retains qualitative timing and separates spiritual belief from guidance', () => {
+ const e = exercises.find(e => e.id === 'i-am-contemplation');
+ assert.deepEqual(e.source.scanPages, [59]); assert.deepEqual(e.source.printedPages, [47]);
+ assert.equal(e.sourceDuration.kind, 'qualitative'); assert.match(e.sourceDuration.details, /a few minutes/);
+ assert.equal(e.timerProvenance, 'modern-choice'); assert.match(timerLabel(e), /not an original/);
+ assert.match(e.originalProtocol.join(' '), /true self standing above mind and body/);
+ assert.match(e.history, /distinct from Lesson X/);
+ assert.match(e.modernAdaptations.join(' '), /replace a required immortal higher-self belief/);
+ assert.match(e.guided.join(' '), /skip the phrase/); assert.match(e.notice, /not scientifically established/);
+ assert.equal(e.reflection.privateByDefault, true);
+});

@@ -61,7 +61,7 @@ test('untimed practice, early stop, and catalog filters work at 320px', async ({
   await page.getByLabel('Search practices or lessons').fill('no such exercise');
   await expect(page.locator('.exercise')).toHaveCount(0);
   await page.getByRole('button', { name: 'Clear filters', exact: true }).click();
-  await expect(page.locator('.exercise')).toHaveCount(13);
+  await expect(page.locator('.exercise')).toHaveCount(14);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: 'test-results/screenshots/practice-library-320px.png', fullPage: true });
 });
@@ -89,4 +89,22 @@ test('historical gaze context is cited and never becomes guided eye-care advice'
   await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
   await expect(page.getByText(/cold-water eye rinsing/)).toHaveCount(0);
   await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Blink naturally');
+});
+
+test('new source-grounded contemplation runs with optional secular reflection', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+  await page.getByRole('button', { name: /I Am Contemplation/ }).click();
+  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('skip the phrase');
+  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
+  await expect(page.getByRole('region', { name: 'Historical source instructions' })).toContainText('a few minutes');
+  await page.screenshot({ path: 'test-results/screenshots/i-am-source-mobile.png', fullPage: true });
+  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
+  await page.getByRole('checkbox', { name: /I understand I can move/ }).check();
+  await page.getByRole('button', { name: 'Start', exact: true }).click();
+  await page.getByRole('button', { name: 'Stop early', exact: true }).click();
+  await page.getByLabel('What did you notice?').fill('A voluntary reflection, not a claim of a special state.');
+  await page.getByRole('button', { name: 'Save private record' }).click();
+  await expect(page.locator('.entry')).toContainText('I Am Contemplation');
+  await expect(page.locator('.entry')).toContainText('A voluntary reflection');
 });

@@ -1,7 +1,7 @@
 export type Discipline = 'Attention' | 'Will' | 'Imagination' | 'Mental Rapport';
 export type SourceDuration =
   | { kind: 'verified'; initialMinutes: number; progressionMinutes: number[]; details: string; pdfPage: number }
-  | { kind: 'cross-reference' | 'not-specified'; details: string };
+  | { kind: 'cross-reference' | 'not-specified' | 'qualitative'; details: string };
 export type Exercise = {
   id: string; title: string; discipline: Discipline; lesson: string; pdfPages: string;
   minutes: number; guided: string[]; history: string; notice: string;
@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 5, complete: false, totalScanPages: 138,
+  version: 6, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -170,6 +170,16 @@ export const exercises: Exercise[] = [
     modernAdaptations: ['Natural breathing replaces the historical deep breaths and breath retention.', 'Gentle noticing, optional affirmations, nonvisual descriptions and a two-minute optional timer are modern choices.', 'No promise of curing fear, improving sleep or inevitably changing character; no blame for difficult thoughts or anxiety.'],
     accessibleAlternatives: ['Write or describe a possible action rather than visualizing it. Keep movement and external supports available.'],
     prerequisites: ['Historical stage 3 refers to preparation through concentration exercises; guided practice requires only a comfortable setting and may be skipped.'], objectives: ['Explore a chosen quality through one imagined or described action, distinguishing intention from guaranteed change.'], evidence: 'historical-attention-practice', notice: 'Do not hold your breath or force relaxation. Stop or change the practice if uncomfortable; this is not treatment for anxiety or insomnia.', reflection,
+  },
+  {
+    id: 'i-am-contemplation', title: 'I Am Contemplation', discipline: 'Will', lesson: 'VIII', pdfPages: '59', minutes: 2,
+    source: source(['VIII-i-am-contemplation'], [59], 'спокойно и хладнокровно думайте о словахъ «я есмь»,', 59),
+    originalProtocol: ['Set the book aside for a few minutes.', 'Relax the muscles of the body and bring the mind into the author’s described passive state.', 'Calmly consider the words I am and try to imagine the true self standing above mind and body.', 'Continue the practice. Atkinson predicts recognition of the true self and describes it as eternal and indestructible; these are his historical metaphysical claims, not a completion criterion or established finding.'],
+    sourceDuration: { kind: 'qualitative', details: 'PDF p. 59 says a few minutes. No fixed starting duration, repetition count or quantified advancement schedule is supplied.' }, timerProvenance: 'modern-choice',
+    history: 'An explicit unnumbered instruction in Lesson VIII. The source uses an immortal true-self premise, distinct from Lesson X’s personal-boundary claim and Lesson XII’s quality-imagery sequence.',
+    guided: ['Choose a comfortable supported position and let the body relax without forcing it.', 'If useful, quietly consider the words I am. You may skip the phrase or describe your present experience in writing.', 'Notice your current experience and ability to choose a next action, without needing to imagine a self above the body or mind.', 'Finish whenever ready. Optionally record what you noticed; there is no special mental state you must achieve.'],
+    modernAdaptations: ['Optional affirmation, present experience and personal agency replace a required immortal higher-self belief.', 'Words/writing instead of imagery, movement, stopping and skipping are modern accommodations.', 'The two-minute optional timer is a modern choice, not a fixed duration stated by Atkinson.'],
+    accessibleAlternatives: ['Write a brief description instead of using affirmation or visual imagery; choose another comfortable observation practice if preferred.'], prerequisites: ['A comfortable position; no account, partner or metaphysical belief is required for guided practice.'], objectives: ['Observe a word or present experience while distinguishing the historical belief from personal reflection.'], evidence: 'historical-unverified-claim', notice: 'Atkinson’s immortal higher-self claims are historical beliefs, not scientifically established findings. Stop or switch practices if uncomfortable; no medical, diagnostic or supernatural result is inferred.', reflection,
   },
 ];
 

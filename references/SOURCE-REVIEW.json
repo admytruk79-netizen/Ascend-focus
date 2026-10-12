@@ -823,42 +823,91 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1550,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-057-061.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-will-theory",
+        "metaphysical-contemplation"
+      ]
     },
     {
       "pdfPage": 58,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1776,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-057-061.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-will-theory",
+        "metaphysical-contemplation"
+      ]
     },
     {
       "pdfPage": 59,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1802,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VIII-i-am-contemplation"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-057-061.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-will-theory",
+        "metaphysical-contemplation"
+      ]
     },
     {
       "pdfPage": 60,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1756,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VIII-will-development-textual-issue"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-057-061.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-will-theory",
+        "metaphysical-contemplation"
+      ]
     },
     {
       "pdfPage": 61,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1575,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-057-061.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-will-theory",
+        "metaphysical-contemplation"
+      ]
     },
     {
       "pdfPage": 62,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1700,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "lessonBoundaryCheck": {
+        "lesson": "IX",
+        "printedPage": 50,
+        "imageChecked": true
+      }
     },
     {
       "pdfPage": 63,
