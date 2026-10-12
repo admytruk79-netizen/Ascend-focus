@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "sourceUrl": "https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view",
   "sha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
   "scanPageCount": 138,
@@ -66,7 +66,13 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 188,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "metadata"
+      ],
+      "readingImageChecked": true
     },
     {
       "pdfPage": 8,
@@ -82,119 +88,215 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 3005,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "contents"
+      ]
     },
     {
       "pdfPage": 10,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 3175,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "contents"
+      ]
     },
     {
       "pdfPage": 11,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 3232,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "contents"
+      ]
     },
     {
       "pdfPage": 12,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 2262,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "contents"
+      ]
     },
     {
       "pdfPage": 13,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1496,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "preface"
+      ]
     },
     {
       "pdfPage": 14,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 395,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "preface"
+      ]
     },
     {
       "pdfPage": 15,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1422,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ]
     },
     {
       "pdfPage": 16,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1749,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ],
+      "readingImageChecked": true
     },
     {
       "pdfPage": 17,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1751,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ]
     },
     {
       "pdfPage": 18,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1696,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ]
     },
     {
       "pdfPage": 19,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 319,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "I-personal-verification"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ],
+      "readingImageChecked": true
     },
     {
       "pdfPage": 20,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1622,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ]
     },
     {
       "pdfPage": 21,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1758,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ]
     },
     {
       "pdfPage": 22,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1776,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ]
     },
     {
       "pdfPage": 23,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1813,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "II-agency-language"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ],
+      "readingImageChecked": true
     },
     {
       "pdfPage": 24,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1695,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ],
+      "readingImageChecked": true
     },
     {
       "pdfPage": 25,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1515,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "II-fearlessness-thought"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-007-025.md",
+      "readingCategories": [
+        "lesson-narrative"
+      ],
+      "readingImageChecked": true
     },
     {
       "pdfPage": 26,
@@ -1057,5 +1159,16 @@
     136,
     137,
     138
-  ]
+  ],
+  "titlePageVerification": {
+    "pdfPage": 7,
+    "scanChecked": true,
+    "author": "William Walker Atkinson",
+    "title": "Сила мысли въ дѣловой и повседневной жизни",
+    "editionNumber": 4,
+    "city": "Moscow",
+    "year": 1910,
+    "translatorName": "not identified on checked title-page lines",
+    "review": "references/reading/READING-007-025.md"
+  }
 }

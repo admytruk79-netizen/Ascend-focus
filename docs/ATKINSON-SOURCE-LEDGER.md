@@ -103,3 +103,19 @@ English paraphrase and explicit changes. Full-page transcription remains incompl
 
 The complete v2 specification is preserved in docs/sources/SPECIFICATION-V2.md;
 its target design does not establish implementation or release readiness.
+
+## Sequential reading — title/preface and Lessons I–II, PDF pp. 7, 9–25
+
+See references/reading/READING-007-025.md and its structured instruction register.
+Eighteen pages were read through embedded text; six page images were additionally
+checked (7,16,19,23,24,25). The title page confirms fourth edition, Moscow1910.
+Full-page transcription and translation review remain pending.
+
+New findings are general instructions and informal prescriptions, not numbered
+exercise sequences: I-personal-verification (PDF19/printed7), II-agency-language
+(PDF22–24/printed10–12; exact excerpt checked on23), II-fearlessness-thought
+(PDF25/printed13). The five-minute reference on24 describes the author's lectures;
+it is not a practice timer. Deep-breathing endorsement on16 supplies no protocol
+and contains historical health claims. No new runnable module is published.
+These findings extend the partial index without conflating theory, aspirations,
+examples or repeated advice with distinct exercises. Next reading: PDF26, LessonIII.

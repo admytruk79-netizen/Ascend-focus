@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {"pdfPages": [7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]},
+  "records": [
+    {
+      "id": "I-personal-verification",
+      "lesson": "I", "pdfPages": [19], "printedPages": [7],
+      "classification": "general-reader-instruction", "executable": false,
+      "scanChecked": true,
+      "originalRussian": "Кромѣ того я просилъ бы васъ не принимать ничего на вѣру, разъ вы не можете доказать этого для удовлетворенія себя своими личными опытами послѣ того, какъ вами уже собраны достаточныя свѣдѣнія по этому предмету.",
+      "normalizedEnglish": "Do not accept a claim on faith; after gathering sufficient information, test it to your own satisfaction through personal experiments.",
+      "prerequisites": ["The source says to gather sufficient information first."],
+      "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"},
+      "progression": {"kind": "not-specified"},
+      "editorialNote": "No controlled, blinded or consensual trial protocol is specified. Those safeguards would be modern additions."
+    },
+    {
+      "id": "II-agency-language",
+      "lesson": "II", "pdfPages": [22, 23, 24], "printedPages": [10, 11, 12],
+      "classification": "informal-prescription", "executable": false,
+      "scanChecked": true, "scanCheckedQuotePage": 23,
+      "originalRussian": "Теперь же ваше «не могу» я измѣняю въ положительное «могу» и еще въ болѣе рѣшительное «я хочу».",
+      "normalizedEnglish": "The author proposes replacing cannot with can and the more decisive I will; the latter can also literally mean I want.",
+      "prerequisites": [], "duration": {"kind": "not-specified"},
+      "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "editorialNote": "PDF24's five minutes describes a lecture anecdote, not the duration of this prescription. PDF22 is OCR-inspected; the quote on PDF23 and anecdote on PDF24 are scan checked."
+    },
+    {
+      "id": "II-fearlessness-thought",
+      "lesson": "II", "pdfPages": [25], "printedPages": [13],
+      "classification": "informal-prescription", "executable": false,
+      "scanChecked": true,
+      "originalRussian": "Но подумайте: «я не боюсь», и каждая смѣлая мысль въ окружающей васъ средѣ, какъ сила, устремится на васъ и будетъ вамъ помогать. Испробуйте это, въ особенности же послѣднее. Устраните трусливыя мысли.",
+      "normalizedEnglish": "Think I am not afraid and try that thought; the author claims it attracts courageous thoughts from the surroundings and urges removing fearful thoughts.",
+      "prerequisites": [], "duration": {"kind": "not-specified"},
+      "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "evidence": "historical-unverified-claim",
+      "editorialNote": "No promised relief, thought suppression or blame for anxiety is adopted as app guidance. Rhetorical reflection-for-a-minute wording later in the page is not assigned as a timer."
+    }
+  ],
+  "excludedAsProtocols": [
+    {"pdfPage": 14, "reason": "Preface agency aspiration, cross-reference rather than duplicate protocol."},
+    {"pdfPage": 16, "reason": "Deep-breathing endorsement and health claims without procedural instructions."},
+    {"pdfPage": 24, "reason": "Lecture-length anecdote, not exercise duration."}
+  ],
+  "nextSequentialPage": 26
+}
