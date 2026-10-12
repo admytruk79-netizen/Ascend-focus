@@ -178,3 +178,25 @@ genuine thought/action advice; mandatory touch/gaze and judgments of weak handsh
 are not adopted as modern accessibility rules. All records remain documentary, not
 runtime-published. No new runnable module is added. Full transcription and review
 remain incomplete. Next: Lesson VI, PDF46 / printed34.
+
+## Sequential reading — Lesson VI, PDF46–50 (printed34–38)
+
+All five pages read and scans checked; see references/reading/READING-046-050.md
+and INSTRUCTIONS-046-050.json. Eight groups preserve conversational gaze/requests,
+recapture, object-assisted attention, preventing conversation exit, self-protection
+pause/refusal, firm suggestions, confident-persistence imagery and listener
+receptivity advice. Four coercive
+groups are excluded from guided publication. The source's firm look is distinguished
+from its disavowed mere staring, but neither is rewritten as modern comfortable
+eye contact. Source assumes a magnetic gaze for this discussion and promises
+development exercises next; Lesson VII timing must not be borrowed into VI.
+
+The self-protection sequence on49–50 says to look aside “на минуту” (for a minute)
+before answering an unexpected proposal, then refuse clearly/firmly/politely when
+appropriate and say no if doubtful. The phrase is retained without imposing a
+60-second app timer. “Въ эту минуту” on47 means at that moment, not a practice
+duration. Protective psychic claims remain historical and unverified.
+
+No new source-numbered exercise or runtime module is published. Exact transcription
+and independent review remain incomplete. Next: Lesson VII, PDF51 / printed39;
+previous excerpt verification is not a complete reading of the lesson.

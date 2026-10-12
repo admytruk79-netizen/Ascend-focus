@@ -630,35 +630,87 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1501,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-046-050.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-gaze-influence",
+        "interpersonal-instructions"
+      ]
     },
     {
       "pdfPage": 47,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1727,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VI-conversation-gaze"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-046-050.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-gaze-influence",
+        "interpersonal-instructions"
+      ]
     },
     {
       "pdfPage": 48,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1806,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VI-recapturing-gaze",
+        "VI-object-assisted-attention"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-046-050.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-gaze-influence",
+        "interpersonal-instructions"
+      ]
     },
     {
       "pdfPage": 49,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1837,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VI-preventing-conversation-exit",
+        "VI-self-protection-pause-refusal"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-046-050.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-gaze-influence",
+        "interpersonal-instructions"
+      ]
     },
     {
       "pdfPage": 50,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1581,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VI-firm-suggestions",
+        "VI-confident-persistence-image",
+        "VI-listener-receptivity"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-046-050.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-gaze-influence",
+        "interpersonal-instructions"
+      ]
     },
     {
       "pdfPage": 51,
