@@ -1,6 +1,7 @@
-import { curriculumStatus, timerLabel, type Exercise } from './exercises';
+import { curriculumStatus, historicalLessonNotes, timerLabel, type Exercise } from './exercises';
 
 export function ExerciseInstructions({ exercise, historical }: { exercise: Exercise; historical: boolean }) {
+  const lessonNotes = historicalLessonNotes[exercise.lesson];
   return <section aria-label={historical ? 'Historical source instructions' : 'Modern guided instructions'}>
     <p className="muted">Lesson {exercise.lesson} · PDF pp. {exercise.pdfPages} · printed pp. {exercise.source.printedPages.join(', ')} · Verified excerpt</p>
     {historical ? <>
@@ -10,6 +11,8 @@ export function ExerciseInstructions({ exercise, historical }: { exercise: Exerc
       <h3>Timing in the source</h3><p>{exercise.sourceDuration.details}</p>
       <h3>Original Russian excerpt</h3>{exercise.source.originalRussian.map(quote => <blockquote key={quote.text}><p lang="ru">{quote.text}</p><footer>PDF p. {quote.pdfPage} · printed p. {quote.printedPage}</footer></blockquote>)}
       <p className="muted">{exercise.source.transcriptionNote}</p>
+      {lessonNotes && <details><summary>Additional historical lesson advice</summary><p className="muted">Lesson {exercise.lesson} · PDF pp. {lessonNotes.pdfPages.join(', ')} · printed pp. {lessonNotes.printedPages.join(', ')}</p><ul>{lessonNotes.paraphrases.map(item => <li key={item}>{item}</li>)}</ul>{lessonNotes.originalRussian.map(quote => <blockquote key={quote.text}><p lang="ru">{quote.text}</p><footer>PDF p. {quote.pdfPage} · printed p. {quote.printedPage}</footer></blockquote>)}<p className="notice">{lessonNotes.notice}</p></details>}
+
       <p><a href={curriculumStatus.sourceUrl} target="_blank" rel="noreferrer">Open the archived source PDF</a></p>
       <p className="muted">{curriculumStatus.note}</p>
     </> : <>

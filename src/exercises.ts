@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 4, complete: false, totalScanPages: 138,
+  version: 5, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -37,11 +37,11 @@ export const exercises: Exercise[] = [
     originalProtocol: [
       'Use white writing paper, described as six square inches, with an inked circle approximately the size of a half-rouble coin. Attach it to the wall at seated eye level; place the chair in the middle of the room facing it.',
       'The historical instruction is to gaze without blinking for one minute, rest the eyes, and repeat about five times.',
-      'Keeping the chair in place, move the paper three feet to the right. Look toward it without turning the head for one minute; repeat four times. Move it three feet left and repeat five times.',
+      'Keeping the chair in place, move the paper three feet to the right. Look toward it without turning the head for one minute; repeat about four times. Move it three feet left and repeat five times.',
       'After three days, use two-minute bouts; after another three days, use three minutes. Add one minute every three days, with the author advising a limit of fifteen minutes.',
     ],
     history: 'Atkinson describes a fixed black-point gaze, followed by right and left positions and a timed progression. His no-blinking instruction is preserved here as historical documentation, not a safety recommendation.',
-    sourceDuration: { kind: 'verified', initialMinutes: 1, progressionMinutes: [2, 3], pdfPage: 52, details: 'One-minute bouts initially; two after three days, three after another three days, then one-minute increases every three days up to fifteen. Repetitions differ by target position.' },
+    sourceDuration: { kind: 'verified', initialMinutes: 1, progressionMinutes: [2, 3], pdfPage: 52, details: 'One-minute bouts initially; two after three days, three after another three days, then one-minute increases every three days up to fifteen. Central and right repetitions are approximate (about five and about four); five leftward repetitions are stated.' },
     timerProvenance: 'modern-choice',
     guided: ['Sit comfortably and choose a stationary point at a comfortable height.', 'Blink naturally. If attention wanders, return gently without forcing a fixed gaze.', 'Use the optional timer as a limit, not a target to endure; stop for discomfort.'],
     modernAdaptations: ['Natural blinking and shorter, optional sessions replace forced staring.', 'The app’s two-minute suggestion is a modern choice, not the original starting duration.', 'Screen-based tracking, its direction and pace controls are modern additions, not Atkinson’s paper-target protocol.'],
@@ -187,3 +187,23 @@ export const exerciseAliases: Readonly<Record<string, string>> = {
 export function getExercise(id: string): Exercise | undefined {
  return exercises.find(e => e.id === (exerciseAliases[id] ?? id));
 }
+
+export type HistoricalLessonNotes = {
+ pdfPages: number[]; printedPages: number[]; paraphrases: string[];
+ originalRussian: { text: string; pdfPage: number; printedPage: number }[];
+ notice: string;
+};
+/** Chapter-wide advice is historical data, not a shared guided instruction. */
+export const historicalLessonNotes: Readonly<Partial<Record<string, HistoricalLessonNotes>>> = {
+ VII: {
+  pdfPages: [55, 56], printedPages: [43, 44],
+  paraphrases: [
+   'PDF p. 55: Atkinson advises keeping gaze and personal-magnetism studies secret. This is historical advice, not the app’s policy for involving other people.',
+   'PDF p. 55: Set aside time and develop gradually without unnecessary haste; no universal daily duration is supplied in this closing advice.',
+   'PDF p. 56: The author says to avoid blinking, squinting and unnaturally widening the eyelids. Guided practice instead permits natural blinking and stopping for discomfort.',
+   'PDF p. 56: For eye fatigue, the author recommends cold-water eye rinsing and promises immediate relief and less fatigue after days. These are attributed historical claims, not app eye-care guidance.',
+  ],
+  originalRussian: [{ text: 'Избѣгайте мигать, щуриться или неестественно расширять вѣки.', pdfPage: 56, printedPage: 44 }],
+  notice: 'Historical documentation only. No eye-care, eyesight or influence benefit is established by these passages. Consent, natural blinking, accessible alternatives and stopping remain part of modern guidance.',
+ },
+};

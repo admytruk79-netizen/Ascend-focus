@@ -717,7 +717,17 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1631,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VII-introductory-field-experiments"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-051-056.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "numbered-gaze-exercises",
+        "historical-influence-claims"
+      ]
     },
     {
       "pdfPage": 52,
@@ -726,6 +736,14 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "VII-1"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-051-056.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "numbered-gaze-exercises",
+        "historical-influence-claims"
       ]
     },
     {
@@ -735,6 +753,14 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "VII-2"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-051-056.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "numbered-gaze-exercises",
+        "historical-influence-claims"
       ]
     },
     {
@@ -744,7 +770,16 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "VII-3",
-        "VII-4"
+        "VII-4",
+        "VII-5"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-051-056.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "numbered-gaze-exercises",
+        "historical-influence-claims"
       ]
     },
     {
@@ -752,14 +787,36 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1659,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VII-secrecy",
+        "VII-gradual-scheduling"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-051-056.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "numbered-gaze-exercises",
+        "historical-influence-claims"
+      ]
     },
     {
       "pdfPage": 56,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 380,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "VII-blink-eyelid-advice",
+        "VII-fatigue-cold-water"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-051-056.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "numbered-gaze-exercises",
+        "historical-influence-claims"
+      ]
     },
     {
       "pdfPage": 57,

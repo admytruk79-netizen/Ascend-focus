@@ -44,7 +44,7 @@ Modern adaptation must not claim telepathic communication is scientifically esta
 
 ## Primary-scan verification additions (10 October 2026)
 
-- VII-1 PDF 52: Original one-minute gaze bouts; approximately five central repetitions, four rightward repetitions and five leftward repetitions, with eye rest. Right/left paper positions are three feet from the original position and the head remains facing forward. After three days use two minutes, after another three days use three, then add one minute every three days; the author advises a fifteen-minute limit. The no-blinking instruction is documented, not recommended. The app's two-minute default, natural blinking and screen tracking are explicitly modern choices.
+- VII-1 PDF 52: Original one-minute gaze bouts; approximately five central repetitions, about four rightward repetitions and five leftward repetitions, with eye rest. Right/left paper positions are three feet from the original position and the head remains facing forward. After three days use two minutes, after another three days use three, then add one minute every three days; the author advises a fifteen-minute limit. The no-blinking instruction is documented, not recommended. The app's two-minute default, natural blinking and screen tracking are explicitly modern choices.
 - VII-2 PDF 53: Stand before a mirror, gaze at the reflection of one's eyes as in exercise I, and gradually increase time. This is a cross-reference, not a separately specified mirror timer. The continued recommendation to combine the practices is on PDF p. 54.
 - X-1 through X-4 PDF 79–81: Quiet rest, relaxed muscles, person imagery, imagining the person carrying out the reader's wishes, and a tube about one foot in diameter. The text says the tube is optional. No numerical session duration is stated. Consent, fictional-person alternatives, kind conversation and a four-minute app timer are modern additions. Historical influence claims are not established facts.
 - XIV-A1 PDF 121: Five, then ten, then fifteen minutes once the preceding duration is easy; muscles relaxed, not rigid; an explicit warning against overfatigue.
@@ -200,3 +200,30 @@ duration. Protective psychic claims remain historical and unverified.
 No new source-numbered exercise or runtime module is published. Exact transcription
 and independent review remain incomplete. Next: Lesson VII, PDF51 / printed39;
 previous excerpt verification is not a complete reading of the lesson.
+
+## Sequential reading — full Lesson VII, PDF51–56 (printed39–44)
+
+All six text pages and scans reviewed; see references/reading/READING-051-056.md
+and INSTRUCTIONS-051-056.json. Five numbered exercises confirmed, not five newly
+discovered exercises. I preserves Russian six-square-inch wording, half-rouble
+circle, seated setup, one-minute bouts, approximately five central repetitions,
+approximately four right and five left, three-foot offsets and three-day increases up to the
+author's15-minute limit. Reported20/30-minute achievements are not his limit.
+II inherits I by cross-reference; III/IV/V have no numerical duration.
+
+V explicitly asks a friend's permission, seats both opposite and requests reciprocal
+gaze as able. It predicts fatigue/near-hypnosis when the friend says enough, but
+does not prescribe a response to that cry. Animal tests continue on55. Those
+claims and instructions remain historical; no partnered service is activated.
+Closing advice on55–56 includes secrecy, gradual scheduling, avoiding blinking/
+squinting/unnatural eyelid widening and cold-water eye rinsing with promised relief.
+These are preserved with attribution in the historical view; guided mode retains
+natural blinking, stopping and accessible alternatives. No medical benefit or
+covert-influence task is claimed. Four existing VII modules are reconciled, catalog
+remains13, revision5; full transcription/independent review remain unfinished.
+Next sequential reading: Lesson VIII, PDF57 / printed45.
+
+Fidelity correction from this full scan check: PDF52 says “раза четыре” for the
+right position (about four), not a rigid exact count. The catalog now preserves
+that approximation; the central “разъ пять” is also approximate, while left says
+five repetitions. This is source precision, not a new progression schedule.

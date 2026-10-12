@@ -22,4 +22,15 @@ describe('source presentation', () => {
     expect(html).toContain('not an original starting duration');
     expect(html).toContain('not scientifically established');
   });
+  it('keeps chapter-wide eye-care and secrecy advice in historical view only', () => {
+    const exercise = exercises.find(e => e.id === 'black-dot')!;
+    const historical = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+    const guided = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: false }));
+    expect(historical).toContain('Additional historical lesson advice');
+    expect(historical).toContain('PDF p. 56');
+    expect(historical).toContain('not app eye-care guidance');
+    expect(guided).not.toContain('cold-water eye rinsing');
+    expect(guided).not.toContain('Additional historical lesson advice');
+    expect(guided).toContain('Blink naturally');
+  });
 });

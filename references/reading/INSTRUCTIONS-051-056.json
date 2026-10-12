@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "VII",
+    "pdfPages": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "printedPages": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "pageImagesChecked": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  "records": [
+    {
+      "id": "VII-1",
+      "lesson": "VII",
+      "pdfPages": [
+        52,
+        53
+      ],
+      "printedPages": [
+        40,
+        41
+      ],
+      "classification": "numbered-historical-exercise",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "black-dot",
+      "scanCheckedQuotePage": 52,
+      "originalRussian": "Направьте пристально вашъ взглядъ на черное пятно и смотрите твердо, не мигая, на него въ теченіе одной минуты.",
+      "normalizedEnglish": "Paper black-point gaze with center/right/left placements, rest and timed progression.",
+      "duration": {
+        "kind": "specified",
+        "initialMinutes": 1,
+        "limitMinutes": 15,
+        "pdfPage": 52
+      },
+      "repetitions": {
+        "kind": "specified-with-approximation",
+        "center": "about five repetitions; wording approximate",
+        "right": {
+          "count": 4,
+          "qualifier": "about; source wording раза четыре"
+        },
+        "left": 5
+      },
+      "progression": {
+        "kind": "specified",
+        "initialDays": 3,
+        "secondMinutes": 2,
+        "nextAfterDays": 3,
+        "thirdMinutes": 3,
+        "subsequentIncrementMinutes": 1,
+        "subsequentIntervalDays": 3,
+        "limitMinutes": 15
+      },
+      "setup": {
+        "paperSourceWording": "6 квадратныхъ дюймовъ",
+        "circle": "Approximately half-rouble coin size, inked on white paper.",
+        "position": "Seated eye level; chair in middle of room.",
+        "offsetsFeet": {
+          "right": 3,
+          "left": 3
+        }
+      },
+      "rest": {
+        "kind": "source-condition",
+        "details": "Repeat central bout after eyes have rested; no numerical rest duration."
+      },
+      "editorialNote": "Reported20/30-minute achievements are not the recommended limit; no guided forced blinking suppression or automatic advancement."
+    },
+    {
+      "id": "VII-2",
+      "lesson": "VII",
+      "pdfPages": [
+        53,
+        54
+      ],
+      "printedPages": [
+        41,
+        42
+      ],
+      "classification": "numbered-historical-exercise",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "mirror-gaze",
+      "scanCheckedQuotePage": 53,
+      "originalRussian": "Станьте передъ зеркаломъ и пристально смотрите въ отраженіе своихъ глазъ такъ, какъ было указано въ первомъ упражненіи.",
+      "normalizedEnglish": "Stand at a mirror and gaze into reflected eyes as in exercise I, increasing time gradually; combine I and II.",
+      "duration": {
+        "kind": "cross-reference",
+        "sourceRecord": "VII-1",
+        "details": "No separately stated mirror starting duration."
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "cross-reference",
+        "sourceRecord": "VII-1",
+        "details": "Increase gradually; author recommends systematic practice and combining I/II."
+      }
+    },
+    {
+      "id": "VII-3",
+      "lesson": "VII",
+      "pdfPages": [
+        54
+      ],
+      "printedPages": [
+        42
+      ],
+      "classification": "numbered-historical-exercise",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "fixed-mark-head-motion",
+      "scanCheckedQuotePage": 54,
+      "originalRussian": "самое же упражненіе должно производить вначалѣ очень умѣренно, не утомляя глазъ.",
+      "normalizedEnglish": "Stand three feet from wall with eye-level paper/mark; keep mark in view while rotating head in different directions, beginning moderately.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "setup": {
+        "wallDistanceFeet": 3,
+        "target": "White paper/mark at eye level."
+      }
+    },
+    {
+      "id": "VII-4",
+      "lesson": "VII",
+      "pdfPages": [
+        54
+      ],
+      "printedPages": [
+        42
+      ],
+      "classification": "numbered-historical-exercise",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "wall-point-shifting",
+      "scanCheckedQuotePage": 54,
+      "originalRussian": "Упражненіе это слѣдуетъ немедленно прекратить, какъ только глаза станутъ уставать.",
+      "normalizedEnglish": "Back to wall, gaze rapidly between points on opposite wall; stop at fatigue and finish on one point.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "termination": "Stop immediately when eyes tire; finish with gaze resting on one point."
+    },
+    {
+      "id": "VII-5",
+      "lesson": "VII",
+      "pdfPages": [
+        54,
+        55
+      ],
+      "printedPages": [
+        42,
+        43
+      ],
+      "classification": "numbered-historical-exercise",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null,
+      "scanCheckedQuotePage": 54,
+      "originalRussian": "для этого уговорите кого-нибудь изъ вашихъ друзей позволить испробовать на немъ вашъ взглядъ.",
+      "normalizedEnglish": "Ask a friend's permission, sit opposite, gaze and ask reciprocal gaze as able; author predicts fatigue/near-hypnosis. Animal tests follow.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "prerequisites": [
+        "Having acquired a firm gaze, develop confidence in it."
+      ],
+      "consentInSource": "Friend's permission is explicitly sought; no complete age/withdrawal protocol supplied.",
+      "withdrawalInSource": "Friend saying enough is described as a fatigue/hypnosis marker; no explicit response action prescribed in the paragraph.",
+      "guidedPublicationAllowed": false,
+      "exclusionReason": "No deployed partner-consent flow. Animal/stranger tests, fatigue and hypnosis goals excluded from any future guided adaptation."
+    },
+    {
+      "id": "VII-introductory-field-experiments",
+      "lesson": "VII",
+      "pdfPages": [
+        51
+      ],
+      "printedPages": [
+        39
+      ],
+      "classification": "historical-influence-prescription",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null,
+      "scanCheckedQuotePage": 51,
+      "originalRussian": "но вы должны производить опыты надъ лицами, съ которыми встрѣчаетесь, и замѣчать результаты.",
+      "normalizedEnglish": "Author asks readers to experiment on people encountered and notice results; explicit consent/controlled protocol is absent.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "guidedPublicationAllowed": false,
+      "exclusionReason": "No stranger targeting or unconsented influence challenges."
+    },
+    {
+      "id": "VII-secrecy",
+      "lesson": "VII",
+      "pdfPages": [
+        55
+      ],
+      "printedPages": [
+        43
+      ],
+      "classification": "historical-secrecy-prescription",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null,
+      "scanCheckedQuotePage": 55,
+      "originalRussian": "Сохраняйте тайну про себя, чтобы ваша сила проявлялась на дѣлѣ, но не на словахъ.",
+      "normalizedEnglish": "Keep training secret; historical advice, not the app's participation or privacy policy.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "VII-gradual-scheduling",
+      "lesson": "VII",
+      "pdfPages": [
+        55
+      ],
+      "printedPages": [
+        43
+      ],
+      "classification": "general-practice-prescription",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null,
+      "scanCheckedQuotePage": 55,
+      "originalRussian": "Удѣлите себѣ для упражненій извѣстное время и не торопитесь безъ нужды.",
+      "normalizedEnglish": "Set aside practice time and proceed gradually; no universal daily numeric duration specified.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "VII-blink-eyelid-advice",
+      "lesson": "VII",
+      "pdfPages": [
+        56
+      ],
+      "printedPages": [
+        44
+      ],
+      "classification": "historical-gaze-prescription",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null,
+      "scanCheckedQuotePage": 56,
+      "originalRussian": "Избѣгайте мигать, щуриться или неестественно расширять вѣки.",
+      "normalizedEnglish": "Author says avoid blinking, squinting or unnaturally widening eyelids; guided mode allows natural blinking.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "VII-fatigue-cold-water",
+      "lesson": "VII",
+      "pdfPages": [
+        56
+      ],
+      "printedPages": [
+        44
+      ],
+      "classification": "historical-eye-care-claim",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": null,
+      "scanCheckedQuotePage": 56,
+      "originalRussian": "Если ваши глаза отъ упражненій будутъ утомляться, то сполосните ихъ холодной водою, и тотчасъ же появится облегченіе.",
+      "normalizedEnglish": "Author recommends cold-water eye rinsing for fatigue and promises immediate relief; not app medical advice.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      }
+    }
+  ],
+  "confirmedNumberedExercises": 5,
+  "newlyDiscoveredNumberedExercises": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 57
+}

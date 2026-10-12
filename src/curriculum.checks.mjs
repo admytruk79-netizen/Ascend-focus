@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { exercises, curriculumStatus, timerLabel } from './exercises.ts';
+import { exercises, curriculumStatus, historicalLessonNotes, timerLabel } from './exercises.ts';
 
 test('every runnable historical practice has checked page-specific source evidence', () => {
   assert.equal(new Set(exercises.map(e => e.id)).size, exercises.length);
@@ -71,4 +71,17 @@ test('Lesson XII is one six-stage protocol with source breathing separated from 
  assert.match(e.originalProtocol.join(' '), /pause before exhaling/);
  assert.match(e.guided.join(' '), /without deep-breathing targets or breath holds/);
  assert.match(e.notice, /not treatment/);
+});
+
+test('Lesson VII chapter advice remains historical and repetitions retain their approximation', () => {
+ const dot = exercises.find(e => e.id === 'black-dot');
+ assert.match(dot.originalProtocol.join(' '), /repeat about four times/);
+ assert.match(dot.sourceDuration.details, /approximate/);
+ const notes = historicalLessonNotes.VII;
+ assert.deepEqual(notes.pdfPages, [55, 56]);
+ assert.equal(notes.originalRussian[0].pdfPage, 56);
+ assert.match(notes.paraphrases.join(' '), /cold-water/);
+ assert.match(notes.notice, /Historical documentation only/);
+ for (const e of exercises.filter(e => e.lesson === 'VII')) assert.doesNotMatch(e.guided.join(' '), /cold.water|keep.*secret|without blinking/i);
+ assert.match(dot.guided.join(' '), /Blink naturally/);
 });

@@ -76,3 +76,17 @@ test('quiet mode persists and OS reduced motion prevents target animation', asyn
   await page.getByRole('button', { name: 'Start', exact: true }).click();
   expect(await page.locator('.attention-dot').evaluate(el => getComputedStyle(el).animationName)).toBe('none');
 });
+
+test('historical gaze context is cited and never becomes guided eye-care advice', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+  await page.getByRole('button', { name: /The Black Dot/ }).click();
+  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
+  await page.getByText('Additional historical lesson advice', { exact: true }).click();
+  await expect(page.getByText(/not app eye-care guidance/)).toBeVisible();
+  await expect(page.getByText('PDF p. 56 · printed p. 44', { exact: true })).toBeVisible();
+  await page.screenshot({ path: 'test-results/screenshots/historical-gaze-source-mobile.png', fullPage: true });
+  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
+  await expect(page.getByText(/cold-water eye rinsing/)).toHaveCount(0);
+  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Blink naturally');
+});
