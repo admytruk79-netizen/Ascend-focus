@@ -29,7 +29,7 @@ Possible modern adaptations (planned, not source instructions or a live service)
 - X-2 PDF 79: Form a mental image of another person; historical text treats vividness as evidence of rapport, which is not established.
 - X-3 PDF 79–80: Imagine the person's behavior as mental communication.
 - X-4 PDF 80–81: Visualize a long hollow tube/corridor connecting imagined people as a concentration method.
-- X-5 PDF 81: Affirm personal agency ('I am') as a historical mental-boundary technique.
+- X-5 PDF 81–83: Mentally affirm ‘I am’, pause thought and image the self with protective thoughts; claimed exclusion of external thought waves is historical belief. Personal agency is a modern interpretation, not the original claim.
 Modern adaptation must not claim telepathic communication is scientifically established or encourage belief in unwanted external thought intrusion.
 
 ## Lesson XIV — Concentration (PDF pp. 120–125 and continuing; printed pp. 108–113+)
@@ -305,3 +305,14 @@ Imagery vividness and passive-receiver claims are not external evidence.
 I-am/protective-wave paragraph on81 continues82, documentary only for now.
 Catalog14/source revision7; guided consent and modern four-minute choice distinct.
 Next PDF82 / printed70; lesson and whole-book transcription incomplete.
+
+## Sequential reading — Lesson X conclusion, PDF82–85 (printed70–73)
+
+All four OCR pages/scans checked; references/reading/READING-082-085.md and
+INSTRUCTIONS-082-085.json. Completes sequential reading75–85, not full transcription
+or independent review. Boundary imagery continues81–83; temporary thought pause
+has no numeric timer. Environment/crowd thought-wave explanations are historical
+claims. Later-meeting paragraph84 explicitly does not guarantee compliance at this
+stage; repeat/gaze/reread advice has no fixed schedule. Five documentary records,
+no new runnable modules (catalog14/revision7). Corrected X-5 reference and separated
+original alleged protection from modern agency framing. Next PDF86 / printed74.

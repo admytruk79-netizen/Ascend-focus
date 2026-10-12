@@ -1216,28 +1216,60 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1825,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "вы должны на нѣкоторое время задержать теченіе мысли",
+          "note": "Qualitative temporary thought pause; no numerical timer."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X end checked; references/reading/READING-082-085.md; sequential chapter75–85 read, transcription incomplete.",
+      "readingCategories": [
+        "historical-unnumbered-procedure",
+        "historical-unverified-theory"
+      ]
     },
     {
       "pdfPage": 83,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1756,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X end checked; references/reading/READING-082-085.md; sequential chapter75–85 read, transcription incomplete.",
+      "readingCategories": [
+        "historical-unverified-theory",
+        "historical-application-of-procedure"
+      ]
     },
     {
       "pdfPage": 84,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1805,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X end checked; references/reading/READING-082-085.md; sequential chapter75–85 read, transcription incomplete.",
+      "readingCategories": [
+        "historical-application-guidance"
+      ]
     },
     {
       "pdfPage": 85,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1402,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson X end checked; references/reading/READING-082-085.md; sequential chapter75–85 read, transcription incomplete.",
+      "readingCategories": [
+        "historical-application-guidance",
+        "general-reading-advice-and-transition"
+      ]
     },
     {
       "pdfPage": 86,

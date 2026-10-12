@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "X",
+    "pdfPages": [
+      82,
+      83,
+      84,
+      85
+    ],
+    "printedPages": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "pageImagesChecked": [
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  "records": [
+    {
+      "id": "X-mental-boundary-continuation",
+      "lesson": "X",
+      "pdfPages": [
+        82
+      ],
+      "printedPages": [
+        70
+      ],
+      "classification": "historical-unnumbered-procedure",
+      "normalizedEnglish": "Temporarily arrest the flow of thought, affirm I am, imagine one’s real existence and self surrounded by favorable/protective thoughts. Practise evoking these images. When wishing to think alone, sit and repeat the previously described exclusion imagery. The text claims protection from external vibrations; this is historical belief, not detection of intrusion or a verified protective technique.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalRussian": "вы должны на нѣкоторое время задержать теченіе мысли",
+      "scanCheckedQuotePage": 82,
+      "originalProcedureParaphrase": [
+        "Temporarily arrest the flow of thought.",
+        "Affirm I am with an image of one’s real existence.",
+        "Imagine the self surrounded by favorable thoughts that the author says exclude external vibrations.",
+        "Practise these images; sit and use the same imagery when wishing to think alone."
+      ],
+      "duration": {
+        "kind": "qualitative",
+        "originalPhrase": "на нѣкоторое время",
+        "fixedSeconds": null
+      },
+      "guidedPublication": "documentary-only; no verified protection or unwanted-intrusion claim"
+    },
+    {
+      "id": "X-environment-and-public-feeling",
+      "lesson": "X",
+      "pdfPages": [
+        82,
+        83
+      ],
+      "printedPages": [
+        70,
+        71
+      ],
+      "classification": "historical-unverified-theory",
+      "normalizedEnglish": "The author explains changing opinions after relocation and waves of public sentiment by neighbors’ thought vibrations. Ordinary social influence examples do not establish this proposed mechanism.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "X-decision-protection-image",
+      "lesson": "X",
+      "pdfPages": [
+        83
+      ],
+      "printedPages": [
+        71
+      ],
+      "classification": "historical-application-of-procedure",
+      "normalizedEnglish": "When uncertain what to do, surround oneself with protective thoughts, described as a thought castle, and decide what is best. No decision scoring, timer, independent evidence or guarantee is supplied.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "X-later-meeting-and-repetition",
+      "lesson": "X",
+      "pdfPages": [
+        84,
+        85
+      ],
+      "printedPages": [
+        72,
+        73
+      ],
+      "classification": "historical-application-guidance",
+      "normalizedEnglish": "Author predicts greater interest and familiarity in a later meeting after attempted rapport, explicitly does not promise the other person necessarily does what is wanted at this stage. Repeat exercises without despair over failures; retain dignity/confidence and use gaze to allegedly restore rapport. Adapt principles to circumstances; no numeric frequency or mastery threshold.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "X-rereading-and-next-lesson",
+      "lesson": "X",
+      "pdfPages": [
+        85
+      ],
+      "printedPages": [
+        73
+      ],
+      "classification": "general-reading-advice-and-transition",
+      "normalizedEnglish": "Reread to find further ideas; coal/diamond and scriptural sayings are illustrations, not practical stages. Author introduces the next lesson’s attractive force of thought. Read between the lines does not license inventing missing historical instructions.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 86,
+  "nextLesson": "XI",
+  "lessonSequentialReading": {
+    "pdfPages": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  }
+}
