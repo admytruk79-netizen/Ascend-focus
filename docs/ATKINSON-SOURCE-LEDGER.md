@@ -138,3 +138,23 @@ has been checked; other editions have not independently been compared.
 No new runnable module is added. Annotated English reading and short checked
 Russian excerpts do not establish complete transcription or peer review.
 Next sequential reading: PDF31, LessonIV, printed19.
+
+## Sequential reading — Lesson IV, PDF31–40 (printed19–28)
+
+All ten text pages were read and ten scans inspected; see
+references/reading/READING-031-040.md and INSTRUCTIONS-031-040.json.
+The three modes on32 are explanatory categories, not three exercises.
+Seven historical instruction/illustration records are indexed: course rereading
+(31), unnamed further reading (33), two-partner mental illustration (34–39),
+bypassing vigilance (35–38), disregarding refusal (38), qualitative suggestion
+repetition (38–39), and confidence/easy-start advice (39–40).
+
+The original explicitly says not to accept “no” and recommends attacking weak
+points. These are faithfully documented and explicitly excluded from guided
+publication. Consent-based alternatives would be modern additions, not silent
+rewrites of Atkinson. The analogy is not a contemporary diagnostic framework.
+No numerical exercise duration, repetition schedule or advancement threshold is
+supplied. Rhetorical counts of refusals are not practice repetitions; the second
+reading is a study order, not a timer. No new runnable module is activated.
+Exact transcription and independent translation review remain pending.
+Next sequential reading: Lesson V, PDF41 / printed29.

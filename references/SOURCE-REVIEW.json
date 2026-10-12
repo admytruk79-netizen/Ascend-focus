@@ -388,70 +388,153 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1562,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "IV-reread-after-course"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 32,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1996,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 33,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1885,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "IV-further-hypnotism-reading"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 34,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1731,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 35,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1802,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 36,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1818,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 37,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1829,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "IV-bypassing-vigilance"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 38,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1777,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "IV-disregarding-refusal",
+        "IV-qualitative-suggestion-repetition"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 39,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1790,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "IV-two-partner-illustration"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 40,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 816,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "IV-confidence-and-easy-start"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "references/reading/READING-031-040.md",
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-suggestion-theory"
+      ]
     },
     {
       "pdfPage": 41,
