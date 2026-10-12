@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 3, complete: false, totalScanPages: 138,
+  version: 4, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -153,10 +153,37 @@ export const exercises: Exercise[] = [
     modernAdaptations: ['Two points and slow self-paced shifts replace rapid multidirectional movements.', 'A seated position and a one-minute optional timer are modern choices; the timer never overrides discomfort.'],
     accessibleAlternatives: ['Attend to one stationary point, or alternate between two sounds or tactile objects; these are modern alternatives.'], prerequisites: ['Comfortable stationary points or a nonvisual alternative.'], objectives: ['Choose where to direct attention and notice a change of focus.'], evidence: 'historical-attention-practice', notice: 'Stop immediately for eye fatigue, dizziness or discomfort. No eyesight benefit is claimed.', reflection,
   },
+  {
+    id: 'thought-absorption', title: 'Quality and Action Imagery', discipline: 'Imagination', lesson: 'XII', pdfPages: '107–109', minutes: 2,
+    source: source(['XII-1', 'XII-2', 'XII-3', 'XII-4', 'XII-5', 'XII-6'], [107, 108, 109], 'Всѣ свои мечты всегда заканчивайте рѣшительной мыслью: «я есмь».', 108),
+    originalProtocol: [
+      '1. Find a quiet, secluded place, as free from noise as possible. If ideal conditions are unavailable, choose the most suitable place available; the stated aim is to remove distractions and turn attention inward.',
+      '2. Rest comfortably on a sofa, bed or chair; relax muscles and release tension and worry. The historical text prescribes slow deep breaths with a pause before exhaling until calm. Breath retention is documented here, not used in guided mode.',
+      '3. Direct attention to oneself and set aside external impressions. The continuation on PDF p. 108 says concentration exercises prepare the reader for this.',
+      '4. After mental and physical relaxation, concentrate calmly and persistently on a chosen word and its meaning. The author uses fearlessness as an example and asks the reader to consider the qualities of a person possessing it.',
+      '5. Imagine oneself already possessing the quality and acting with it, including interactions with other people. Keep imagery on that subject, finish with the affirmation I am, and alternate imagery with the affirmation.',
+      '6. Repeat often. The author recommends practice before sleep and during insomnia, allowing drowsiness rather than resisting it. PDF p. 109 explains that fearlessness is only an example: choose the desired quality, or the opposite of an unwanted quality. His promises of inevitable character change and sleep benefit are historical claims, not established outcomes.',
+    ],
+    history: 'Lesson XII presents one six-stage thought-absorption sequence, not six separate exercises. The original breathing, affirmation, repetition and pre-sleep advice are preserved as attributed history; the app makes no treatment or guaranteed personality-change claim.',
+    sourceDuration: { kind: 'not-specified', details: 'PDF pp. 107–109 give six stages and frequent repetition, but no numerical session duration or timed progression.' }, timerProvenance: 'modern-choice',
+    guided: ['Choose a reasonably quiet place; perfect silence is not required.', 'Rest comfortably and breathe naturally, without deep-breathing targets or breath holds.', 'Notice your current experience; if distracted, gently return without trying to suppress thoughts.', 'Choose an optional quality such as patience and consider what it means to you.', 'Imagine one ordinary action expressing that quality. Use words instead of imagery if preferred; affirmations are optional.', 'Finish whenever ready. Optionally record an observation or repeat another day; repetition and pre-sleep practice are not requirements.'],
+    modernAdaptations: ['Natural breathing replaces the historical deep breaths and breath retention.', 'Gentle noticing, optional affirmations, nonvisual descriptions and a two-minute optional timer are modern choices.', 'No promise of curing fear, improving sleep or inevitably changing character; no blame for difficult thoughts or anxiety.'],
+    accessibleAlternatives: ['Write or describe a possible action rather than visualizing it. Keep movement and external supports available.'],
+    prerequisites: ['Historical stage 3 refers to preparation through concentration exercises; guided practice requires only a comfortable setting and may be skipped.'], objectives: ['Explore a chosen quality through one imagined or described action, distinguishing intention from guaranteed change.'], evidence: 'historical-attention-practice', notice: 'Do not hold your breath or force relaxation. Stop or change the practice if uncomfortable; this is not treatment for anxiety or insomnia.', reflection,
+  },
 ];
 
 export function timerLabel(exercise: Exercise): string {
   return exercise.timerProvenance === 'source-initial'
     ? `Source-stated starting duration: ${exercise.minutes} minute${exercise.minutes === 1 ? '' : 's'}. Shortening is a modern adaptation.`
     : `Modern optional timer suggestion: ${exercise.minutes} minute${exercise.minutes === 1 ? '' : 's'}; not an original starting duration.`;
+}
+
+// Incoming main catalog names retained as aliases; unreviewed content is not published.
+export const exerciseAliases: Readonly<Record<string, string>> = {
+ 'finger-sequence': 'finger-unfolding', 'index-motion': 'pointing-finger',
+ 'fixed-mark-head': 'fixed-mark-head-motion', 'gaze-shifting': 'wall-point-shifting',
+};
+export function getExercise(id: string): Exercise | undefined {
+ return exercises.find(e => e.id === (exerciseAliases[id] ?? id));
 }

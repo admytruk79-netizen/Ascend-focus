@@ -4,6 +4,8 @@ on:
     paths:
       - 'src/**'
       - 'server/**'
+      - 'tests/**'
+      - 'playwright.config.mjs'
       - 'index.html'
       - 'package.json'
       - 'package-lock.json'
@@ -28,3 +30,13 @@ jobs:
       - run: npm run test:backend:http
       - run: npm run build
 
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: real-app-browser-evidence
+          path: |
+            test-results/
+            playwright-report/
+          retention-days: 14

@@ -62,3 +62,13 @@ test('page 54 gaze practices preserve fatigue stops without invented source time
   assert.match(exercises.find(e => e.id === 'wall-point-shifting').originalProtocol.join(' '), /Stop immediately/);
   assert.match(exercises.find(e => e.id === 'fixed-mark-head-motion').modernAdaptations.join(' '), /replace historical head rotation/);
 });
+
+test('Lesson XII is one six-stage protocol with source breathing separated from guidance', () => {
+ const e = exercises.find(e => e.id === 'thought-absorption');
+ assert.deepEqual(e.source.scanPages, [107, 108, 109]);
+ assert.equal(e.originalProtocol.length, 6); assert.equal(e.guided.length, 6);
+ assert.equal(e.sourceDuration.kind, 'not-specified'); assert.equal(e.timerProvenance, 'modern-choice');
+ assert.match(e.originalProtocol.join(' '), /pause before exhaling/);
+ assert.match(e.guided.join(' '), /without deep-breathing targets or breath holds/);
+ assert.match(e.notice, /not treatment/);
+});

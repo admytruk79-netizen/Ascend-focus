@@ -784,21 +784,32 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1509,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "XII-1",
+        "XII-2",
+        "XII-3"
+      ]
     },
     {
       "pdfPage": 108,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1672,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "XII-3",
+        "XII-4",
+        "XII-5",
+        "XII-6"
+      ]
     },
     {
       "pdfPage": 109,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1863,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "XII-6"
+      ]
     },
     {
       "pdfPage": 110,

@@ -84,3 +84,22 @@ slow two-point shifts, seated support, nonvisual alternatives and one-minute tim
 are modern additions. Historical eye-strengthening claims are attributed to the
 author and are not promised benefits. This is an excerpt check, not full-page
 transcription or verification of the partner exercise that follows on this page.
+
+## Lesson XII — thought absorption, PDF pp. 107–109 (printed pp. 95–97)
+
+The six numbered stages are ONE protocol, visually checked against all three scans
+on 12 October 2026. This reconciles the new main-branch ledger and v2 addendum:
+1. Quiet/secluded place, with an acceptable substitute if ideal conditions cannot be found (107).
+2. Comfortable sofa, bed or chair; relaxation; historical slow deep breaths and breath retention until calm (107). Guided mode uses natural breathing, no retention.
+3. Inward attention, excluding external impressions (107–108); source refers to preparation by concentration exercises. Guided mode allows gentle refocusing and external supports.
+4. Concentrate on a chosen quality/word, its meaning and characteristics; fearlessness is the author's example (108).
+5. Imagine oneself possessing and acting with the quality, including social situations; end with “I am” and alternate imagery and affirmation (108). Affirmation is optional in guided mode.
+6. Frequent repetition, including before sleep/during insomnia, allowing drowsiness (108–109). The continuation clarifies that the desired quality can replace fearlessness and may be the opposite of an unwanted quality.
+No numerical timer is specified. The two-minute guided suggestion is modern.
+Promises of inevitable character change, sleep benefit, and blame toward the reader
+remain attributed historical claims, not app guidance or established evidence.
+The catalog stores one six-stage module, short scan-checked Russian excerpt,
+English paraphrase and explicit changes. Full-page transcription remains incomplete.
+
+The complete v2 specification is preserved in docs/sources/SPECIFICATION-V2.md;
+its target design does not establish implementation or release readiness.
