@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "XII",
+    "pdfPages": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "printedPages": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    "pageImagesChecked": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  "records": [
+    {
+      "id": "XII-character-and-quality-framing",
+      "lesson": "XII",
+      "pdfPages": [
+        96,
+        97,
+        98,
+        99
+      ],
+      "printedPages": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "classification": "historical-theory-and-illustration",
+      "normalizedEnglish": "Author claims character can be remade by will, lists qualities and offers a hypothetical serum analogy which he explicitly rejects as an actual drug. Habit-path imagery and active/passive mind are his theoretical framing, not a diagnosis, prescription or modern neuroscience.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-four-methods",
+      "lesson": "XII",
+      "pdfPages": [
+        100,
+        101,
+        102
+      ],
+      "printedPages": [
+        88,
+        89,
+        90
+      ],
+      "classification": "historical-method-taxonomy",
+      "normalizedEnglish": "Four approaches are direct will, a hypnotist’s suggestion, autosuggestion, and thought absorption. These are general methods, not four numbered stages of the later exercise. Author recommends combining autosuggestion with thought absorption.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-hypnotist-caution",
+      "lesson": "XII",
+      "pdfPages": [
+        101
+      ],
+      "printedPages": [
+        89
+      ],
+      "classification": "historical-caution",
+      "normalizedEnglish": "Source cautions against trusting anyone merely because they can hypnotize; suitability and knowledge of methods are required. The banker analogy is an illustration, not a service credential scheme.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-absorption-general-method",
+      "lesson": "XII",
+      "pdfPages": [
+        102
+      ],
+      "printedPages": [
+        90
+      ],
+      "classification": "historical-general-procedure",
+      "normalizedEnglish": "Adopt a passive state at frequent intervals, concentrate on the desired habit as already present, imagine oneself possessing it and recall that image in free moments day or night. No numeric interval or session duration.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-fear-example-and-will-command",
+      "lesson": "XII",
+      "pdfPages": [
+        103,
+        104
+      ],
+      "printedPages": [
+        91,
+        92
+      ],
+      "classification": "historical-example-and-procedure",
+      "normalizedEnglish": "Fear provides the example; direct will uses I do not want to fear and I command fear to disappear. Claims all fear is harmful are historical, not current assessment or treatment advice.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-hypnotist-example",
+      "lesson": "XII",
+      "pdfPages": [
+        104,
+        105
+      ],
+      "printedPages": [
+        92,
+        93
+      ],
+      "classification": "historical-partner-method",
+      "normalizedEnglish": "Experienced hypnotist arranges comfort, muscle relaxation and calm, redirects attention and repeats suggestions of fearlessness/courage/confidence. Author recounts personal treatment claims and then teaching solo methods. This is historical documentation, not an app hypnosis/treatment service.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-autosuggestion-example",
+      "lesson": "XII",
+      "pdfPages": [
+        105
+      ],
+      "printedPages": [
+        93
+      ],
+      "classification": "historical-general-procedure",
+      "normalizedEnglish": "Repeat assertions such as I am not afraid and I am confident seriously; author says double assurances when fearful thoughts recur. Double is relative emphasis, not a fixed numeric dose. Dog/club imagery is a metaphor; no actual animal harm instruction is published.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-absorption-role-imagery",
+      "lesson": "XII",
+      "pdfPages": [
+        106,
+        107
+      ],
+      "printedPages": [
+        94,
+        95
+      ],
+      "classification": "historical-general-procedure",
+      "normalizedEnglish": "Adopt physical/mental passivity, focus on fearlessness, picture oneself courageous and act as an actor immersed in a role. Concentration recommended; words can be changed for other qualities. Tension between learn concentration first and begin immediately is preserved, not silently converted to a compulsory app gate.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XII-six-stage-practice",
+      "lesson": "XII",
+      "pdfPages": [
+        107,
+        108,
+        109
+      ],
+      "printedPages": [
+        95,
+        96,
+        97
+      ],
+      "classification": "numbered-stages-of-one-historical-protocol",
+      "normalizedEnglish": "One sequence with six stages: quiet location; comfortable relaxation with historically slow deep breaths and retention before exhaling; inward attention; chosen quality word and meaning; image oneself acting with the quality, ending/alternating with I am; repeat often, before sleep or during insomnia, allow drowsiness. No session timer. Claims sleep and character benefits are historical, not app guarantees.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "thought-absorption",
+      "stageCount": 6,
+      "scanCheckedQuotePage": 108,
+      "originalRussian": "Повторяйте какъ можно чаще эти упражненія.",
+      "duration": {
+        "kind": "not-specified",
+        "sessionSeconds": null
+      },
+      "repetitions": {
+        "kind": "qualitative",
+        "originalPhrase": "какъ можно чаще",
+        "fixedCount": null
+      },
+      "breathRetention": {
+        "pdfPage": 107,
+        "historicalOnly": true,
+        "fixedSeconds": null
+      },
+      "modernChanges": [
+        "Natural breathing, no retention targets",
+        "Optional imagery/affirmations; words or writing available",
+        "No treatment, inevitable change, thought suppression requirement or blame"
+      ]
+    },
+    {
+      "id": "XII-quality-substitution-and-closing",
+      "lesson": "XII",
+      "pdfPages": [
+        109,
+        110
+      ],
+      "printedPages": [
+        97,
+        98
+      ],
+      "classification": "historical-continuation-and-claim",
+      "normalizedEnglish": "Fearlessness is illustrative; select the desired quality or opposite of an unwanted one (activity/energy example), focus on that rather than dwell on unwanted thoughts, continue practice. Author attributes failure to inadequate desire; this blame and guarantees are preserved historically, not used in guided feedback.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    }
+  ],
+  "generalHistoricalMethods": 4,
+  "existingNumberedProtocolsReconciled": 1,
+  "numberedStagesInExistingProtocol": 6,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 111,
+  "nextLesson": "XIII",
+  "lessonSequentialReading": {
+    "pdfPages": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  },
+  "boundaryEvidence": {
+    "pdfPage": 111,
+    "printedPage": 99,
+    "scanChecked": true,
+    "heading": "Тринадцатая лекція."
+  }
+}

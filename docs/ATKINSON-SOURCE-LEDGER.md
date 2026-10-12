@@ -330,3 +330,16 @@ illustrative, not a prescribed visual exercise.94–95 explicitly require action
 not idle waiting. Literary/source credits await independent comparison.
 Zero new runnable modules; catalog14/revision7. Sequential XI reading complete,
 whole-book transcription and independent review incomplete. Next PDF96 / printed84.
+
+## Sequential reading — Lesson XII, PDF96–110 (printed84–98)
+
+Fifteen OCR pages and scans checked; references/reading/READING-096-110.md and
+INSTRUCTIONS-096-110.json. Ten documentary records. Four general methods are
+distinct from the existing one six-stage107–109 protocol; no duplicate modules.
+Original qualitative repetition, breath retention and sleep claims preserved
+separately from natural-breathing/nonpunitive guided practice. Hypnotist descriptions
+and will/club metaphors are documentary, not treatment or partner services.
+Concentration-first/immediate-start tension remains unresolved, no invented gate.
+Final paragraph109 continues110; Lesson XIII heading scan-checked111/printed99.
+Catalog14/revision7; sequential XII reading complete, full transcription and
+independent review incomplete. Next PDF111.

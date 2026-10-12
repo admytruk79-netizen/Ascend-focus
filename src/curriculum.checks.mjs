@@ -1,4 +1,5 @@
 import { test } from 'node:test';
+import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 import { exercises, curriculumStatus, historicalLessonNotes, timerLabel } from './exercises.ts';
 
@@ -107,4 +108,34 @@ test('Lesson X distinguishes imagery development from evidence of external rappo
  assert.equal(e.timerProvenance, 'modern-choice');
  assert.match(e.guided.join(' '), /without assuming anyone else received it/);
  assert.doesNotMatch(e.guided.join(' '), /shadowy ring|carrying out.*wishes/);
+});
+
+test('chapter extraction keeps calendar periods and method lists separate from runnable doses', () => {
+ const read = file => JSON.parse(readFileSync(new URL(`../references/reading/${file}`, import.meta.url), 'utf8'));
+ const xi = read('INSTRUCTIONS-086-095.json');
+ const xii = read('INSTRUCTIONS-096-110.json');
+ for (const chapter of [xi, xii]) {
+  assert.equal(chapter.sourceSha256, curriculumStatus.sourceSha256);
+  assert.equal(chapter.complete, false);
+  assert.equal(chapter.newRunnableModules, 0);
+  assert.deepEqual(chapter.scope.pdfPages, chapter.scope.pageImagesChecked);
+  assert.equal(chapter.lessonSequentialReading.fullTranscriptionComplete, false);
+  for (const r of chapter.records) {
+   assert.equal(r.rawRecordExecutable, false);
+   assert.ok(r.pdfPages.every(p => chapter.scope.pdfPages.includes(p)));
+   assert.deepEqual(r.printedPages, r.pdfPages.map(p => p - 12));
+   if (r.scanCheckedQuotePage) assert.ok(r.pdfPages.includes(r.scanCheckedQuotePage));
+  }
+ }
+ const month = xi.records.find(r => r.id === 'XI-one-month-thought-practice');
+ assert.equal(month.duration.minimumCalendarMonths, 1);
+ assert.equal(month.duration.dailySessionSeconds, null);
+ assert.equal(month.duration.fixedRepetitions, null);
+ assert.equal(xii.generalHistoricalMethods, 4);
+ const protocol = xii.records.find(r => r.existingCatalogId === 'thought-absorption');
+ assert.equal(protocol.stageCount, 6);
+ assert.equal(exercises.find(e => e.id === protocol.existingCatalogId).originalProtocol.length, protocol.stageCount);
+ assert.equal(protocol.breathRetention.historicalOnly, true);
+ assert.equal(protocol.duration.sessionSeconds, null);
+ assert.equal(xii.nextSequentialPage, 111);
 });
