@@ -119,3 +119,22 @@ it is not a practice timer. Deep-breathing endorsement on16 supplies no protocol
 and contains historical health claims. No new runnable module is published.
 These findings extend the partial index without conflating theory, aspirations,
 examples or repeated advice with distinct exercises. Next reading: PDF26, LessonIII.
+
+## Sequential reading — Lesson III, PDF26–30 (printed14–18)
+
+See references/reading/READING-026-030.md and INSTRUCTIONS-026-030.json.
+All five embedded-text pages were read and all five images checked. The four
+Roman-numbered entries are theoretical modes of supposed influence, not four
+exercises: direct suggestion, thought waves, attraction of similar thoughts, and
+character change. No numerical timing, repetition or progression protocol appears.
+A general instruction to do one's own work closes the lesson (PDF30).
+
+The footnote beginning on PDF29 and ending on30 explicitly declares itself to be
+a Russian editorial addition absent from the original and other editions. Its
+translation explanation and photographic-thought claims must be attributed to
+that editorial staff, not Atkinson's English original. The edition's assertion
+has been checked; other editions have not independently been compared.
+
+No new runnable module is added. Annotated English reading and short checked
+Russian excerpts do not establish complete transcription or peer review.
+Next sequential reading: PDF31, LessonIV, printed19.

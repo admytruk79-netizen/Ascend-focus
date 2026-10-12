@@ -303,35 +303,85 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1638,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-026-030.md",
+      "readingImageChecked": true,
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-theory"
+      ]
     },
     {
       "pdfPage": 27,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1686,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-026-030.md",
+      "readingImageChecked": true,
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-theory"
+      ]
     },
     {
       "pdfPage": 28,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1638,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "III-category-I-suggestion"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-026-030.md",
+      "readingImageChecked": true,
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-theory",
+        "theoretical-category"
+      ]
     },
     {
       "pdfPage": 29,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 2002,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "III-category-II-thought-waves",
+        "III-category-III-attraction"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-026-030.md",
+      "readingImageChecked": true,
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-theory",
+        "theoretical-category",
+        "Russian-editorial-note"
+      ]
     },
     {
       "pdfPage": 30,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 2041,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        "III-category-IV-character",
+        "III-self-directed-work",
+        "III-russian-editorial-thoughts-note"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingNote": "references/reading/READING-026-030.md",
+      "readingImageChecked": true,
+      "readingCategories": [
+        "lesson-narrative",
+        "historical-theory",
+        "theoretical-category",
+        "Russian-editorial-note",
+        "general-reader-instruction"
+      ]
     },
     {
       "pdfPage": 31,

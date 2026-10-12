@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {"lesson": "III", "pdfPages": [26, 27, 28, 29, 30], "printedPages": [14, 15, 16, 17, 18], "pageImagesChecked": [26, 27, 28, 29, 30]},
+  "records": [
+    {
+      "id": "III-category-I-suggestion", "lesson": "III",
+      "pdfPages": [28, 29], "printedPages": [16, 17],
+      "classification": "theoretical-category", "authorAttribution": "Atkinson main text", "executable": false,
+      "scanCheckedQuotePage": 28,
+      "originalRussian": "Примѣненіемъ силы вашей положительной мысли въ смыслѣ прямого, личнаго воздѣйствія на людей при посредствѣ закона внушенія.",
+      "normalizedEnglish": "Applying positive thought to direct personal influence through suggestion; no procedure is specified.",
+      "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "editorialNote": "Roman numeral denotes a supposed mode of influence, not a training exercise. Later lesson promised."
+    },
+    {
+      "id": "III-category-II-thought-waves", "lesson": "III",
+      "pdfPages": [29], "printedPages": [17],
+      "classification": "theoretical-category", "authorAttribution": "Atkinson main text", "executable": false,
+      "scanCheckedQuotePage": 29,
+      "originalRussian": "Силою непосредственныхъ мыслительныхъ волнъ, приведенныхъ въ колебаніе вашимъ умомъ",
+      "normalizedEnglish": "The author claims direct thought waves affect other minds and knowledge of their supposed law helps resist outside influence.",
+      "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "evidence": "historical-unverified-claim"
+    },
+    {
+      "id": "III-category-III-attraction", "lesson": "III",
+      "pdfPages": [29], "printedPages": [17],
+      "classification": "theoretical-category", "authorAttribution": "Atkinson main text", "executable": false,
+      "scanCheckedQuotePage": 29,
+      "originalRussian": "Путемъ притягательнаго свойства мысли, воздѣйствующей на основаніи теоріи: «сходное притягиваетъ сходное».",
+      "normalizedEnglish": "The author describes thought attracting similar thoughts and beliefs; this is a theoretical claim, not a protocol.",
+      "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "evidence": "historical-unverified-claim"
+    },
+    {
+      "id": "III-category-IV-character", "lesson": "III",
+      "pdfPages": [30], "printedPages": [18],
+      "classification": "theoretical-category", "authorAttribution": "Atkinson main text", "executable": false,
+      "scanCheckedQuotePage": 30,
+      "originalRussian": "Посредствомъ силы мысли въ отношеніи измѣненія вашего характера и темперамента съ цѣлью самоусовершенствованія, достигнуть для себя успѣха.",
+      "normalizedEnglish": "The author proposes using thought to change character and temperament for self-improvement and success, without a specific exercise here.",
+      "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "editorialNote": "No guaranteed personality change is adopted as app guidance."
+    },
+    {
+      "id": "III-self-directed-work", "lesson": "III",
+      "pdfPages": [30], "printedPages": [18],
+      "classification": "general-reader-instruction", "authorAttribution": "Atkinson main text", "executable": false,
+      "scanCheckedQuotePage": 30,
+      "originalRussian": "Своими уроками я постараюсь поставить васъ на вѣрный путь, но, указывая вамъ дорогу, предлагаю работать уже вамъ самимъ.",
+      "normalizedEnglish": "The author says he will point out the path but asks readers to do the work themselves.",
+      "prerequisites": [], "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"}
+    },
+    {
+      "id": "III-russian-editorial-thoughts-note", "lesson": "III",
+      "pdfPages": [29, 30], "printedPages": [17, 18],
+      "classification": "Russian-editorial-note", "authorAttribution": "Russian editorial staff; explicitly absent from the original according to this edition", "executable": false,
+      "scanCheckedQuotePage": 30,
+      "originalRussian": "Спѣшимъ при этомъ добавить, что это примѣчаніе, а равно и нѣкоторыя другія сноски принадлежатъ нашей редакціи и въ другихъ изданіяхъ не встрѣчаются, нѣтъ ихъ также и въ подлинникѣ, что и просимъ имѣть въ виду.",
+      "signature": "Редакція.",
+      "normalizedEnglish": "The editorial staff identifies this and some other footnotes as additions absent from the original and other editions; the note discusses translating Thoughts are Things and claims thought can be photographed.",
+      "duration": {"kind": "not-specified"}, "repetitions": {"kind": "not-specified"}, "progression": {"kind": "not-specified"},
+      "evidence": "historical-unverified-editorial-claim",
+      "editorialNote": "Do not credit this explanation to Atkinson's English original. No independent comparison of editions has been completed."
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 31
+}
