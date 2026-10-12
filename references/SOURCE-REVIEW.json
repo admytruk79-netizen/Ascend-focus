@@ -907,21 +907,46 @@
         "lesson": "IX",
         "printedPage": 50,
         "imageChecked": true
-      }
+      },
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX opening read with original scan; annotated paraphrase in references/reading/READING-062-064.md. Lesson incomplete; next page65.",
+      "readingCategories": [
+        "historical-theory-and-illustration"
+      ]
     },
     {
       "pdfPage": 63,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1836,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "Намѣтьте себѣ цѣль и прямо стремитесь къ ней, удаляя съ своего пути всѣ препятствія.",
+          "note": "Short goal-setting excerpt; line breaks normalized. See INSTRUCTIONS-062-064.json."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX opening read with original scan; annotated paraphrase in references/reading/READING-062-064.md. Lesson incomplete; next page65.",
+      "readingCategories": [
+        "historical-theory-and-illustration",
+        "general-practical-advice"
+      ]
     },
     {
       "pdfPage": 64,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1757,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson IX opening read with original scan; annotated paraphrase in references/reading/READING-062-064.md. Lesson incomplete; next page65.",
+      "readingCategories": [
+        "general-practical-advice",
+        "historical-unverified-claim"
+      ]
     },
     {
       "pdfPage": 65,

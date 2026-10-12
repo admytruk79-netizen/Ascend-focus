@@ -247,3 +247,14 @@ The next heading is visibly LessonIX on PDF62 / printed50. Earlier IX pp69–74
 references cover selected experiments, not the entire lesson. Previewed62–64 is
 not yet a complete IX reading. Full transcription/review remain incomplete.
 Next sequential reading: LessonIX, PDF62.
+
+## Sequential reading — Lesson IX opening, PDF62–64 (printed50–52)
+
+Three OCR pages and original scans checked; see references/reading/READING-062-064.md
+and INSTRUCTIONS-062-064.json. Leadership/Napoleon and near/distant thought-vibration
+claims are historical theory and anecdotes. Goal-setting advice spans63–64; no
+numeric duration, repetitions, assessment or new numbered exercise supplied.
+Three documentary records, no new executable practices; catalog remains14.
+The paragraph on64 continues on65 and has not been reconstructed. This is a
+partial IX reading, not completion of the six later experiments or whole lesson.
+Next sequential reading: PDF65 / printed53. Full transcription remains incomplete.
