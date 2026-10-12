@@ -316,3 +316,17 @@ claims. Later-meeting paragraph84 explicitly does not guarantee compliance at th
 stage; repeat/gaze/reread advice has no fixed schedule. Five documentary records,
 no new runnable modules (catalog14/revision7). Corrected X-5 reference and separated
 original alleged protection from modern agency framing. Next PDF86 / printed74.
+
+## Sequential reading — Lesson XI, PDF86–95 (printed74–83)
+
+All ten OCR pages and scans checked; references/reading/READING-086-095.md and
+INSTRUCTIONS-086-095.json. Ten documentary records, one unnumbered practical
+prescription on91: try the preceding good/confident thought pattern for at least
+one month. No daily dose, repetitions,30-day calendar or verified outcome added.
+Page92 lists desire/confidence/determination as conditions, not timed stages or
+validated success gates. Physical analogies/citations do not establish thought
+attraction;88 explicitly says citations are not a proof. Coloured clouds are
+illustrative, not a prescribed visual exercise.94–95 explicitly require action,
+not idle waiting. Literary/source credits await independent comparison.
+Zero new runnable modules; catalog14/revision7. Sequential XI reading complete,
+whole-book transcription and independent review incomplete. Next PDF96 / printed84.

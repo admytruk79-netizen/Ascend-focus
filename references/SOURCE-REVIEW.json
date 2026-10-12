@@ -1276,70 +1276,142 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1589,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-metaphysical-claim",
+        "historical-analogy-and-citation"
+      ]
     },
     {
       "pdfPage": 87,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1714,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-analogy-and-citation"
+      ]
     },
     {
       "pdfPage": 88,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1927,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-analogy-and-citation",
+        "historical-illustration-and-belief"
+      ]
     },
     {
       "pdfPage": 89,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1820,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-general-practice-advice"
+      ]
     },
     {
       "pdfPage": 90,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1772,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-general-practice-advice",
+        "unnumbered-historical-practice-prescription"
+      ]
     },
     {
       "pdfPage": 91,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1809,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "хотя бы въ продолженіе одного мѣсяца",
+          "note": "At least one calendar month; no daily timer or fixed repetitions."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "unnumbered-historical-practice-prescription",
+        "historical-character-advice",
+        "historical-three-condition-list"
+      ]
     },
     {
       "pdfPage": 92,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1801,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-three-condition-list"
+      ]
     },
     {
       "pdfPage": 93,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1699,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-unverified-claim-and-advice"
+      ]
     },
     {
       "pdfPage": 94,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1696,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-unverified-claim-and-advice",
+        "historical-practical-advice-and-literary-citation"
+      ]
     },
     {
       "pdfPage": 95,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1792,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XI sequential reading86–95 checked; references/reading/READING-086-095.md; transcription incomplete.",
+      "readingCategories": [
+        "historical-practical-advice-and-literary-citation",
+        "general-practice-invitation-and-transition"
+      ]
     },
     {
       "pdfPage": 96,

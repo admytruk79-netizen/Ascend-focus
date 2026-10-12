@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "XI",
+    "pdfPages": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "printedPages": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "pageImagesChecked": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ]
+  },
+  "records": [
+    {
+      "id": "XI-thoughts-as-things",
+      "lesson": "XI",
+      "pdfPages": [
+        86
+      ],
+      "printedPages": [
+        74
+      ],
+      "classification": "historical-metaphysical-claim",
+      "normalizedEnglish": "The source credits Prentice Mulford with thoughts are things and describes thought as a subtle material/spiritual substance. This is the author’s historical worldview, not a scientifically established substance model.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-physical-analogies-and-citations",
+      "lesson": "XI",
+      "pdfPages": [
+        86,
+        87,
+        88
+      ],
+      "printedPages": [
+        74,
+        75,
+        76
+      ],
+      "classification": "historical-analogy-and-citation",
+      "normalizedEnglish": "Magnets, gases, light, heat and sensory limits illustrate the author’s argument. Printed quotations credit Elisha Gray and M. M. Williams; originals and translations not independently compared. Page88 explicitly says these citations feed reflection rather than prove thought vibrations. Magnet weight and oscillation frequencies are not exercise doses or recommended stimulation settings.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-cloud-colour-illustration",
+      "lesson": "XI",
+      "pdfPages": [
+        88
+      ],
+      "printedPages": [
+        76
+      ],
+      "classification": "historical-illustration-and-belief",
+      "normalizedEnglish": "A conditional description imagines dark heavy clouds for fearful/unpleasant thoughts and light clouds for happy confident thoughts. It is illustrative, not an explicit prescribed cloud-visualization exercise or a validated colour score. Strong new thoughts/I am are offered as alleged neutralization.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-like-attracts-like-and-confidence",
+      "lesson": "XI",
+      "pdfPages": [
+        89,
+        90
+      ],
+      "printedPages": [
+        77,
+        78
+      ],
+      "classification": "historical-general-practice-advice",
+      "normalizedEnglish": "The author recommends maintaining confident I can and I will/want thinking, trying it with expectation, and avoiding hatred/envy, while asserting similar thought waves attract and return amplified. The wave/attraction mechanism and guaranteed benefits are not demonstrated. These continue earlier can/will advice rather than supply a separately numbered drill.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-one-month-thought-practice",
+      "lesson": "XI",
+      "pdfPages": [
+        90,
+        91
+      ],
+      "printedPages": [
+        78,
+        79
+      ],
+      "classification": "unnumbered-historical-practice-prescription",
+      "normalizedEnglish": "Try the preceding good-thought pattern in practice for at least one month. Author predicts major changes before the month ends. No daily session minutes, fixed repetitions, staged escalation, logging schema or objectively measured result is supplied.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false,
+      "originalRussian": "хотя бы въ продолженіе одного мѣсяца",
+      "scanCheckedQuotePage": 91,
+      "duration": {
+        "kind": "verified-training-period",
+        "originalPhrase": "хотя бы въ продолженіе одного мѣсяца",
+        "minimumCalendarMonths": 1,
+        "dailySessionSeconds": null,
+        "fixedRepetitions": null
+      },
+      "originalProcedureParaphrase": [
+        "Practise the preceding pattern of good/confident thought in daily life.",
+        "Try this for at least one month; daily duration and repetitions are not stated.",
+        "The author predicts beneficial change, but provides no blinded observations, quantified assessment or objective completion threshold."
+      ],
+      "guidedPublication": "documentary-only; no outcome guarantee or automatic one-month program published"
+    },
+    {
+      "id": "XI-hatred-fear-and-character-reference",
+      "lesson": "XI",
+      "pdfPages": [
+        91
+      ],
+      "printedPages": [
+        79
+      ],
+      "classification": "historical-character-advice",
+      "normalizedEnglish": "Author calls hatred and fear roots of other undesirable thoughts, urges their removal and refers forward to character formation. This is historical advice, not diagnosis, treatment or a requirement to suppress distress.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-three-goal-conditions",
+      "lesson": "XI",
+      "pdfPages": [
+        91,
+        92
+      ],
+      "printedPages": [
+        79,
+        80
+      ],
+      "classification": "historical-three-condition-list",
+      "normalizedEnglish": "For a mentally chosen ideal, the author lists strong desire rather than whim, full confidence in capacity, and firm determination to reach the goal rather than merely trying. These are three conditions, not sequential timed exercises or an evidence-based AND gate guaranteeing success.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false,
+      "sourceConditions": [
+        "Strong desire",
+        "Full confidence in capacity",
+        "Firm determination"
+      ]
+    },
+    {
+      "id": "XI-social-attraction-and-faith",
+      "lesson": "XI",
+      "pdfPages": [
+        93,
+        94
+      ],
+      "printedPages": [
+        81,
+        82
+      ],
+      "classification": "historical-unverified-claim-and-advice",
+      "normalizedEnglish": "The author claims compatible helpers and collaborators are attracted by matching thought vibrations and recommends firm faith plus mental demand/expectation. This is not a measured matching algorithm or grounds to claim community compatibility or others’ submission.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-action-rather-than-idle-waiting",
+      "lesson": "XI",
+      "pdfPages": [
+        94,
+        95
+      ],
+      "printedPages": [
+        82,
+        83
+      ],
+      "classification": "historical-practical-advice-and-literary-citation",
+      "normalizedEnglish": "A poem credited in Russian to Елена Вильманъ illustrates calm expectation; the English printing contains apparent lexical irregularities and is not silently corrected. Author explicitly rejects sitting idle awaiting gifts and urges action, citing Garfield. Credits/original texts not independently verified. Guaranteed fulfilment remains an attributed assertion.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XI-closing-practice-invitation",
+      "lesson": "XI",
+      "pdfPages": [
+        95
+      ],
+      "printedPages": [
+        83
+      ],
+      "classification": "general-practice-invitation-and-transition",
+      "normalizedEnglish": "Author invites serious practical trial of the thinking pattern and introduces the next lesson on character. No additional procedure, prescribed timer or numbered exercise is supplied.",
+      "authorAttribution": "Atkinson main text; printed citation credits preserved where present",
+      "rawRecordExecutable": false
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "unnumberedPracticePrescriptionsRecorded": 1,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 96,
+  "nextLesson": "XII",
+  "lessonSequentialReading": {
+    "pdfPages": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  }
+}
