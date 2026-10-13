@@ -1956,7 +1956,7 @@
       "pdfPage": 132,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1616,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [
         {
           "text": "Прочтите вновь тѣ лекціи, которыя являются для васъ наиболѣе трудными,",
@@ -1970,7 +1970,11 @@
         "historical-ethical-advice",
         "unnumbered-historical-practice",
         "historical-closing-advice"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XV-final-page",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 133,

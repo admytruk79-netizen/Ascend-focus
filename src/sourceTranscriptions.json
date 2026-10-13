@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
   "complete": false,
   "passages": [
@@ -49,6 +49,64 @@
           "boundary": "continuation-from-115",
           "russian": "такъ думаю. Вамъ нужна практика, молодой человѣкъ. Возьмитесь за указанныя въ этой лекціи упражненія и продѣлывайте ихъ до тѣхъ поръ, пока вы не будете въ состояніи сдѣлать чего-нибудь, безразлично, что бы это ни было, не позволяя своимъ мыслямъ отвлекаться въ сторону. Каждый въ состояніи сосредоточиться на пріятной работѣ; но если дать ему непріятное и однообразное дѣло, то вы убѣдитесь, что его мысли будутъ отвлекаться отъ дѣла совершенно отъ него независимо; все это будетъ продолжаться до тѣхъ поръ, пока онъ не научится сосредоточиваться при помощи силы воли. Способность сосредоточиваться на непріятной невыносимой и однообразной работѣ является пробнымъ камнемъ. Если вы преодолѣете это затрудненіе, то вы можете быть увѣрены, что проломили брешь въ области безплодныхъ усилій и ненужныхъ движеній. При помощи концентраціи вы будете способны сосредоточивать свое вниманіе, мысль и энергію на опредѣленномъ предметѣ, и благодаря этому достигать лучшихъ по мѣрѣ возможности результатовъ. Лучи солнца, собранные на извѣстной точкѣ при помощи зажигательнаго стекла, нагрѣваютъ эту точку гораздо сильнѣе, чѣмъ обыкновенные лучи того же источника, того же напряженія и той же теплоты. Такъ же обстоитъ дѣло и съ вниманіемъ. Разсѣйте его и вы будете имѣть обыкновенные результаты; но если фокусъ его будетъ находиться на вещи (сконцентрировавъ его на вещи), которую нужно сдѣлать, вы получите изумительный подъемъ энергіи. Сосредоточивающійся человѣкъ концентрируетъ свое вниманіе и силу мысли на одномъ предметѣ; результатъ выражается въ томъ, что каждое его дѣйствіе, произвольное и непроизвольное, направляется къ достиженію цѣли. Какъ я уже говорилъ въ предыдущей лекціи, человѣкъ можетъ достичь всего, что онъ желаетъ, если только онъ непреклонно желаетъ.",
           "english": "…think so. You need practice, young man. Take up the exercises indicated in this lesson and do them until you can do something—whatever it may be—without allowing your thoughts to wander. Anyone can concentrate on pleasant work; but give someone an unpleasant and monotonous task and you will find their thoughts wandering from it quite independently of them. This will continue until they learn to concentrate by means of willpower. The ability to concentrate on unpleasant, intolerable and monotonous work is the touchstone. If you overcome this difficulty, you may be sure you have broken through the realm of fruitless efforts and unnecessary movements. Through concentration you will be able to focus your attention, thought and energy on a definite subject and thus achieve the best results possible. The rays of the sun gathered at a particular point by a burning glass heat that point much more strongly than ordinary rays from the same source, with the same intensity and warmth. So it is with attention. Scatter it and you will obtain ordinary results; but focus it on the thing to be done and you will obtain an astonishing rise in energy. A concentrating person focuses attention and the power of thought on one subject; the result is that every action, voluntary and involuntary, is directed toward attaining the goal. As I said in the previous lesson, a person can attain everything they desire, provided they desire it unwaveringly."
+        }
+      ]
+    },
+    {
+      "id": "XV-final-page",
+      "exerciseId": "reading-reflection",
+      "lesson": "XV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF132 / printed120; header and decorative end ornament excluded.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical ethical, religious and guaranteed-insight claims are preserved in translation, not endorsed as guided outcomes.",
+      "uncertainties": [
+        "Punctuation and spacing await independent proofreading.",
+        "The first paragraph refers to words on the preceding page; this page alone does not reproduce that quotation.",
+        "The printed warning says предостерегаю васъ злоупотреблять without an explicit отъ. Russian is not repaired; English conveys the contextual warning and records the issue here.",
+        "духъ is rendered mind in the relaxation instruction; this contextual choice does not remove the source’s spiritual worldview."
+      ],
+      "paragraphs": [
+        {
+          "id": "132-1",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Если настоящими словами люди вполнѣ руководились бы въ своей жизни, то не было бы нужды въ судьяхъ, судахъ и тюрьмахъ; жизнь представляла бы изъ себя «одну длинную, пріятную пѣсню». Постарайтесь, съ своей стороны, содѣйствовать достиженію подобнаго результата. Кромѣ этого, я предостерегаю васъ злоупотреблять своей новопріобрѣтенной силой; не затаптывайте дары духа грязью; свободно, законнымъ путемъ примѣняйте его для своего личнаго блага, не причиняя никому ни въ какомъ случаѣ никакого вреда.",
+          "english": "If people were fully guided by these words in their lives, there would be no need for judges, courts or prisons; life would be one long, pleasant song. For your part, try to help bring about such a result. In addition, I caution you regarding misuse of your newly acquired power; do not trample the gifts of the spirit into the mud. Apply it freely and lawfully for your own good, without causing anyone harm under any circumstances."
+        },
+        {
+          "id": "132-2",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Если вы еще и не вполнѣ уяснили себѣ значеніе того или другого наставленія, даннаго въ настоящемъ небольшомъ сочиненіи, то все же не безпокойтесь, такъ какъ со временемъ вы все поймете. Прочтите вновь тѣ лекціи, которыя являются для васъ наиболѣе трудными, и затѣмъ приведите свое тѣло и духъ въ разслабленное состояніе—погрузитесь въ молчаніе—и новый свѣтъ распространится на васъ. «Стучите и отверзется вамъ; просите и дастся вамъ».",
+          "english": "If you have not yet fully understood the meaning of one instruction or another given in this little work, do not worry, for in time you will understand everything. Reread the lessons that are most difficult for you, and then bring your body and mind into a relaxed state—immerse yourself in silence—and new light will spread over you. Knock, and it will be opened to you; ask, and it will be given to you."
+        },
+        {
+          "id": "132-3",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Теперь, дорогіе други, мы достигли распутья. Можетъ быть, мы еще встрѣтимся; если же нѣтъ, то давайте разстанемся съ сознаніемъ, что мы не сдѣлались хуже вслѣдствіе нашего короткаго знакомства. Если я оказалъ вамъ хотя нѣкоторую пользу, пробудивъ въ васъ новыя мысли, надежды и стремленія, то постарайтесь осуществить ихъ въ своихъ дѣйствіяхъ и поступкахъ.",
+          "english": "Now, dear friends, we have reached a parting of the ways. Perhaps we shall meet again; if not, let us part knowing that our brief acquaintance has not made us worse. If I have been of even some benefit to you by awakening new thoughts, hopes and aspirations, try to realize them in your actions and conduct."
+        },
+        {
+          "id": "132-4",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Наша небольшая прогулка вдоль береговъ потока доставила для меня удовольствіе, и я думаю, что я не заставилъ васъ скучать и не вызвалъ сожалѣнія о случайномъ знакомствѣ; будьте увѣрены, что «ничего не происходитъ случайно».",
+          "english": "Our little walk along the banks of the stream has given me pleasure, and I think I have neither bored you nor caused you to regret our chance acquaintance; be assured that nothing happens by chance."
+        },
+        {
+          "id": "132-5",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Я благодарю васъ за ваше любезное вниманіе.",
+          "english": "I thank you for your kind attention."
         }
       ]
     }

@@ -17,3 +17,10 @@ The UI attributes those claims and separates this text from modern guidance.
 Do not mark full-source extraction/transcription complete from this batch. Next
 proofreading priorities: second comparison of punctuation/word spacing; adjacent
 page114 boundary; subsequent full-page batches for published source protocols.
+
+Second batch: Lesson XV, full body text of PDF132 / printed120, five aligned
+paragraphs. Header/end ornament omitted; preceding-page reference retained, no
+missing quotation reconstructed. Russian warning construction and contextual
+translation of духъ documented as editorial questions. Draft scan-compared only.
+Current coverage: three full body-text pages (115,116,132); source completeness
+and independent review remainfalse.

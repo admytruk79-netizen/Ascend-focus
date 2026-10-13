@@ -379,3 +379,13 @@ Paragraph/page boundaries and incomplete edge fragments preserved. Primary scans
 compared, independent proofreading pending; full-source complete flags remainfalse.
 The historical screen exposes the draft as a separate source panel; existing
 protocol paraphrase and modern guidance stay distinct. No timer/progression change.
+
+## Transcription pass — Lesson XV full page132
+
+Five aligned body-text paragraphs added to src/sourceTranscriptions.json, shown
+in Read and Rest historical source panel. Preserves no-harm warning, reread/relax/
+silence prescription, scriptural wording and farewell. Printed warning syntax
+and духъ translation choice explicitly documented, not silently reconstructed.
+Three full body-text draft pages now registered; independent review and full
+source transcription incomplete. Historical predicted insight is not a guarantee
+in modern guidance; no timer or exercise catalog count changed.

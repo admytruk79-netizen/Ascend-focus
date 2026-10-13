@@ -197,3 +197,17 @@ test('aligned source drafts retain provenance and cannot certify a complete curr
  assert.match(pencil.paragraphs.find(p => p.id === '115-3').english, /time is at your disposal/);
  assert.equal(curriculumStatus.complete, false);
 });
+
+test('final-page translation retains the silence instruction without adding a source duration', () => {
+ const d = JSON.parse(readFileSync(new URL('./sourceTranscriptions.json', import.meta.url), 'utf8'));
+ const p = d.passages.find(p => p.exerciseId === 'reading-reflection');
+ assert.equal(p.paragraphs.length, 5);
+ assert.ok(p.paragraphs.every(p => p.pdfPage === 132 && p.printedPage === 120));
+ const instruction = p.paragraphs.find(p => p.id === '132-2');
+ assert.match(instruction.russian, /погрузитесь въ молчаніе/);
+ assert.match(instruction.english, /Reread the lessons/);
+ assert.match(instruction.english, /new light will spread over you/);
+ assert.doesNotMatch(instruction.english, /two minutes|120 seconds/);
+ assert.equal(p.independentlyReviewed, false);
+ assert.ok(p.uncertainties.some(q => q.includes('without an explicit')));
+});

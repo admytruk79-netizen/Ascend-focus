@@ -48,4 +48,15 @@ describe('source presentation', () => {
     expect(guided).not.toContain('radical remedy');
   });
 
+  it('attributes final-page insight promises and keeps them out of guided instructions', () => {
+    const exercise = exercises.find(e => e.id === 'reading-reflection')!;
+    const historical = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+    const guided = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: false }));
+    expect(historical).toContain('Source paragraph 132-2');
+    expect(historical).toContain('new light will spread over you');
+    expect(historical).toContain('Historical claims are not endorsed');
+    expect(guided).not.toContain('new light will spread over you');
+    expect(guided).toContain('No new insight is required');
+  });
+
 });

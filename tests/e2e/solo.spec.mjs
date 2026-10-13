@@ -142,6 +142,9 @@ test('final-lesson reading practice runs and saves without an insight requiremen
  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('No new insight is required');
  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Historical source instructions' })).toContainText('Reread the lessons');
+ await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
+ await expect(page.getByRole('region', { name: 'Source paragraph 132-2' })).toContainText('immerse yourself in silence');
+ await expect(page.getByRole('region', { name: 'Source paragraph 132-2' })).toContainText('погрузитесь въ молчаніе');
  await page.screenshot({ path: 'test-results/screenshots/read-and-rest-source-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
  await page.getByRole('checkbox', { name: 'Use an optional practice timer' }).uncheck();
