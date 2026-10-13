@@ -30,9 +30,10 @@ Header, guided/historical toggle, accessible ordered instructions, safety notice
 Device-local entries, export JSON, no account requirement. Future: encrypted sync only with explicit user approval.
 
 ## 5 Community
-Circles and paired experiments preview tiles; not described as live until hosted authentication, storage, moderation and real user identities are established.
+Circle creation, membership requests, discussions and moderation connect to the Node/SQLite API after a successful service check. Without that API, the screen explicitly offers local drafts only. Paired experiments remain unavailable.
 
 ## 6 Profile
 Quiet mode, access preferences, privacy and data controls.
 
-These mockups are reflected by the running React screen implementation. The community service, Capacitor builds and all-source extraction are future phases.
+These mockups are reflected by the React implementation. Community deployment, Capacitor builds and full source extraction remain pending; see COMMUNITY.md for backend setup and limitations.
+

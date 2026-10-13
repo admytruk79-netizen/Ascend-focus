@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "XV",
+    "pdfPages": [
+      128,
+      129,
+      130,
+      131,
+      132
+    ],
+    "printedPages": [
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "pageImagesChecked": [
+      128,
+      129,
+      130,
+      131,
+      132
+    ]
+  },
+  "records": [
+    {
+      "id": "XV-scope-and-literature",
+      "lesson": "XV",
+      "pdfPages": [
+        128,
+        129
+      ],
+      "printedPages": [
+        116,
+        117
+      ],
+      "classification": "historical-summary-and-reading-reference",
+      "normalizedEnglish": "Author outlines scope, refers to an intended book Law of New Thought, criticizes vague literature and urges not being deceived by isms. This is a reference, not missing instructions supplied by another book.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XV-calm-persistence",
+      "lesson": "XV",
+      "pdfPages": [
+        129,
+        130
+      ],
+      "printedPages": [
+        117,
+        118
+      ],
+      "classification": "historical-general-advice",
+      "normalizedEnglish": "Calm persistence, confidence and expectation recommended; predicted success remains historical claim, no performance rule.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XV-posture-and-metaphysical-affirmation",
+      "lesson": "XV",
+      "pdfPages": [
+        130
+      ],
+      "printedPages": [
+        118
+      ],
+      "classification": "unnumbered-historical-prescription",
+      "normalizedEnglish": "Lift head/eyes, shoulders back, fill lungs with natural ozone, then affirm divine/eternal identity and invulnerability. Ozone is historical wording, not an instruction to seek ozone exposure; no breath dose supplied. Theology and invulnerability not established or guided.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XV-ethics-and-retaliation",
+      "lesson": "XV",
+      "pdfPages": [
+        130,
+        131,
+        132
+      ],
+      "printedPages": [
+        118,
+        119,
+        120
+      ],
+      "classification": "historical-ethical-advice",
+      "normalizedEnglish": "Non-harm and respect coexist with retaliation/self-defence/club language. Distinguish actual violation from imagined harm as stated. Animal/person victim-blaming analogies are historical rhetoric, not community policy or modern violence guidance.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XV-reread-and-silence",
+      "lesson": "XV",
+      "pdfPages": [
+        132
+      ],
+      "printedPages": [
+        120
+      ],
+      "classification": "unnumbered-historical-practice",
+      "normalizedEnglish": "Reread the most difficult lessons, then relax body/mind and immerse oneself in silence; author predicts new understanding. No numerical duration, breath protocol or fixed repetition.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "reading-reflection",
+      "originalRussian": "Прочтите вновь тѣ лекціи, которыя являются для васъ наиболѣе трудными,",
+      "scanCheckedQuotePage": 132,
+      "duration": {
+        "kind": "not-specified",
+        "guidedSeconds": 120,
+        "guidedProvenance": "modern-choice"
+      }
+    },
+    {
+      "id": "XV-final-action-and-farewell",
+      "lesson": "XV",
+      "pdfPages": [
+        132
+      ],
+      "printedPages": [
+        120
+      ],
+      "classification": "historical-closing-advice",
+      "normalizedEnglish": "Put new thoughts/hopes into actions, farewell and thanks; no additional protocol.",
+      "rawRecordExecutable": false
+    }
+  ],
+  "unnumberedHistoricalPrescriptions": 2,
+  "newRunnableModules": 1,
+  "nonInstructionTrailingPages": [
+    133,
+    134,
+    135,
+    136,
+    137,
+    138
+  ],
+  "trailingPageImagesChecked": [
+    133,
+    134,
+    135,
+    136,
+    137,
+    138
+  ],
+  "nextSequentialPage": null,
+  "lessonSequentialReading": {
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  }
+}

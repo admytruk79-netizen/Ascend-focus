@@ -3,7 +3,7 @@
 Native app identifier: `com.hiddenlaws.ascendfocus`. Confirm identifier ownership before store submission. Native projects are **not yet generated or installed** merely by this configuration.
 
 ## Requirements
-- Node 20+ and npm, supported Capacitor 7 toolchain
+- Node 24+ and npm, supported Capacitor 7 toolchain
 - Android: Android Studio, Android SDK, JDK 21
 - iOS: macOS, Xcode and an Apple Developer team for signing/TestFlight
 - Use a real device for installation and notification/back-navigation validation
@@ -33,3 +33,4 @@ npm run mobile:ios:open
 
 ## Release gates
 Android APK debug build and manual device install; Android signed AAB for Play Console; signed iOS archive and TestFlight upload from Xcode on macOS. Do not call a build installed or App Store-ready until it has been tested and signed.
+

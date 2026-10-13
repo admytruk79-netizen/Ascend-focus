@@ -1,13 +1,23 @@
 node_modules/
 dist/
-coverage/
-.DS_Store
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
 .env
 .env.*
 !.env.example
+*.tsbuildinfo
+references/*.pdf
+references/review/
+references/ocr/
+
+playwright-report/
+test-results/
+
+coverage/
+.DS_Store
 *.log
-# Native tooling creates these during initialization. The Android and iOS
-# projects should be committed after generation and reviewed separately.
 android/.gradle/
 android/.idea/
 android/local.properties

@@ -12,3 +12,4 @@ describe("guided exercise steps",()=>{
   expect(html).toContain("Instruction progress");
  });
 });
+

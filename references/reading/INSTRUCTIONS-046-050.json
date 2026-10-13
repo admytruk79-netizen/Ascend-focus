@@ -1,0 +1,284 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "VI",
+    "pdfPages": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "printedPages": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "pageImagesChecked": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "sourceContext": {
+    "pdfPage": 46,
+    "details": "Author assumes the so-called magnetic gaze for this application lesson and promises development exercises next; not an assessed prerequisite."
+  },
+  "records": [
+    {
+      "id": "VI-conversation-gaze",
+      "lesson": "VI",
+      "pdfPages": [
+        47
+      ],
+      "printedPages": [
+        35
+      ],
+      "classification": "historical-coercive-influence-instruction",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 47,
+      "originalRussian": "Всѣми средствами помѣшайте ему въ эту минуту отвернуться отъ васъ.",
+      "normalizedEnglish": "Use firm direct eye contact for requests and prevent the other from turning away; at that moment is not a minute-long practice timer.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "exclusionReason": "Conflicts with voluntary attention/conversation and respect for disengagement. Documentary preservation only."
+    },
+    {
+      "id": "VI-recapturing-gaze",
+      "lesson": "VI",
+      "pdfPages": [
+        48
+      ],
+      "printedPages": [
+        36
+      ],
+      "classification": "historical-coercive-influence-instruction",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 48,
+      "originalRussian": "выдерживая его взоръ усиліемъ вашей воли.",
+      "normalizedEnglish": "Look aside while watching indirectly, then sharply return gaze when the other looks back; source aims to catch a disadvantaged moment.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "exclusionReason": "Conflicts with voluntary attention/conversation and respect for disengagement. Documentary preservation only."
+    },
+    {
+      "id": "VI-object-assisted-attention",
+      "lesson": "VI",
+      "pdfPages": [
+        48
+      ],
+      "printedPages": [
+        36
+      ],
+      "classification": "historical-coercive-influence-instruction",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 48,
+      "originalRussian": "то очень хорошо будетъ имѣть что-нибудь подъ рукою, чтобы показать ему: образчикъ, рисунокъ или какой-нибудь предметъ, относящійся къ вашему дѣлу.",
+      "normalizedEnglish": "Show a business-related sample, picture or object to draw attention and recapture gaze; not an ordinary-object observation exercise.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "exclusionReason": "Conflicts with voluntary attention/conversation and respect for disengagement. Documentary preservation only."
+    },
+    {
+      "id": "VI-preventing-conversation-exit",
+      "lesson": "VI",
+      "pdfPages": [
+        48,
+        49
+      ],
+      "printedPages": [
+        36,
+        37
+      ],
+      "classification": "historical-coercive-influence-instruction",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 49,
+      "originalRussian": "Не оставляйте его до тѣхъ поръ, пока не добьетесь того, за чѣмъ пришли.",
+      "normalizedEnglish": "The author says not to permit the other to end the conversation and to remain until obtaining the objective.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "exclusionReason": "Conflicts with voluntary attention/conversation and respect for disengagement. Documentary preservation only."
+    },
+    {
+      "id": "VI-self-protection-pause-refusal",
+      "lesson": "VI",
+      "pdfPages": [
+        49,
+        50
+      ],
+      "printedPages": [
+        37,
+        38
+      ],
+      "classification": "prose-self-protection-sequence",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 49,
+      "originalRussian": "Но если же все-таки ему удастся сдѣлать вамъ внезапное внушеніе или предложеніе, поймавъ вашъ взглядъ, то не отвѣчайте ему, пока не отведете своихъ глазъ на минуту въ сторону и не возстановите своего духовнаго равновѣсія.",
+      "normalizedEnglish": "Maintain steadiness, look aside to consider a proposal, pause for a minute before answering an unexpected suggestion, then refuse firmly/clearly/politely if no; when in doubt say no.",
+      "duration": {
+        "kind": "source-phrase",
+        "pdfPage": 49,
+        "originalPhrase": "на минуту",
+        "normalizedEnglish": "for a minute",
+        "scope": "Looking aside before answering an unexpected proposal, not total session duration.",
+        "appTimerSeconds": null,
+        "interpretationNote": "Timing wording retained; no recurring stopwatch or progression schedule specified."
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "originalProcedureParaphrase": [
+        "Maintain a steady mental attitude.",
+        "Avoid continuous gaze capture and look aside while considering a proposal.",
+        "Before answering an unexpected proposal, look aside for a minute and restore equilibrium.",
+        "For a refusal, look directly and say no firmly, clearly and politely.",
+        "When in doubt, say no; keep the metaphorical active partner alert and prevent the speaker from addressing the passive partner."
+      ],
+      "editorialNote": "The protective thought-wave explanation is historical and unverified. Optional eye contact and ordinary decision-pause framing would be modern safeguards."
+    },
+    {
+      "id": "VI-firm-suggestions",
+      "lesson": "VI",
+      "pdfPages": [
+        50
+      ],
+      "printedPages": [
+        38
+      ],
+      "classification": "historical-influence-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 50,
+      "originalRussian": "Вы должны научиться давать внушенія въ настойчивой, твердой, положительной формѣ;",
+      "normalizedEnglish": "The author prescribes persistent firm positive suggestions, a voice expecting fulfillment and confidence in compliance.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "VI-confident-persistence-image",
+      "lesson": "VI",
+      "pdfPages": [
+        50
+      ],
+      "printedPages": [
+        38
+      ],
+      "classification": "conceptual-imagery-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 50,
+      "originalRussian": "увѣренная настойчивость",
+      "normalizedEnglish": "Form a mental image of the meaning of confident persistence; a conceptual aid to the author's influence advice, with no specified stages.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "VI-listener-receptivity",
+      "lesson": "VI",
+      "pdfPages": [
+        50
+      ],
+      "printedPages": [
+        38
+      ],
+      "classification": "historical-self-protection-prescription",
+      "authorAttribution": "Atkinson main text",
+      "executable": false,
+      "guidedPublicationAllowed": false,
+      "editorialReviewStatus": "not-approved-for-runtime",
+      "scanCheckedQuotePage": 50,
+      "originalRussian": "Положительное сильнѣе отрицательнаго и поэтому всегда слѣдуетъ стараться избѣгать воспріятія положительныхъ внушеній, когда самъ находишься въ пассивномъ положеніи.",
+      "normalizedEnglish": "The author says the positive is stronger than the negative and advises avoiding reception of positive suggestions when oneself is in a passive position.",
+      "duration": {
+        "kind": "not-specified"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "progression": {
+        "kind": "not-specified"
+      },
+      "editorialNote": "Positive/negative here concern the author's dominant/receptive influence model, not a validated diagnosis or moral judgment of thoughts."
+    }
+  ],
+  "excludedAsTimers": [
+    {
+      "pdfPage": 47,
+      "sourcePhrase": "въ эту минуту",
+      "reason": "At that moment, not a one-minute exercise duration."
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 51
+}

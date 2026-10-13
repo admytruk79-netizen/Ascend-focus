@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "XIII",
+    "pdfPages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "printedPages": [
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+    ],
+    "pageImagesChecked": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ]
+  },
+  "records": [
+    {
+      "id": "XIII-ordinary-and-hidden-concentration",
+      "lesson": "XIII",
+      "pdfPages": [
+        111,
+        112
+      ],
+      "printedPages": [
+        99,
+        100
+      ],
+      "classification": "historical-definition-and-textual-issue",
+      "normalizedEnglish": "Source distinguishes focus on one thought/action from focus on I am/higher self. Printed exoteric labels appear with both ordinary and hidden framing; do not silently substitute esoteric. Independent edition comparison pending.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIII-work-and-social-rhetoric",
+      "lesson": "XIII",
+      "pdfPages": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "printedPages": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "classification": "historical-general-advice-and-claim",
+      "normalizedEnglish": "Author urges attention and interest in work, predicts success/reward and uses harsh worker-blaming rhetoric. These are historical socioeconomic claims, not modern guarantees or app feedback.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIII-pencil-sharpening",
+      "lesson": "XIII",
+      "pdfPages": [
+        115,
+        116
+      ],
+      "printedPages": [
+        103,
+        104
+      ],
+      "classification": "unnumbered-historical-practice",
+      "normalizedEnglish": "Take a pencil and sharpen it as well as possible; time is at the reader’s disposal. Attend to the action and quality while excluding unrelated thoughts. Continuation says practice is needed even for monotonous tasks. No numeric dose or objective mastery threshold.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "pencil-sharpening",
+      "originalRussian": "Возьмите карандашъ и постарайтесь очинить его какъ можно лучше.",
+      "scanCheckedQuotePage": 115,
+      "originalProcedureParaphrase": [
+        "Take a pencil and sharpen it as well as possible.",
+        "Time is at the reader’s disposal.",
+        "Apply attention and thought to this task, setting aside other thoughts; temporarily focus on a well-sharpened point.",
+        "Continuation calls for practice; no numeric threshold supplied."
+      ],
+      "duration": {
+        "kind": "not-specified",
+        "guidedSeconds": 120,
+        "guidedProvenance": "modern-choice"
+      },
+      "repetitions": {
+        "kind": "not-specified"
+      },
+      "modernChanges": [
+        "Familiar hand sharpener and stable surface",
+        "Non-sharpening alternatives and gentle return",
+        "No perfection, uninterrupted-focus or guaranteed reward requirement"
+      ]
+    },
+    {
+      "id": "XIII-focus-and-sunlight-analogy",
+      "lesson": "XIII",
+      "pdfPages": [
+        116,
+        117
+      ],
+      "printedPages": [
+        104,
+        105
+      ],
+      "classification": "historical-analogy-and-common-guidance",
+      "normalizedEnglish": "Sunlight through a burning glass illustrates concentration, not a prescribed fire/light experiment. Do one thing at a time, applying effort; combine concentration with previous lesson’s practice. Minute-long reflection wording is explanatory, not a new one-minute session prescription.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIII-rest-and-changing-subject",
+      "lesson": "XIII",
+      "pdfPages": [
+        117,
+        118
+      ],
+      "printedPages": [
+        105,
+        106
+      ],
+      "classification": "historical-theory-and-practical-example",
+      "normalizedEnglish": "Author proposes changing the focus of thought as rest, using an engrossing story as an example and speculating about groups of brain cells. Conditional theory is not established neuroscience or a fatigue treatment; no fixed reading duration.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIII-closing-principle",
+      "lesson": "XIII",
+      "pdfPages": [
+        119
+      ],
+      "printedPages": [
+        107
+      ],
+      "classification": "historical-reading-guidance",
+      "normalizedEnglish": "Concentrate attention on one definite thought or action; exercises are models from which readers may invent others. This does not permit attributing invented exercises to Atkinson.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newUnnumberedPractices": 1,
+  "newRunnableModules": 1,
+  "nextSequentialPage": 120,
+  "nextLesson": "XIV",
+  "lessonSequentialReading": {
+    "pdfPages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  },
+  "boundaryEvidence": {
+    "pdfPage": 120,
+    "printedPage": 108,
+    "scanChecked": true,
+    "heading": "Четырнадцатая лекція."
+  }
+}

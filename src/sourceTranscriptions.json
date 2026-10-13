@@ -1,0 +1,322 @@
+{
+  "version": 5,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "passages": [
+    {
+      "id": "XIII-pencil-pages",
+      "exerciseId": "pencil-sharpening",
+      "lesson": "XIII",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF115–116; printed headers excluded. Boundary fragments retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Claims, religious language, perfection demands and benefits are historical text, not endorsed guidance.",
+      "uncertainties": [
+        "Punctuation and word spacing require a second proofread; this is not an independently approved transcription.",
+        "First page begins mid-word continued from114; the initial fragment is retained, not reconstructed.",
+        "The lower-page parenthetical focus sentence on116 has awkward source syntax, translated without repairing the Russian."
+      ],
+      "paragraphs": [
+        {
+          "id": "115-1",
+          "pdfPage": 115,
+          "printedPage": 103,
+          "boundary": "continuation-from-114",
+          "russian": "бавить себя отъ нищеты и несчастія. Беритесь же за дѣло и беритесь теперь же.",
+          "english": "…rid yourself of poverty and misfortune. Set to work, then, and do so now."
+        },
+        {
+          "id": "115-2",
+          "pdfPage": 115,
+          "printedPage": 103,
+          "boundary": "complete-paragraph",
+          "russian": "Человѣкъ, который обладаетъ способностью сосредоточиваться, имѣетъ въ своихъ рукахъ вѣрное средство противъ неудачъ. Какимъ же образомъ? Благодаря тому, что онъ устраняетъ непріятныя мысли и сосредоточивается на болѣе возвышенныхъ предметахъ. Вы не должны говорить, что вы не можете этого сдѣлать. Если вы пріобрѣли «навыкъ», то вы будете способны дѣлать это. Тысячи людей нашли въ этомъ радикальное средство противъ неудачъ, отчаянія, страха, боязни и т. п. Попробуйте его и вы увидите, что жизнь явится для васъ въ совершенно иномъ свѣтѣ. Испробуйте его и вы будете такъ хорошо себя чувствовать, что едва ли пожелаете имѣть въ числѣ своихъ родственниковъ президента. Испробуйте его и вы будете ощущать «движеніе жизни» вокругъ себя и будете благодарить Бога за то, что живете, вмѣсто того чтобы проклинать день своего рожденія. Вы будете лучше выполнять свою работу; вы будете лучше себя чувствовать; вы сами станете лучше. Развѣ все это не стоитъ того, чтобы попытаться?",
+          "english": "A person who possesses the ability to concentrate has a sure means against failure in their hands. How? By setting aside unpleasant thoughts and concentrating on more elevated subjects. You must not say that you cannot do this. If you have acquired the habit, you will be able to do it. Thousands of people have found in it a radical remedy for failure, despair, fear, apprehension and the like. Try it, and you will see life in an entirely different light. Try it, and you will feel so well that you will hardly wish to have the president among your relatives. Try it, and you will feel the movement of life around you and thank God for being alive, instead of cursing the day of your birth. You will do your work better; you will feel better; you yourself will become better. Is all this not worth trying?"
+        },
+        {
+          "id": "115-3",
+          "pdfPage": 115,
+          "printedPage": 103,
+          "boundary": "continues-on-116",
+          "russian": "Можетъ быть вы предполагаете, что знаете кое-что о сосредоточеніи (концентраціи). Хорошо, пусть будетъ такъ; покажите же свои знанія. Возьмите карандашъ и постарайтесь очинить его какъ можно лучше. Время въ вашемъ распоряженіи, выполните только эту работу самымъ лучшимъ образомъ. Теперь посмотрите, въ состояніи ли вы сосредоточиться на очинкѣ карандаша и устранить при этомъ всѣ постороннія мысли. Постарайтесь посвятить работѣ всю свою энергію и мысль для лучшаго ея выполненія. Пусть на нѣкоторое время цѣлью вашей жизни будетъ хорошо очиненный кончикъ карандаша. Прекрасно, какъ вы себя чувствуете? Очень трудная, не правда ли, работа? Да, я",
+          "english": "Perhaps you suppose that you know something about concentration. Very well, let that be so; demonstrate your knowledge. Take a pencil and try to sharpen it as well as possible. The time is at your disposal; simply do this work in the best possible way. Now see whether you can concentrate on sharpening the pencil and set aside all unrelated thoughts while doing so. Try to devote all your energy and thought to the work so that it is done better. Let a well-sharpened pencil point be the aim of your life for a little while. Very good; how do you feel? Very difficult work, is it not? Yes, I…"
+        },
+        {
+          "id": "116-1",
+          "pdfPage": 116,
+          "printedPage": 104,
+          "boundary": "continuation-from-115",
+          "russian": "такъ думаю. Вамъ нужна практика, молодой человѣкъ. Возьмитесь за указанныя въ этой лекціи упражненія и продѣлывайте ихъ до тѣхъ поръ, пока вы не будете въ состояніи сдѣлать чего-нибудь, безразлично, что бы это ни было, не позволяя своимъ мыслямъ отвлекаться въ сторону. Каждый въ состояніи сосредоточиться на пріятной работѣ; но если дать ему непріятное и однообразное дѣло, то вы убѣдитесь, что его мысли будутъ отвлекаться отъ дѣла совершенно отъ него независимо; все это будетъ продолжаться до тѣхъ поръ, пока онъ не научится сосредоточиваться при помощи силы воли. Способность сосредоточиваться на непріятной невыносимой и однообразной работѣ является пробнымъ камнемъ. Если вы преодолѣете это затрудненіе, то вы можете быть увѣрены, что проломили брешь въ области безплодныхъ усилій и ненужныхъ движеній. При помощи концентраціи вы будете способны сосредоточивать свое вниманіе, мысль и энергію на опредѣленномъ предметѣ, и благодаря этому достигать лучшихъ по мѣрѣ возможности результатовъ. Лучи солнца, собранные на извѣстной точкѣ при помощи зажигательнаго стекла, нагрѣваютъ эту точку гораздо сильнѣе, чѣмъ обыкновенные лучи того же источника, того же напряженія и той же теплоты. Такъ же обстоитъ дѣло и съ вниманіемъ. Разсѣйте его и вы будете имѣть обыкновенные результаты; но если фокусъ его будетъ находиться на вещи (сконцентрировавъ его на вещи), которую нужно сдѣлать, вы получите изумительный подъемъ энергіи. Сосредоточивающійся человѣкъ концентрируетъ свое вниманіе и силу мысли на одномъ предметѣ; результатъ выражается въ томъ, что каждое его дѣйствіе, произвольное и непроизвольное, направляется къ достиженію цѣли. Какъ я уже говорилъ въ предыдущей лекціи, человѣкъ можетъ достичь всего, что онъ желаетъ, если только онъ непреклонно желаетъ.",
+          "english": "…think so. You need practice, young man. Take up the exercises indicated in this lesson and do them until you can do something—whatever it may be—without allowing your thoughts to wander. Anyone can concentrate on pleasant work; but give someone an unpleasant and monotonous task and you will find their thoughts wandering from it quite independently of them. This will continue until they learn to concentrate by means of willpower. The ability to concentrate on unpleasant, intolerable and monotonous work is the touchstone. If you overcome this difficulty, you may be sure you have broken through the realm of fruitless efforts and unnecessary movements. Through concentration you will be able to focus your attention, thought and energy on a definite subject and thus achieve the best results possible. The rays of the sun gathered at a particular point by a burning glass heat that point much more strongly than ordinary rays from the same source, with the same intensity and warmth. So it is with attention. Scatter it and you will obtain ordinary results; but focus it on the thing to be done and you will obtain an astonishing rise in energy. A concentrating person focuses attention and the power of thought on one subject; the result is that every action, voluntary and involuntary, is directed toward attaining the goal. As I said in the previous lesson, a person can attain everything they desire, provided they desire it unwaveringly."
+        }
+      ]
+    },
+    {
+      "id": "XV-final-page",
+      "exerciseId": "reading-reflection",
+      "lesson": "XV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF132 / printed120; header and decorative end ornament excluded.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical ethical, religious and guaranteed-insight claims are preserved in translation, not endorsed as guided outcomes.",
+      "uncertainties": [
+        "Punctuation and spacing await independent proofreading.",
+        "The first paragraph refers to words on the preceding page; this page alone does not reproduce that quotation.",
+        "The printed warning says предостерегаю васъ злоупотреблять without an explicit отъ. Russian is not repaired; English conveys the contextual warning and records the issue here.",
+        "духъ is rendered mind in the relaxation instruction; this contextual choice does not remove the source’s spiritual worldview."
+      ],
+      "paragraphs": [
+        {
+          "id": "132-1",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Если настоящими словами люди вполнѣ руководились бы въ своей жизни, то не было бы нужды въ судьяхъ, судахъ и тюрьмахъ; жизнь представляла бы изъ себя «одну длинную, пріятную пѣсню». Постарайтесь, съ своей стороны, содѣйствовать достиженію подобнаго результата. Кромѣ этого, я предостерегаю васъ злоупотреблять своей новопріобрѣтенной силой; не затаптывайте дары духа грязью; свободно, законнымъ путемъ примѣняйте его для своего личнаго блага, не причиняя никому ни въ какомъ случаѣ никакого вреда.",
+          "english": "If people were fully guided by these words in their lives, there would be no need for judges, courts or prisons; life would be one long, pleasant song. For your part, try to help bring about such a result. In addition, I caution you regarding misuse of your newly acquired power; do not trample the gifts of the spirit into the mud. Apply it freely and lawfully for your own good, without causing anyone harm under any circumstances."
+        },
+        {
+          "id": "132-2",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Если вы еще и не вполнѣ уяснили себѣ значеніе того или другого наставленія, даннаго въ настоящемъ небольшомъ сочиненіи, то все же не безпокойтесь, такъ какъ со временемъ вы все поймете. Прочтите вновь тѣ лекціи, которыя являются для васъ наиболѣе трудными, и затѣмъ приведите свое тѣло и духъ въ разслабленное состояніе—погрузитесь въ молчаніе—и новый свѣтъ распространится на васъ. «Стучите и отверзется вамъ; просите и дастся вамъ».",
+          "english": "If you have not yet fully understood the meaning of one instruction or another given in this little work, do not worry, for in time you will understand everything. Reread the lessons that are most difficult for you, and then bring your body and mind into a relaxed state—immerse yourself in silence—and new light will spread over you. Knock, and it will be opened to you; ask, and it will be given to you."
+        },
+        {
+          "id": "132-3",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Теперь, дорогіе други, мы достигли распутья. Можетъ быть, мы еще встрѣтимся; если же нѣтъ, то давайте разстанемся съ сознаніемъ, что мы не сдѣлались хуже вслѣдствіе нашего короткаго знакомства. Если я оказалъ вамъ хотя нѣкоторую пользу, пробудивъ въ васъ новыя мысли, надежды и стремленія, то постарайтесь осуществить ихъ въ своихъ дѣйствіяхъ и поступкахъ.",
+          "english": "Now, dear friends, we have reached a parting of the ways. Perhaps we shall meet again; if not, let us part knowing that our brief acquaintance has not made us worse. If I have been of even some benefit to you by awakening new thoughts, hopes and aspirations, try to realize them in your actions and conduct."
+        },
+        {
+          "id": "132-4",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Наша небольшая прогулка вдоль береговъ потока доставила для меня удовольствіе, и я думаю, что я не заставилъ васъ скучать и не вызвалъ сожалѣнія о случайномъ знакомствѣ; будьте увѣрены, что «ничего не происходитъ случайно».",
+          "english": "Our little walk along the banks of the stream has given me pleasure, and I think I have neither bored you nor caused you to regret our chance acquaintance; be assured that nothing happens by chance."
+        },
+        {
+          "id": "132-5",
+          "pdfPage": 132,
+          "printedPage": 120,
+          "boundary": "complete-paragraph",
+          "russian": "Я благодарю васъ за ваше любезное вниманіе.",
+          "english": "I thank you for your kind attention."
+        }
+      ]
+    },
+    {
+      "id": "XIV-page-121",
+      "exerciseId": "stillness",
+      "lesson": "XIV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF121 / printed109; header excluded. Adjacent exercise context and boundary fragments retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical movement suppression, mastery demands and rest-cure claims are transcribed for comparison, not endorsed guidance.",
+      "uncertainties": [
+        "Punctuation and word spacing await independent proofreading.",
+        "Opening and closing page fragments are not reconstructed from neighboring pages.",
+        "спокойствіе is rendered stillness in the seated task; the Russian also carries a sense of calm."
+      ],
+      "paragraphs": [
+        {
+          "id": "121-1",
+          "pdfPage": 121,
+          "printedPage": 109,
+          "boundary": "continuation-from-120",
+          "russian": "сосредоточиваться, задерживать невольныя мускульныя движенія; послѣ небольшой практики вы будете способны спокойно сидѣть, не двигая мускулами, пятнадцать и болѣе минутъ. Самый лучшій способъ для этого состоитъ въ слѣдующемъ: сядьте въ удобное кресло, займите удобное положеніе, ослабьте всѣ мускулы и постарайтесь сохранять полнѣйшее спокойствіе въ продолженіе пяти минутъ. Продолжайте продѣлывать это упражненіе до тѣхъ поръ, пока вы будете способны очень легко выполнять его; затѣмъ увеличьте время до десяти минутъ; послѣ того, какъ вы научитесь сохранять спокойствіе въ теченіе десяти минутъ, продлите время до пятнадцати минутъ; этого времени будетъ вполнѣ достаточно. Вы не должны переутомлять себя какъ этимъ, такъ и какимъ-либо другимъ упражненіемъ. Лучше всего упражняться понемногу, но какъ можно чаще. Имѣйте въ виду, что вы отнюдь не должны сидѣть въ оцѣпенѣломъ положеніи; не должно имѣть мѣсто ни малѣйшее напряженіе мускуловъ; вамъ слѣдуетъ совсѣмъ ихъ ослабить. Подобный способъ ослабленія очень полезенъ въ тѣхъ случаяхъ, когда вы пожелаете хорошо отдохнуть послѣ утомительнаго напряженія. Въ немъ заключается идеальное «леченіе отдыхомъ», которое можно производить сидя въ креслѣ или лежа въ постели или на диванѣ.",
+          "english": "…to concentrate and restrain involuntary muscular movements; after a little practice you will be able to sit quietly, without moving your muscles, for fifteen minutes or more. The best method is this: sit in a comfortable chair, adopt a comfortable position, relax all the muscles and try to remain completely still for five minutes. Continue this exercise until you can perform it very easily; then increase the time to ten minutes. After you have learned to remain still for ten minutes, extend it to fifteen minutes; that will be quite sufficient. You must not overfatigue yourself with this or any other exercise. It is best to practise a little at a time, but as often as possible. Bear in mind that you must not sit rigidly; there should be no muscular tension at all. You should relax the muscles completely. This method of relaxation is very useful when you wish to rest well after tiring exertion. It is an ideal rest cure, which can be practised sitting in a chair or lying in bed or on a sofa."
+        },
+        {
+          "id": "121-2",
+          "pdfPage": 121,
+          "printedPage": 109,
+          "boundary": "continues-on-122",
+          "russian": "А.—2. Сядьте прямо (выпрямившись) въ своемъ креслѣ; поднимите голову, выставьте впередъ подбородокъ и отодвиньте назадъ плечи. Протяните свою правую руку въ горизонтальномъ направленіи направо на одномъ уровнѣ съ плечомъ. Поверните свою голову и направьте пристальный взглядъ на свою руку; держите ее въ выпрямленномъ положеніи въ теченіе одной минуты. Продѣлайте то же самое съ лѣвой рукой. Когда вы будете способны въ совершенствѣ выполнять это упражненіе, увеличьте время до двухъ",
+          "english": "A.—2. Sit upright in your chair; raise your head, put your chin forward and draw your shoulders back. Extend your right arm horizontally to the right at shoulder level. Turn your head and look intently at your arm; hold it extended for one minute. Do the same with your left arm. When you can perform this exercise perfectly, increase the time to two…"
+        }
+      ]
+    },
+    {
+      "id": "XIV-page-122",
+      "exerciseId": "arm-observation",
+      "lesson": "XIV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF122 / printed110; header excluded. Adjacent exercise context and boundary fragments retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical movement suppression, mastery demands and rest-cure claims are transcribed for comparison, not endorsed guidance.",
+      "uncertainties": [
+        "Punctuation and word spacing await independent proofreading.",
+        "рюмка is translated small glass; specific vessel size is not inferred.",
+        "A4 suppression of blinking/fidgeting is historical documentation, never modern guided advice."
+      ],
+      "paragraphs": [
+        {
+          "id": "122-1",
+          "pdfPage": 122,
+          "printedPage": 110,
+          "boundary": "continuation-from-121",
+          "russian": "минутъ, затѣмъ до трехъ и такъ далѣе до тѣхъ поръ, пока вы будете способны сохранять подобное положеніе въ теченіе пяти минутъ. Ладонь руки при этомъ должна быть обращена къ низу, такъ какъ это является наиболѣе легкимъ положеніемъ. Направляя взглядъ на кончики пальцевъ, вы всегда будете въ состояніи опредѣлить, сохраняетъ ли ваша рука вполнѣ спокойное положеніе.",
+          "english": "…minutes, then to three, and so on until you can maintain this position for five minutes. The palm should face downward, as this is the easiest position. By looking at the fingertips, you will always be able to tell whether your arm remains completely still."
+        },
+        {
+          "id": "122-2",
+          "pdfPage": 122,
+          "printedPage": 110,
+          "boundary": "complete-paragraph",
+          "russian": "А.—3. Наполните рюмку водой вплоть до краевъ и возьмите ее пальцами; вытяните правую руку прямо предъ собой. Устремите глаза на рюмку и постарайтесь настолько спокойно держать руку, чтобы невозможно было замѣтить колебанія воды. Начинайте это упражненіе съ минуты и постепенно увеличьте его до пяти минутъ; здѣсь будетъ граница; упражняйтесь поперемѣнно правой и лѣвой рукой.",
+          "english": "A.—3. Fill a small glass with water to the brim and hold it with your fingers; extend your right arm straight in front of you. Fix your eyes on the glass and try to hold your arm so still that no movement of the water can be seen. Begin this exercise with one minute and gradually increase it to five minutes; that is the limit. Practise alternately with the right and left hand."
+        },
+        {
+          "id": "122-3",
+          "pdfPage": 122,
+          "printedPage": 110,
+          "boundary": "continues-on-123",
+          "russian": "А.—4. Въ своей повседневной жизни по возможности избѣгайте натянутаго напряженнаго состоянія мускуловъ, когда чувствуете расположеніе къ покою. Постарайтесь пріобрѣсти уравновѣшенныя манеры и походку. Выработайте пріятное обращеніе и самообладаніе взамѣнъ нервозности и крайне озабоченнаго вида. Умственныя упражненія принесутъ вамъ пользу при выработкѣ умѣнія держать себя и обходиться съ окружающими. Перестаньте стучать въ «тактъ» пальцами по столу или стулу; подобныя дѣйствія показываютъ отсутствіе контроля надъ самимъ собой. Не топайте ногами и не болтайте ими, когда вы говорите или сидите. Вы не должны раскачиваться въ качалкѣ подобно поршню въ машинѣ или маятнику въ часахъ. Не грызите своихъ ногтей и не кусайте своихъ губъ; не щелкайте языкомъ во время чтенія, занятій или письма; не мигайте своими глазами, устраните привычку вздрагивать или подергивать какой-нибудь частью своего тѣла; привычки обыкновенно дѣлаются второй",
+          "english": "A.—4. In everyday life, avoid muscular stiffness and tension as far as possible when you wish to rest. Try to acquire composed manners and a steady gait. Develop pleasant conduct and self-possession instead of nervousness and an excessively worried appearance. Mental exercises will help you develop your bearing and your manner toward others. Stop tapping your fingers in time on a table or chair; such actions show a lack of self-control. Do not stamp or swing your feet while speaking or sitting. Do not rock in a rocking chair like a piston in a machine or a pendulum in a clock. Do not bite your nails or lips; do not click your tongue while reading, studying or writing. Do not blink your eyes; eliminate the habit of starting or twitching any part of the body. Habits commonly become second…"
+        }
+      ],
+      "relatedExerciseIds": [
+        "water-glass"
+      ]
+    },
+    {
+      "id": "XIV-finger-pages",
+      "exerciseId": "finger-unfolding",
+      "relatedExerciseIds": [
+        "thumb-circles",
+        "pointing-finger"
+      ],
+      "lesson": "XIV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF123–124 / printed111–112; headers excluded. A4 continuation, B introduction, B1/B2/B3 and closing fragment retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical suppression of startle, fatigue-persistence demands and promised complete muscle control are documentary claims, not guided recommendations.",
+      "uncertainties": [
+        "Punctuation and word spacing await independent proofreading.",
+        "The printed label on124 is В.—3, not the raw OCR В.—8. English renders the section letter as B.",
+        "The source’s перенесенія мысли is translated thought transference; it is not silently replaced with the separate thought-absorption term.",
+        "The final Ва- fragment continues125; its missing continuation is not inserted into this page."
+      ],
+      "paragraphs": [
+        {
+          "id": "123-1",
+          "pdfPage": 123,
+          "printedPage": 111,
+          "boundary": "continuation-from-122",
+          "russian": "натурой. Вы легко можете ихъ уничтожить при помощи «перенесенія мысли» и упражненій въ концентраціи. Пріучите себя спокойно и хладнокровно относиться къ звукамъ, которые до настоящаго момента заставляли васъ вздрагивать, напримѣръ хлопанье быстро закрытой двери, паденіе книги или какой-нибудь другой вещи и т. п. Вообще крѣпче держите себя въ рукахъ. Указанныя упражненія окажутъ вамъ существенную пользу въ пріобрѣтеніи того, что вы желаете.",
+          "english": "…nature. You can easily eliminate them through thought transference and concentration exercises. Accustom yourself to respond calmly and coolly to sounds that until now have made you start, such as the slam of a quickly closed door, a falling book or some other object, and the like. In general, keep a firmer hold on yourself. The exercises indicated will be of substantial benefit in acquiring what you desire."
+        },
+        {
+          "id": "123-2",
+          "pdfPage": 123,
+          "printedPage": 111,
+          "boundary": "complete-paragraph",
+          "russian": "В. Вышеприведенныя упражненія дадутъ вамъ умѣнье управлять невольными мускульными движеніями и благодаря этому подчинять ваше тѣло контролю произвольныхъ функцій. Слѣдующія же упражненія предназначаются для того, чтобы подчинить ваши произвольныя мускульныя движенія непосредственному контролю, или, говоря иначе, для того, чтобы развить духовныя способности, вызывающія произвольныя мускульныя движенія.",
+          "english": "B. The preceding exercises will give you the ability to govern involuntary muscular movements and thereby bring your body under the control of voluntary functions. The following exercises are intended to bring your voluntary muscular movements under direct control or, in other words, to develop the mental faculties that initiate voluntary muscular movements."
+        },
+        {
+          "id": "123-3",
+          "pdfPage": 123,
+          "printedPage": 111,
+          "boundary": "complete-paragraph",
+          "russian": "В.—1. Сядьте прямо передъ столомъ, положите на него руки и сожмите кулаки, повернувъ ихъ при этомъ ладонями вверхъ такимъ образомъ, чтобы большой палецъ находился на другихъ. Устремите свой взоръ на кулакъ; послѣ этого постепенно отодвигайте большой палецъ, сосредоточивая все свое вниманіе на этомъ дѣйствіи, какъ будто бы это имѣетъ для васъ большое значеніе. Затѣмъ медленно вытяните (разогните) свой указательный палецъ, послѣ него второй и такъ далѣе вплоть до послѣдняго. Затѣмъ продѣлайте наоборотъ; сначала загните мизинецъ и продолжайте загибаніе пальцевъ далѣе, пока кулакъ не приметъ своего прежняго вида; при этомъ большой палецъ будетъ лежать на пальцахъ. Продолжайте то же самое съ лѣвой рукой. Повторите это упражненіе пять разъ во время одного сеанса, впослѣдствіи вы можете продѣлывать его по десяти разъ.",
+          "english": "B.—1. Sit upright before a table, rest your hands on it and close your fists, turning the palms upward so that the thumb lies over the other fingers. Direct your gaze at the fist; then gradually move the thumb away, concentrating all your attention on this action as though it were of great importance to you. Next slowly extend, or unfold, your index finger, then the next finger, and so on to the last. Then reverse the procedure: bend the little finger first and continue bending the fingers until the fist has resumed its previous form, with the thumb resting on the fingers. Do the same with the left hand. Repeat this exercise five times during one session; later you may perform it ten times."
+        },
+        {
+          "id": "124-1",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "complete-paragraph",
+          "russian": "Это упражненіе вызоветъ у васъ «утомленіе», но вамъ слѣдуетъ настойчиво повторять его, такъ какъ оно очень важно для васъ вслѣдствіе развитія вашего вниманія и направленія его на простыя и однообразныя дѣйствія; кромѣ этого оно дастъ вамъ непосредственный контроль надъ всѣми мускульными движеніями. Вы очень скоро почувствуете то благодѣтельное вліяніе, которое окажутъ на васъ эти простыя и, повидимому, неважныя упражненія. Вы не должны ни на одну секунду упускать изъ вниманія сгибаніе и разгибаніе пальцевъ. Въ этомъ заключается вся суть. Если вы пренебрежете этимъ, то вы тѣмъ самымъ окончательно утратите всю пользу отъ продѣлыванія упражненія.",
+          "english": "This exercise will cause you fatigue, but you should repeat it persistently, for it is very important in developing your attention and directing it toward simple and monotonous actions; moreover, it will give you direct control over all muscular movements. You will very soon feel the beneficial influence of these simple and apparently insignificant exercises. You must not lose sight of the bending and unfolding of the fingers for even one second. That is the whole point. If you neglect this, you will thereby lose all benefit from doing the exercise."
+        },
+        {
+          "id": "124-2",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "complete-paragraph",
+          "russian": "В.—2. Это упражненіе представляетъ изъ себя не что иное какъ старую шутку, которую часто можно видѣть у нашихъ крестьянъ; она извѣстна подъ именемъ «вращеніе большихъ пальцевъ». Помѣстите пальцы одной руки въ промежутки между пальцами другой; большіе пальцы оставьте свободными. Послѣ этого медленно начните вращать одинъ большой палецъ вокругъ другого, сосредоточивъ одновременно все свое вниманіе на концахъ большихъ пальцевъ.",
+          "english": "B.—2. This exercise is simply an old pastime often seen among our peasants, known as twirling the thumbs. Place the fingers of one hand in the spaces between the fingers of the other, leaving the thumbs free. Then slowly begin to rotate one thumb around the other while concentrating all your attention on the tips of the thumbs."
+        },
+        {
+          "id": "124-3",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "complete-paragraph",
+          "russian": "В.—3. Положите правую руку на колѣно, сжавъ всѣ ея пальцы, за исключеніемъ указательнаго пальца, вытянутаго впередъ, въ кулакъ; затѣмъ начните медленно водить пальцемъ изъ стороны въ сторону, сосредоточивъ все свое вниманіе на его кончикѣ.",
+          "english": "B.—3. Rest your right hand on your knee, closing all its fingers into a fist except the index finger, which is extended forward. Then slowly begin moving that finger from side to side, concentrating all your attention on its tip."
+        },
+        {
+          "id": "124-4",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "continues-on-125",
+          "russian": "Подобныя упражненія можно, конечно, видоизмѣнять до безконечности; вы должны поэтому обратиться къ своей изобрѣтательности для отыскиванія все новыхъ и новыхъ дальнѣйшихъ упражненій; главная идея заключается въ томъ, что упражненіе должно состоять изъ нѣсколькихъ простыхъ, обычныхъ, монотонныхъ мускульныхъ движеній, при чемъ все вниманіе сосредоточивается на движущейся части тѣла. Ва-",
+          "english": "Exercises of this kind can, of course, be varied indefinitely; you should therefore use your ingenuity to find further exercises. The main idea is that the exercise should consist of a few simple, ordinary, monotonous muscular movements, with all attention concentrated on the moving part of the body. Your…"
+        }
+      ]
+    }
+  ],
+  "exerciseSelections": [
+    {
+      "exerciseId": "pencil-sharpening",
+      "paragraphIds": [
+        "115-3",
+        "116-1"
+      ]
+    },
+    {
+      "exerciseId": "reading-reflection",
+      "paragraphIds": [
+        "132-2"
+      ]
+    },
+    {
+      "exerciseId": "stillness",
+      "paragraphIds": [
+        "121-1"
+      ]
+    },
+    {
+      "exerciseId": "arm-observation",
+      "paragraphIds": [
+        "121-2",
+        "122-1"
+      ]
+    },
+    {
+      "exerciseId": "water-glass",
+      "paragraphIds": [
+        "122-2"
+      ]
+    },
+    {
+      "exerciseId": "finger-unfolding",
+      "paragraphIds": [
+        "123-3",
+        "124-1"
+      ]
+    },
+    {
+      "exerciseId": "thumb-circles",
+      "paragraphIds": [
+        "124-2"
+      ]
+    },
+    {
+      "exerciseId": "pointing-finger",
+      "paragraphIds": [
+        "124-3"
+      ]
+    }
+  ]
+}

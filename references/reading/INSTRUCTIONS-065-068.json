@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "IX",
+    "pdfPages": [
+      65,
+      66,
+      67,
+      68
+    ],
+    "printedPages": [
+      53,
+      54,
+      55,
+      56
+    ],
+    "pageImagesChecked": [
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  "records": [
+    {
+      "id": "IX-self-knowledge-prerequisite",
+      "lesson": "IX",
+      "pdfPages": [
+        65,
+        66
+      ],
+      "printedPages": [
+        53,
+        54
+      ],
+      "classification": "historical-metaphysical-prerequisite",
+      "normalizedEnglish": "The author calls recognition of the real self the first condition for directed will, explicitly says he cannot give special instructions for acquiring that recognition, and describes self as distinct from body and mind. Supporting emerging awareness is qualitative advice, not a scored prerequisite.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalRussian": "Я не могу дать вамъ спеціальныхъ указаній для пріобрѣтенія такой способности къ познанію.",
+      "scanCheckedQuotePage": 65
+    },
+    {
+      "id": "IX-silent-i-am-and-concentration-reference",
+      "lesson": "IX",
+      "pdfPages": [
+        66
+      ],
+      "printedPages": [
+        54
+      ],
+      "classification": "general-practice-reference",
+      "normalizedEnglish": "Carry the thought of the real self with you; the author says silent I am awareness grows during concentration and refers to the next lesson. No separate timed sequence is supplied; do not duplicate Lesson VIII contemplation as a new exercise.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "IX-conversational-mental-demand",
+      "lesson": "IX",
+      "pdfPages": [
+        66,
+        67
+      ],
+      "printedPages": [
+        54,
+        55
+      ],
+      "classification": "historical-attempted-influence-procedure",
+      "normalizedEnglish": "In personal conversation, place a strong mental demand on the interlocutor, believe oneself entitled to do so, and confidently expect unconditional compliance. The author later says to combine directed will with suggestion from earlier lessons and concentration exercises. These instructions and predictions are historical, not demonstrated control or consensual guided practice.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false,
+      "originalProcedureParaphrase": [
+        "During personal conversation, direct a strong mental demand at the interlocutor.",
+        "Support the demand with belief in entitlement and certainty it will be carried out.",
+        "The source subsequently recommends combining this with suggestion and concentration practices; no fixed duration or repetition schedule is given."
+      ],
+      "guidedPublication": "excluded-coercive-influence; any consensual adaptation would require separately labelled modern design"
+    },
+    {
+      "id": "IX-resistance-and-practice-claims",
+      "lesson": "IX",
+      "pdfPages": [
+        67
+      ],
+      "printedPages": [
+        55
+      ],
+      "classification": "historical-unverified-claim",
+      "normalizedEnglish": "The author attributes success to the relative strength of another person’s resistance/will and recommends practice. The swimming-boy comparison is an analogy, not a swimming exercise, duration or progression threshold.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "IX-warning-against-misuse",
+      "lesson": "IX",
+      "pdfPages": [
+        67,
+        68
+      ],
+      "printedPages": [
+        55,
+        56
+      ],
+      "classification": "historical-ethical-warning",
+      "normalizedEnglish": "The author warns against harming or taking advantage of others, permits pursuit of legitimate interests if no injury is done, and predicts eventual suffering for misuse. This is a historical ethical warning and asserted consequence, not explicit participant consent or a scientifically established safeguard.",
+      "authorAttribution": "Atkinson main text",
+      "rawRecordExecutable": false
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newUnnumberedPractices": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 69,
+  "nextLesson": "IX"
+}

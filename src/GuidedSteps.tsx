@@ -1,12 +1,10 @@
 import {useState} from "react";
-type Props={steps:string[];exerciseId:string};
-export function GuidedSteps({steps,exerciseId}:Props){
- const [position,setPosition]=useState(0);
+type Props={steps:string[];exerciseId:string;position?:number;onPositionChange?:(position:number)=>void};
+export function GuidedSteps({steps,exerciseId,position,onPositionChange}:Props){
  const [seen,setSeen]=useState<Record<string,number>>({});
- const current=Math.min(seen[exerciseId]??0,Math.max(0,steps.length-1));
- function navigate(next:number){setSeen(prev=>({...prev,[exerciseId]:Math.max(0,Math.min(steps.length-1,next))}));setPosition(next)}
- // position is intentionally used as a navigation signal for screen-reader announcements.
- void position;
+ const current=Math.min(position??seen[exerciseId]??0,Math.max(0,steps.length-1));
+ function navigate(next:number){setSeen(prev=>({...prev,[exerciseId]:Math.max(0,Math.min(steps.length-1,next))}));onPositionChange?.(Math.max(0,Math.min(steps.length-1,next)))}
+ if(!steps.length)return <p>No verified guided instructions are available.</p>;
  return <div className="guided-steps" aria-label="Guided exercise instructions">
   <p className="eyebrow">STEP {current+1} OF {steps.length}</p>
   <progress value={current+1} max={steps.length} aria-label="Instruction progress"/>
@@ -18,3 +16,4 @@ export function GuidedSteps({steps,exerciseId}:Props){
   <p className="muted">Move between steps at your own pace. You can pause or finish your session at any time.</p>
  </div>;
 }
+

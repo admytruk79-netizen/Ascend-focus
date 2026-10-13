@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "XIV",
+    "pdfPages": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "printedPages": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "pageImagesChecked": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ]
+  },
+  "records": [
+    {
+      "id": "XIV-preparation-and-order",
+      "lesson": "XIV",
+      "pdfPages": [
+        120
+      ],
+      "printedPages": [
+        108
+      ],
+      "classification": "historical-prerequisite-and-theory",
+      "normalizedEnglish": "Author says muscle-control practice should be learned before subsequent exercises; full-control/mastery wording provides no numeric assessment gate. Body/mind/will and thought-vibration theory are historical.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIV-A1",
+      "lesson": "XIV",
+      "pdfPages": [
+        120,
+        121
+      ],
+      "printedPages": [
+        108,
+        109
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Relaxed comfortable sitting: five minutes, then ten, then fifteen when easy. No rigid or tense sitting, no overfatigue. Little-and-often advice has no count; rest-cure assertion is historical, not treatment.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "stillness",
+      "timing": {
+        "initialMinutes": 5,
+        "progressionMinutes": [
+          10,
+          15
+        ],
+        "advanceWhen": "earlier duration easy",
+        "dailyCount": null
+      },
+      "originalRussian": "Вы не должны переутомлять себя какъ этимъ, такъ и какимъ-либо другимъ упражненіемъ.",
+      "scanCheckedQuotePage": 121
+    },
+    {
+      "id": "XIV-A2",
+      "lesson": "XIV",
+      "pdfPages": [
+        121,
+        122
+      ],
+      "printedPages": [
+        109,
+        110
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Sit upright, prescribed head/chin/shoulders; right arm sideways at shoulder level, look toward fingertips, palm down; one minute each side, then two, three and eventually five.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "arm-observation",
+      "timing": {
+        "initialMinutes": 1,
+        "progressionMinutes": [
+          2,
+          3,
+          5
+        ],
+        "dailyCount": null
+      }
+    },
+    {
+      "id": "XIV-A3",
+      "lesson": "XIV",
+      "pdfPages": [
+        122
+      ],
+      "printedPages": [
+        110
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Brim-full small water glass held with fingers, arm in front, observe water movement; one minute gradually to five limit, alternate hands. No intermediate increments specified.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "water-glass",
+      "timing": {
+        "initialMinutes": 1,
+        "limitMinutes": 5,
+        "intermediateIncrements": null
+      }
+    },
+    {
+      "id": "XIV-A4",
+      "lesson": "XIV",
+      "pdfPages": [
+        122,
+        123
+      ],
+      "printedPages": [
+        110,
+        111
+      ],
+      "classification": "historical-daily-life-advice",
+      "normalizedEnglish": "Avoid muscular tension at rest; author urges composed manners and suppressing tapping, leg movement, rocking, nail/lip biting, tongue noises, blinking, twitching and startle. These directives are historical, not guided suppression of natural movement or neurodivergent regulation.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIV-B1",
+      "lesson": "XIV",
+      "pdfPages": [
+        123,
+        124
+      ],
+      "printedPages": [
+        111,
+        112
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Table-supported hands, fists palm-up/thumb across fingers; move thumb, unfold fingers in order, reverse from little finger, left hand. Five per session, later ten, sustained attention. Fatigue/persistence claims preserved historically; guided stops for discomfort.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "finger-unfolding",
+      "repetitions": {
+        "initial": 5,
+        "later": 10,
+        "timedSessionSeconds": null
+      }
+    },
+    {
+      "id": "XIV-B2",
+      "lesson": "XIV",
+      "pdfPages": [
+        124
+      ],
+      "printedPages": [
+        112
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Interlace fingers with thumbs free, slowly circle one thumb around the other, attend to tips; no time/count.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "thumb-circles",
+      "duration": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "XIV-B3",
+      "lesson": "XIV",
+      "pdfPages": [
+        124
+      ],
+      "printedPages": [
+        112
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Right hand on knee, fist except extended index; move index slowly side to side, attend tip; no time/count.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "pointing-finger",
+      "duration": {
+        "kind": "not-specified"
+      }
+    },
+    {
+      "id": "XIV-movement-variants-and-discipline",
+      "lesson": "XIV",
+      "pdfPages": [
+        124,
+        125
+      ],
+      "printedPages": [
+        112,
+        113
+      ],
+      "classification": "historical-general-guidance",
+      "normalizedEnglish": "Simple ordinary monotonous motions with attention on moving part; strict-teacher/pupil metaphor and demands not to drift are historical. No invented numbered variant or objective concentration score.",
+      "rawRecordExecutable": false
+    },
+    {
+      "id": "XIV-C",
+      "lesson": "XIV",
+      "pdfPages": [
+        125,
+        126
+      ],
+      "printedPages": [
+        113,
+        114
+      ],
+      "classification": "structured-historical-drill",
+      "normalizedEnglish": "Choose ordinary uninteresting object such as pencil; five minutes look, turn, inspect and consider use/materials/manufacture, imagine self and pencil alone. Continue ordinary-object requirement; not sharpening.",
+      "rawRecordExecutable": false,
+      "existingCatalogId": "pencil",
+      "timing": {
+        "initialMinutes": 5,
+        "progressionMinutes": []
+      }
+    },
+    {
+      "id": "XIV-closing-claims",
+      "lesson": "XIV",
+      "pdfPages": [
+        126,
+        127
+      ],
+      "printedPages": [
+        114,
+        115
+      ],
+      "classification": "historical-application-and-unverified-claim",
+      "normalizedEnglish": "Practice variants using everyday objects and revisit earlier lessons; author claims self-control grants control over others. No such interpersonal domination result is promised or guided.",
+      "rawRecordExecutable": false
+    }
+  ],
+  "existingStructuredDrillsReconciled": 7,
+  "dailyLifeAdviceGroups": 1,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 128,
+  "nextLesson": "XV",
+  "lessonSequentialReading": {
+    "readingComplete": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false
+  }
+}

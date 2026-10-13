@@ -7,7 +7,15 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "test": "vitest run && npm run test:curriculum && npm run test:community && npm run test:backend && npm run test:practice",
+    "test:community": "node --experimental-strip-types src/community.checks.mjs",
+    "server": "node server/app.mjs",
+    "test:backend": "node server/community.test.mjs",
+    "test:backend:http": "ASCEND_HTTP_TESTS=1 node server/community.test.mjs",
+    "test:curriculum": "node --experimental-strip-types src/curriculum.checks.mjs",
+    "test:practice": "node --experimental-strip-types src/practice.checks.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test:e2e": "playwright test",
     "mobile:sync": "npm run build && cap sync",
     "mobile:android:init": "npm run build && cap add android",
     "mobile:ios:init": "npm run build && cap add ios",
@@ -29,6 +37,10 @@
     "typescript": "^5.7.3",
     "vite": "^6.0.5",
     "vitest": "^2.1.8",
+    "@playwright/test": "^1.56.0",
     "@capacitor/cli": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=24.0.0"
   }
 }

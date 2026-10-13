@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "scope": {
+    "lesson": "IX",
+    "pdfPages": [
+      62,
+      63,
+      64
+    ],
+    "printedPages": [
+      50,
+      51,
+      52
+    ],
+    "pageImagesChecked": [
+      62,
+      63,
+      64
+    ]
+  },
+  "records": [
+    {
+      "id": "IX-influence-and-leadership-framing",
+      "pdfPages": [
+        62,
+        63
+      ],
+      "classification": "historical-theory-and-illustration",
+      "normalizedEnglish": "Atkinson attributes influence and leadership to strength of directed will and awareness of the self, illustrating this with Napoleon. These are author assertions and anecdotes, not controlled evidence or a practice protocol.",
+      "lesson": "IX",
+      "printedPages": [
+        50,
+        51
+      ],
+      "rawRecordExecutable": false,
+      "authorAttribution": "Atkinson main text"
+    },
+    {
+      "id": "IX-purpose-and-action",
+      "pdfPages": [
+        63,
+        64
+      ],
+      "classification": "general-practical-advice",
+      "normalizedEnglish": "Choose a goal and work toward it, removing obstacles; the author says a definite desire and knowledge of oneself are needed to realize plans. No numbered exercise, assessment threshold, duration or repetition schedule appears here.",
+      "lesson": "IX",
+      "printedPages": [
+        51,
+        52
+      ],
+      "rawRecordExecutable": false,
+      "authorAttribution": "Atkinson main text",
+      "originalRussian": "Намѣтьте себѣ цѣль и прямо стремитесь къ ней, удаляя съ своего пути всѣ препятствія.",
+      "scanCheckedQuotePage": 63
+    },
+    {
+      "id": "IX-near-and-distant-influence-theory",
+      "pdfPages": [
+        64
+      ],
+      "classification": "historical-unverified-claim",
+      "normalizedEnglish": "The author defines directed will as a conscious manifestation of will producing thought vibrations aimed at an object, distinguishes conversation from distant transmission called telepathy, and cites alleged private practitioners. The narrative continues on page65; it is not an independently verified result.",
+      "lesson": "IX",
+      "printedPages": [
+        52
+      ],
+      "rawRecordExecutable": false,
+      "authorAttribution": "Atkinson main text"
+    }
+  ],
+  "newNumberedExerciseSequences": 0,
+  "newUnnumberedPractices": 0,
+  "newRunnableModules": 0,
+  "nextSequentialPage": 65,
+  "nextLesson": "IX"
+}
