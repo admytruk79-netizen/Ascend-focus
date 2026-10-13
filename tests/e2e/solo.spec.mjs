@@ -182,6 +182,9 @@ test('thumb practice exposes the shared finger-page translation only in historic
  await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
  await expect(page.getByRole('region', { name: 'Source paragraph 123-3' })).toContainText('five times');
  await expect(page.getByRole('region', { name: 'Source paragraph 124-2' })).toContainText('leaving the thumbs free');
+ await page.getByRole('region', { name: 'Source paragraph 124-2' }).screenshot({ path: 'test-results/screenshots/thumb-source-closeup.png' });
+ await page.evaluate(() => window.scrollTo(0, 0));
+ await page.screenshot({ path: 'test-results/screenshots/thumb-practice-viewport.png', fullPage: false });
  await page.screenshot({ path: 'test-results/screenshots/finger-transcription-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Source paragraph 124-2' })).toHaveCount(0);
