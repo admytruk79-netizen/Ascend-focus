@@ -237,8 +237,11 @@ test('movement demonstration respects quiet/reduced motion and stops for practic
  const moving = await demo.getAttribute('data-phase');
  expect(Number(moving)).toBeGreaterThan(0);
  await page.getByRole('button', { name: 'Pause demonstration', exact: true }).click();
+ await expect(demo).toHaveAttribute('data-playing', 'false');
+ const paused = await demo.getAttribute('data-phase');
+ expect(Number(paused)).toBeGreaterThanOrEqual(Number(moving));
  await page.clock.runFor(2000);
- await expect(demo).toHaveAttribute('data-phase', moving);
+ await expect(demo).toHaveAttribute('data-phase', paused);
  await page.getByRole('button', { name: 'Play demonstration', exact: true }).click();
  await page.emulateMedia({ reducedMotion: 'reduce' });
  await expect(demo).toHaveAttribute('data-playing', 'false');
