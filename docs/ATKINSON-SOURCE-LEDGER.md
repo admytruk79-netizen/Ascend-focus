@@ -343,3 +343,16 @@ Concentration-first/immediate-start tension remains unresolved, no invented gate
 Final paragraph109 continues110; Lesson XIII heading scan-checked111/printed99.
 Catalog14/revision7; sequential XII reading complete, full transcription and
 independent review incomplete. Next PDF111.
+
+## Sequential reading — Lesson XIII, PDF111–119 (printed99–107)
+
+All nine OCR pages and scans checked; references/reading/READING-111-119.md and
+INSTRUCTIONS-111-119.json. Six documentary records, one newly identified
+unnumbered pencil-sharpening practice115–116 (distinct from XIV observation).
+Original time at reader's disposal; no invented tool, timer or mastery score.
+Implemented pencil-sharpening, catalog15/revision8; guided hand sharpener,
+alternatives, gentle return and optional two-minute timer are modern.
+Printed exoteric terminology discrepancy retained pending comparison. Sunlight
+and brain-cell examples are historical analogies/theory, not treatment protocols.
+XIII sequential reading complete; transcription and independent review incomplete.
+XIV boundary scan checked120/printed108. Next PDF120.

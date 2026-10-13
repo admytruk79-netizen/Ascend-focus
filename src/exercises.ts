@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 7, complete: false, totalScanPages: 138,
+  version: 8, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -180,6 +180,16 @@ export const exercises: Exercise[] = [
     guided: ['Choose a comfortable supported position and let the body relax without forcing it.', 'If useful, quietly consider the words I am. You may skip the phrase or describe your present experience in writing.', 'Notice your current experience and ability to choose a next action, without needing to imagine a self above the body or mind.', 'Finish whenever ready. Optionally record what you noticed; there is no special mental state you must achieve.'],
     modernAdaptations: ['Optional affirmation, present experience and personal agency replace a required immortal higher-self belief.', 'Words/writing instead of imagery, movement, stopping and skipping are modern accommodations.', 'The two-minute optional timer is a modern choice, not a fixed duration stated by Atkinson.'],
     accessibleAlternatives: ['Write a brief description instead of using affirmation or visual imagery; choose another comfortable observation practice if preferred.'], prerequisites: ['A comfortable position; no account, partner or metaphysical belief is required for guided practice.'], objectives: ['Observe a word or present experience while distinguishing the historical belief from personal reflection.'], evidence: 'historical-unverified-claim', notice: 'Atkinson’s immortal higher-self claims are historical beliefs, not scientifically established findings. Stop or switch practices if uncomfortable; no medical, diagnostic or supernatural result is inferred.', reflection,
+  },
+  {
+    id: 'pencil-sharpening', title: 'Focused Pencil Sharpening', discipline: 'Attention', lesson: 'XIII', pdfPages: '115–116', minutes: 2,
+    source: source(['XIII-pencil-sharpening'], [115, 116], 'Возьмите карандашъ и постарайтесь очинить его какъ можно лучше.', 115),
+    originalProtocol: ['Take a pencil and sharpen it as well as possible; the source says the time is at your disposal.', 'Attend to sharpening, setting aside unrelated thoughts and applying attention and effort to the quality of the task. The author temporarily makes a well-sharpened pencil point the aim.', 'The continuation says practice is needed to attend even to monotonous or unpleasant tasks; it gives no numerical repetition, session duration or quantified mastery threshold.'],
+    history: 'An explicit unnumbered practical task in Lesson XIII, distinct from Lesson XIV’s observation of a pencil. The source does not specify a sharpening tool or prescribe a timer.',
+    sourceDuration: { kind: 'not-specified', details: 'PDF p. 115 leaves time at the reader’s disposal; pp. 115–116 provide no numerical duration or repetition schedule.' }, timerProvenance: 'modern-choice',
+    guided: ['Choose a pencil and a familiar hand-operated sharpener on a stable surface, or choose the non-sharpening alternative.', 'Attend to one small action at a time. Use words to describe the action if that helps; when attention drifts, gently return.', 'Stop once the task is done, or earlier if uncomfortable. There is no requirement for a perfect point or uninterrupted concentration.', 'Optionally note what helped your attention. The two-minute timer is a modern suggestion and may be disabled.'],
+    modernAdaptations: ['A familiar hand-operated sharpener and stable surface are modern implementation choices; the source names no tool.', 'Gentle refocusing, an accessible alternative and stopping without perfection are modern accommodations.', 'The optional two-minute timer is modern; it is not a historical starting duration.'],
+    accessibleAlternatives: ['If sharpening is inaccessible, move a few safe objects into a chosen arrangement, or describe an ordinary task without moving. These are modern alternatives.'], prerequisites: ['A familiar task and comfortable setup; sharpening is optional.'], objectives: ['Attend to a concrete task and notice returning attention, without treating distraction as failure.'], evidence: 'historical-attention-practice', notice: 'Use only a familiar safe tool; no exposed cutting blade is needed in guided practice. Stop if uncomfortable. No guaranteed productivity, income or treatment benefit is claimed.', reflection,
   },
 ];
 

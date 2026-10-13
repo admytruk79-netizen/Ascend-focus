@@ -139,3 +139,18 @@ test('chapter extraction keeps calendar periods and method lists separate from r
  assert.equal(protocol.duration.sessionSeconds, null);
  assert.equal(xii.nextSequentialPage, 111);
 });
+
+test('sharpening and observation retain distinct source tasks and modern timing', () => {
+ const e = exercises.find(e => e.id === 'pencil-sharpening');
+ const observation = exercises.find(e => e.id === 'pencil');
+ assert.equal(e.lesson, 'XIII'); assert.equal(e.pdfPages, '115–116');
+ assert.equal(observation.lesson, 'XIV');
+ assert.equal(e.source.originalRussian[0].pdfPage, 115);
+ assert.match(e.source.originalRussian[0].text, /очинить/);
+ assert.match(e.originalProtocol.join(' '), /time is at your disposal/);
+ assert.equal(e.sourceDuration.kind, 'not-specified');
+ assert.equal(e.timerProvenance, 'modern-choice');
+ assert.match(e.modernAdaptations.join(' '), /source names no tool/);
+ assert.match(e.accessibleAlternatives.join(' '), /modern alternatives/);
+ assert.match(e.guided.join(' '), /no requirement for a perfect point/);
+});

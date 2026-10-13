@@ -1634,63 +1634,126 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1636,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-definition-and-textual-issue"
+      ]
     },
     {
       "pdfPage": 112,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1768,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-definition-and-textual-issue",
+        "historical-general-advice-and-claim"
+      ]
     },
     {
       "pdfPage": 113,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1909,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-general-advice-and-claim"
+      ]
     },
     {
       "pdfPage": 114,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1815,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-general-advice-and-claim"
+      ]
     },
     {
       "pdfPage": 115,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1766,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "Возьмите карандашъ и постарайтесь очинить его какъ можно лучше.",
+          "note": "Unnumbered pencil-sharpening task; no source numeric timer."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-general-advice-and-claim",
+        "unnumbered-historical-practice"
+      ]
     },
     {
       "pdfPage": 116,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1904,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "unnumbered-historical-practice",
+        "historical-analogy-and-common-guidance"
+      ]
     },
     {
       "pdfPage": 117,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1784,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-analogy-and-common-guidance",
+        "historical-theory-and-practical-example"
+      ]
     },
     {
       "pdfPage": 118,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1925,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-theory-and-practical-example"
+      ]
     },
     {
       "pdfPage": 119,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 466,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Lesson XIII111–119 read/scans checked; references/reading/READING-111-119.md. Transcription incomplete.",
+      "readingCategories": [
+        "historical-reading-guidance"
+      ]
     },
     {
       "pdfPage": 120,
