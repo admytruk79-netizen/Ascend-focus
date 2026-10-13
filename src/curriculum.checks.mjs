@@ -154,3 +154,20 @@ test('sharpening and observation retain distinct source tasks and modern timing'
  assert.match(e.accessibleAlternatives.join(' '), /modern alternatives/);
  assert.match(e.guided.join(' '), /no requirement for a perfect point/);
 });
+
+test('final reading practice preserves source location and leaves completion claims partial', () => {
+ const e = exercises.find(e => e.id === 'reading-reflection');
+ assert.equal(e.lesson, 'XV'); assert.equal(e.pdfPages, '132');
+ assert.deepEqual(e.source.printedPages, [120]);
+ assert.match(e.originalProtocol.join(' '), /Reread the lessons/);
+ assert.equal(e.sourceDuration.kind, 'not-specified');
+ assert.equal(e.timerProvenance, 'modern-choice');
+ assert.match(e.guided.join(' '), /No new insight is required/);
+ const review = JSON.parse(readFileSync(new URL('../references/SOURCE-REVIEW.json', import.meta.url), 'utf8'));
+ assert.equal(review.complete, false); assert.equal(curriculumStatus.complete, false);
+ assert.equal(review.sequentialReading.lessonsRead, 15);
+ assert.equal(review.sequentialReading.catalogExhaustivelyVerified, false);
+ const textPages = review.pages.filter(p => p.embeddedTextPresent);
+ assert.equal(textPages.length, 125);
+ assert.ok(textPages.every(p => p.readingStatus));
+});

@@ -1760,7 +1760,14 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1513,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-prerequisite-and-theory",
+        "structured-historical-drill"
+      ]
     },
     {
       "pdfPage": 121,
@@ -1769,7 +1776,18 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "XIV-A1",
-        "XIV-A2"
+        "XIV-A2",
+        {
+          "text": "Вы не должны переутомлять себя какъ этимъ, такъ и какимъ-либо другимъ упражненіемъ.",
+          "note": "Checked short excerpt; wrapping/spacing normalized."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "structured-historical-drill",
+        "structured-historical-drill"
       ]
     },
     {
@@ -1780,6 +1798,14 @@
       "scanCheckedExcerpts": [
         "XIV-A2",
         "XIV-A3"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "structured-historical-drill",
+        "structured-historical-drill",
+        "historical-daily-life-advice"
       ]
     },
     {
@@ -1789,6 +1815,13 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "XIV-B1"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-daily-life-advice",
+        "structured-historical-drill"
       ]
     },
     {
@@ -1800,6 +1833,15 @@
         "XIV-B1",
         "XIV-B2",
         "XIV-B3"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "structured-historical-drill",
+        "structured-historical-drill",
+        "structured-historical-drill",
+        "historical-general-guidance"
       ]
     },
     {
@@ -1809,6 +1851,13 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "XIV-C"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-general-guidance",
+        "structured-historical-drill"
       ]
     },
     {
@@ -1818,6 +1867,13 @@
       "fullPageTranscriptionStatus": "needs-page-review",
       "scanCheckedExcerpts": [
         "XIV-C"
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "structured-historical-drill",
+        "historical-application-and-unverified-claim"
       ]
     },
     {
@@ -1825,42 +1881,88 @@
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1736,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-application-and-unverified-claim"
+      ]
     },
     {
       "pdfPage": 128,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1537,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-summary-and-reading-reference"
+      ]
     },
     {
       "pdfPage": 129,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1829,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-summary-and-reading-reference",
+        "historical-general-advice"
+      ]
     },
     {
       "pdfPage": 130,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1817,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-general-advice",
+        "unnumbered-historical-prescription",
+        "historical-ethical-advice"
+      ]
     },
     {
       "pdfPage": 131,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1748,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-ethical-advice"
+      ]
     },
     {
       "pdfPage": 132,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1616,
       "fullPageTranscriptionStatus": "needs-page-review",
-      "scanCheckedExcerpts": []
+      "scanCheckedExcerpts": [
+        {
+          "text": "Прочтите вновь тѣ лекціи, которыя являются для васъ наиболѣе трудными,",
+          "note": "Checked short excerpt; wrapping/spacing normalized."
+        }
+      ],
+      "readingStatus": "ocr-inspected",
+      "readingImageChecked": true,
+      "readingNote": "Sequential reading checked to end; references/reading/READING-120-127.md or READING-128-138.md. Full transcription incomplete.",
+      "readingCategories": [
+        "historical-ethical-advice",
+        "unnumbered-historical-practice",
+        "historical-closing-advice"
+      ]
     },
     {
       "pdfPage": 133,
@@ -1942,5 +2044,15 @@
     "year": 1910,
     "translatorName": "not identified on checked title-page lines",
     "review": "references/reading/READING-007-025.md"
+  },
+  "sequentialReading": {
+    "lessonsRead": 15,
+    "embeddedTextPagesRead": 125,
+    "lastInstructionPdfPage": 132,
+    "allEmbeddedTextPagesHaveReadingRecord": true,
+    "fullTranscriptionComplete": false,
+    "independentReviewComplete": false,
+    "catalogExhaustivelyVerified": false,
+    "nextWork": "Complete transcription; resolve textual/citation questions and independent review. Cover lettering pending."
   }
 }

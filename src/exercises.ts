@@ -19,7 +19,7 @@ export type Exercise = {
   reflection: { fields: readonly ['notes', 'comfort', 'perceived-usefulness']; privateByDefault: true };
 };
 export const curriculumStatus = {
-  version: 8, complete: false, totalScanPages: 138,
+  version: 9, complete: false, totalScanPages: 138,
   sourceSha256: 'aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe',
   sourceUrl: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
   note: 'Partial catalog. Only the included excerpts have been checked against scans. Whole-page transcription and exhaustive extraction remain incomplete.',
@@ -190,6 +190,16 @@ export const exercises: Exercise[] = [
     guided: ['Choose a pencil and a familiar hand-operated sharpener on a stable surface, or choose the non-sharpening alternative.', 'Attend to one small action at a time. Use words to describe the action if that helps; when attention drifts, gently return.', 'Stop once the task is done, or earlier if uncomfortable. There is no requirement for a perfect point or uninterrupted concentration.', 'Optionally note what helped your attention. The two-minute timer is a modern suggestion and may be disabled.'],
     modernAdaptations: ['A familiar hand-operated sharpener and stable surface are modern implementation choices; the source names no tool.', 'Gentle refocusing, an accessible alternative and stopping without perfection are modern accommodations.', 'The optional two-minute timer is modern; it is not a historical starting duration.'],
     accessibleAlternatives: ['If sharpening is inaccessible, move a few safe objects into a chosen arrangement, or describe an ordinary task without moving. These are modern alternatives.'], prerequisites: ['A familiar task and comfortable setup; sharpening is optional.'], objectives: ['Attend to a concrete task and notice returning attention, without treating distraction as failure.'], evidence: 'historical-attention-practice', notice: 'Use only a familiar safe tool; no exposed cutting blade is needed in guided practice. Stop if uncomfortable. No guaranteed productivity, income or treatment benefit is claimed.', reflection,
+  },
+  {
+    id: 'reading-reflection', title: 'Read and Rest', discipline: 'Attention', lesson: 'XV', pdfPages: '132', minutes: 2,
+    source: source(['XV-reread-and-silence'], [132], 'Прочтите вновь тѣ лекціи, которыя являются для васъ наиболѣе трудными,', 132),
+    originalProtocol: ['Reread the lessons that are most difficult for you.', 'Then relax body and mind and immerse yourself in silence.', 'The author predicts new understanding; no numerical rest duration, repetition count or breathing protocol is stated. Insight is a historical prediction, not a guaranteed result.'],
+    sourceDuration: { kind: 'not-specified', details: 'PDF p. 132 gives rereading followed by relaxation and silence, with no numerical duration or repetition schedule.' }, timerProvenance: 'modern-choice',
+    history: 'An unnumbered practice in the closing lesson. This reading-and-rest instruction is distinct from the metaphysical affirmation earlier in Lesson XV.',
+    guided: ['Choose a brief passage you would like to revisit, such as an exercise source excerpt. Listening to it or using a description is also an option.', 'Read or listen at your own pace; there is no test or need to understand everything.', 'If comfortable, rest briefly with natural breathing. Perfect silence is not required; keep helpful movement or sounds.', 'Optionally describe one idea or question in your private reflection. No new insight is required; stop whenever ready.'],
+    modernAdaptations: ['A brief passage, listening or description, optional rest and a private written reflection are modern choices.', 'Natural breathing, helpful movement/sound and no required insight adapt the original relaxation/silence wording.', 'The two-minute optional timer is modern, not an original prescription.'],
+    accessibleAlternatives: ['Use an audio or plain-language description instead of reading; skip quiet rest and record a question if preferred.'], prerequisites: ['A passage or description to revisit; no account or partner is needed.'], objectives: ['Revisit a source or idea and notice a question without a comprehension score.'], evidence: 'historical-attention-practice', notice: 'No guaranteed insight, treatment or special mental state is claimed. Adjust the setting or stop if uncomfortable.', reflection,
   },
 ];
 

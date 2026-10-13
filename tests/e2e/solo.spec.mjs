@@ -61,7 +61,7 @@ test('untimed practice, early stop, and catalog filters work at 320px', async ({
   await page.getByLabel('Search practices or lessons').fill('no such exercise');
   await expect(page.locator('.exercise')).toHaveCount(0);
   await page.getByRole('button', { name: 'Clear filters', exact: true }).click();
-  await expect(page.locator('.exercise')).toHaveCount(15);
+  await expect(page.locator('.exercise')).toHaveCount(16);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: 'test-results/screenshots/practice-library-320px.png', fullPage: true });
 });
@@ -130,4 +130,25 @@ test('source-grounded pencil sharpening runs untimed and saves private reflectio
  await page.reload();
  await page.getByRole('navigation').getByRole('button', { name: 'Journal', exact: true }).click();
  await expect(page.locator('.entry')).toContainText('accessible alternative');
+});
+
+test('final-lesson reading practice runs and saves without an insight requirement', async ({ page }) => {
+ await page.goto('/');
+ await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+ await page.getByRole('button', { name: /Read and Rest/ }).click();
+ await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('No new insight is required');
+ await page.getByRole('button', { name: 'Historical source', exact: true }).click();
+ await expect(page.getByRole('region', { name: 'Historical source instructions' })).toContainText('Reread the lessons');
+ await page.screenshot({ path: 'test-results/screenshots/read-and-rest-source-mobile.png', fullPage: true });
+ await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
+ await page.getByRole('checkbox', { name: 'Use an optional practice timer' }).uncheck();
+ await page.getByRole('checkbox', { name: /I understand I can move/ }).check();
+ await page.getByRole('button', { name: 'Start', exact: true }).click();
+ await page.getByRole('button', { name: 'Stop early', exact: true }).click();
+ await page.getByLabel('What did you notice?').fill('A question remains; no forced insight.');
+ await page.getByRole('button', { name: 'Save private record' }).click();
+ await expect(page.locator('.entry')).toContainText('Read and Rest');
+ await page.reload();
+ await page.getByRole('navigation').getByRole('button', { name: 'Journal', exact: true }).click();
+ await expect(page.locator('.entry')).toContainText('A question remains');
 });

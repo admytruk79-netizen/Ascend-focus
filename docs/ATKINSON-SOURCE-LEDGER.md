@@ -356,3 +356,17 @@ Printed exoteric terminology discrepancy retained pending comparison. Sunlight
 and brain-cell examples are historical analogies/theory, not treatment protocols.
 XIII sequential reading complete; transcription and independent review incomplete.
 XIV boundary scan checked120/printed108. Next PDF120.
+
+## Sequential reading — Lessons XIV–XV and final leaves, PDF120–138
+
+XIV120–127 (printed108–115) reconciles seven existing drills plus A4 daily-life
+advice; instructions/timing in references/reading/INSTRUCTIONS-120-127.json.
+No guided suppression of blinking/fidgeting or claimed domination of others.
+XV128–132 (printed116–120) has two unnumbered prescriptions: theological
+posture/affirmation130 (documentary only), reread/relax/silence132 (implemented
+reading-reflection, catalog16/revision9). Details in INSTRUCTIONS-128-138.json
+and paired READING documents.133–138 blank/endpaper/binding, scan checked.
+All15 lessons and125 embedded-text pages now have first-pass reading records.
+This does NOT certify full transcription, complete exact translation, exhaustive
+catalog or independent review; complete flags remainfalse. Uncertain text,
+citation provenance, cover lettering and full transcription still require work.
