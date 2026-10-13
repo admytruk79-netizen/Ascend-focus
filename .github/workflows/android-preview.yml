@@ -10,6 +10,7 @@ on:
       - 'tsconfig.json'
       - 'vite.config.ts'
       - 'capacitor.config.ts'
+      - 'android/**'
       - '.github/workflows/android-preview.yml'
   workflow_dispatch:
 permissions:
@@ -44,10 +45,8 @@ jobs:
           npm run typecheck
           npm test
           npm run build
-      - name: Create and sync Android project
-        run: |
-          npx cap add android
-          npx cap sync android
+      - name: Sync web assets into the committed Android project
+        run: npx cap sync android
       - name: Build debug APK
         working-directory: android
         run: bash ./gradlew assembleDebug --no-daemon
