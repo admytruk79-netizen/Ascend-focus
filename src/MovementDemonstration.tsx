@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import { boundedPhase, demonstrationDurationMs, fingerExtension, fingerFrames, type MovementKind } from './movementDemo';
+import { boundedPhase, demonstrationDurationMs, fingerExtension, movementCue, type MovementKind } from './movementDemo';
 
 function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
   const id = useId().replaceAll(':', '');
@@ -38,7 +38,7 @@ function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
         const path = `M${x} 179 C${x - 9 * (1 - extension)} 150 ${x - 5} ${y + 18} ${x} ${y}`;
         return <g key={x}>{digit(path, width)}
           <path d={`M${x - 6} ${y + 19}q6 3 12 0M${x - 5} ${y + 36}q5 2 10 0`} fill="none" stroke="#74533f" strokeOpacity={extension * .45} strokeWidth="1.2"/>
-          <ellipse cx={x} cy={y + 4} rx={width / 2 - 4} ry="8" fill="#f3dfbe" opacity={.25 + extension * .35}/>
+          <ellipse cx={x} cy={y + 4} rx={width / 2 - 4} ry="8" fill="#f3dfbe" opacity={.06 + extension * .08}/>
         </g>;
       })}
       <path d="M131 153 Q114 156 117 187 L129 227 Q141 246 141 277 L212 277 Q211 249 224 226 Q240 201 235 169 Q233 153 217 153Z" fill={`url(#${skin})`} stroke="#f3dcaf" strokeOpacity=".24"/>
@@ -66,6 +66,8 @@ export function MovementDemonstration({ kind, motionAllowed, available }: { kind
   const [hidden, setHidden] = useState(() => typeof document !== 'undefined' && document.hidden);
   const currentPhase = useRef(phase);
   const rangeId = useId();
+  const speedId = useId();
+  const [rate, setRate] = useState(1);
   const max = kind === 'fingers' ? 10 : 4;
   const allowed = motionAllowed && !systemReduced && available && !hidden;
   const playing = requested && allowed;
@@ -83,22 +85,24 @@ export function MovementDemonstration({ kind, motionAllowed, available }: { kind
   useEffect(() => {
     if (!playing) return;
     let frame = 0, lastPaint = 0;
-    const start = performance.now() - currentPhase.current / max * demonstrationDurationMs;
+    const duration = demonstrationDurationMs / rate;
+    const start = performance.now() - currentPhase.current / max * duration;
     const tick = (now: number) => {
-      const next = boundedPhase((now - start) / demonstrationDurationMs * max, kind);
+      const next = boundedPhase((now - start) / duration * max, kind);
       if (now - lastPaint >= 16 || next === max) { currentPhase.current = next; setPhase(next); lastPaint = now; }
       if (next >= max) setRequested(false); else frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick); return () => cancelAnimationFrame(frame);
-  }, [playing, kind, max]);
-  const label = kind === 'fingers' ? fingerFrames[Math.min(10, Math.floor(phase))] : 'Circle one thumb gently around the other';
+  }, [playing, kind, max, rate]);
+  const label = movementCue(kind, phase);
   function select(value: number) { setRequested(false); const next = boundedPhase(value, kind); currentPhase.current = next; setPhase(next); }
   return <section className="movement-demo" aria-label="Optional movement demonstration" data-playing={playing ? 'true' : 'false'} data-phase={phase.toFixed(2)}>
     <div className="demo-heading"><div><p className="eyebrow">MOVEMENT STUDY</p><h3>{kind === 'fingers' ? 'Unfold. Return.' : 'A gentle circle.'}</h3></div><span className="demo-badge">Optional</span></div>
     <div className="demo-stage"><div className="movement-drawing"><HandDrawing kind={kind} phase={phase}/></div></div>
     <p className="demo-caption">{label}</p>
     <div className="actions"><button type="button" disabled={!allowed} onClick={() => { if (requested) setRequested(false); else { if (phase >= max) { currentPhase.current = 0; setPhase(0); } setRequested(true); } }}>{playing ? 'Pause demonstration' : phase >= max ? 'Replay demonstration' : 'Play demonstration'}</button><button className="secondary" type="button" onClick={() => select(0)}>Reset illustration</button></div>
-    <label htmlFor={rangeId}>Choose a still frame</label><input id={rangeId} type="range" min="0" max={max} step="1" value={Math.floor(phase)} onChange={e => select(Number(e.target.value))}/>
+    <div className="demo-pace"><label htmlFor={speedId}>Demonstration pace</label><select id={speedId} value={rate} onChange={e => { setRequested(false); setRate(Number(e.target.value)); }}><option value="1">Standard · 18 seconds</option><option value="0.5">Slow · 36 seconds</option></select></div>
+    <label htmlFor={rangeId}>Choose a still frame</label><input id={rangeId} type="range" min="0" max={max} step="1" aria-valuetext={label} value={Math.floor(phase)} onChange={e => select(Number(e.target.value))}/>
     <p className="muted">Modern visual aid: a stylized movement study, not an anatomical model. Move only within your comfortable range. The demonstration is separate from your practice timer.</p>
     {!available ? <p className="muted">Demonstration motion stops when practice starts; still frames remain available.</p> : (!motionAllowed || systemReduced) && <p className="muted">Motion is off in Quiet Mode or with reduced motion. Still frames remain available. Quiet Mode can be changed in Profile.</p>}
   </section>;

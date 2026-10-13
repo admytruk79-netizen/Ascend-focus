@@ -77,3 +77,9 @@ main:focus{outline:none}.skip-link{position:fixed;top:8px;left:8px;z-index:100;t
 .movement-demo .actions button{border-radius:12px;min-height:48px}
 .movement-demo label{color:#d5c9b5}
 @media(max-width:400px){.movement-demo{padding:16px}.demo-stage{margin:14px -4px}.demo-heading h3{font-size:26px}.demo-caption{font-size:18px}}
+
+.demo-pace{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 0}
+.demo-pace label{margin:0}
+.demo-pace select{width:auto;max-width:64%;min-height:44px;margin:0;background:#142532;border:1px solid #a38a6659;border-radius:10px;color:#e8d8be;padding:10px;font:inherit;font-size:14px}
+.demo-pace select:focus-visible{outline:3px solid #e1c397;outline-offset:3px}
+@media(max-width:360px){.demo-pace{align-items:stretch;flex-direction:column}.demo-pace select{max-width:100%;width:100%}}

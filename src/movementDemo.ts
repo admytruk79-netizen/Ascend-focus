@@ -8,5 +8,13 @@ export function fingerExtension(index: number, phase: number): number {
   if (!Number.isInteger(index) || index < 0 || index > 4) return 0;
   const p = boundedPhase(phase, 'fingers');
   const amount = Math.max(0, Math.min(1, (p <= 5 ? p : 10 - p) - index));
-  return amount * amount * (3 - 2 * amount);
+  // Editorial dwell at both ends gives each gesture room to settle.
+  const moving = Math.max(0, Math.min(1, (amount - .12) / .76));
+  return moving * moving * moving * (moving * (moving * 6 - 15) + 10);
+}
+
+export function movementCue(kind: MovementKind, phase: number): string {
+  const p = boundedPhase(phase, kind);
+  if (kind === 'thumbs') return p >= 4 ? 'Circle complete. Let your hands rest.' : 'Circle one thumb gently around the other';
+  return fingerFrames[Math.ceil(p)]!;
 }

@@ -287,3 +287,35 @@ test('thumb demonstration has readable static frames and never resumes after bac
  expect(Number(await demo.getAttribute('data-phase'))).toBeLessThan(1);
  await expect(demo).toHaveAttribute('data-playing', 'true');
 });
+
+
+test('slow demonstration pace preserves position and still-frame choice pauses motion', async ({ page }) => {
+ await page.emulateMedia({ reducedMotion: 'no-preference' });
+ await page.goto('/');
+ await page.getByRole('navigation').getByRole('button', { name: 'Profile', exact: true }).click();
+ await page.getByRole('checkbox', { name: /Quiet mode/ }).uncheck();
+ await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+ await page.getByRole('button', { name: /Slow Finger Unfolding/ }).click();
+ const demo = page.getByRole('region', { name: 'Optional movement demonstration' });
+ await page.clock.install();
+ await page.getByLabel('Demonstration pace', { exact: true }).selectOption('0.5');
+ await page.getByRole('button', { name: 'Play demonstration', exact: true }).click();
+ await page.clock.runFor(9000);
+ const slowPhase = Number(await demo.getAttribute('data-phase'));
+ expect(slowPhase).toBeGreaterThan(2.4);
+ expect(slowPhase).toBeLessThan(2.7);
+ await page.getByLabel('Demonstration pace', { exact: true }).selectOption('1');
+ await expect(demo).toHaveAttribute('data-playing', 'false');
+ const paused = await demo.getAttribute('data-phase');
+ await page.clock.runFor(2000);
+ await expect(demo).toHaveAttribute('data-phase', paused);
+ await page.getByRole('button', { name: 'Play demonstration', exact: true }).click();
+ await page.getByLabel('Choose a still frame', { exact: true }).focus();
+ await page.keyboard.press('Home');
+ await page.keyboard.press('ArrowRight');
+ await page.keyboard.press('ArrowRight');
+ await expect(demo).toHaveAttribute('data-playing', 'false');
+ await expect(demo).toHaveAttribute('data-phase', '2.00');
+ await expect(page.getByLabel('Choose a still frame', { exact: true })).toHaveAttribute('aria-valuetext', 'Open the index finger');
+ await demo.screenshot({ path: 'test-results/screenshots/movement-pace-controls.png', style: 'nav,.skip-link{visibility:hidden}' });
+});

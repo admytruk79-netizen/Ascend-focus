@@ -29,3 +29,15 @@ The scene has no idle loops, camera movement, flashing or animated background.
 Lighting, still-frame selection and text remain available with reduced motion.
 These are stylized illustrations, not anatomically validated models. The
 18-second modern demonstration timing and historical content are unchanged.
+
+## Deliberate movement choreography
+
+Finger transitions now use quintic easing with a 12% dwell at either end of
+each step. This preserves the opening/reverse-closing sequence and gives each
+pose a moment to settle. Captions describe the gesture underway; still-frame
+controls expose the same description to assistive technology. A user-selected
+slow pace doubles the modern illustration to 36 seconds. Changing pace pauses
+at the current position and requires Play; it never changes the practice timer
+or historical timing. Palm-side fingertip highlights are deliberately subtle.
+Tests cover monotonic/symmetric poses, caption boundaries, pace changes,
+preserved pause position and keyboard still-frame selection during playback.
