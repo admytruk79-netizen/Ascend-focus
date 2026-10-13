@@ -115,6 +115,9 @@ test('source-grounded pencil sharpening runs untimed and saves private reflectio
  await page.getByRole('button', { name: /Focused Pencil Sharpening/ }).click();
  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Historical source instructions' })).toContainText('time is at your disposal');
+ await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
+ await expect(page.getByRole('region', { name: 'Source paragraph 115-3' })).toContainText('The time is at your disposal');
+ await expect(page.getByRole('region', { name: 'Source paragraph 116-1' })).toContainText('continuation from 115');
  await page.screenshot({ path: 'test-results/screenshots/pencil-sharpening-source-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('non-sharpening alternative');

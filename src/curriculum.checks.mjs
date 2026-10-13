@@ -171,3 +171,29 @@ test('final reading practice preserves source location and leaves completion cla
  assert.equal(textPages.length, 125);
  assert.ok(textPages.every(p => p.readingStatus));
 });
+
+test('aligned source drafts retain provenance and cannot certify a complete curriculum', () => {
+ const data = JSON.parse(readFileSync(new URL('./sourceTranscriptions.json', import.meta.url), 'utf8'));
+ assert.equal(data.sourceSha256, curriculumStatus.sourceSha256);
+ assert.equal(data.complete, false);
+ for (const passage of data.passages) {
+  const e = exercises.find(e => e.id === passage.exerciseId);
+  assert.ok(e); assert.equal(passage.lesson, e.lesson);
+  assert.equal(passage.status, 'draft-scan-compared');
+  assert.equal(passage.independentlyReviewed, false);
+  assert.equal(new Set(passage.paragraphs.map(p => p.id)).size, passage.paragraphs.length);
+  for (const paragraph of passage.paragraphs) {
+   assert.ok(e.source.scanPages.includes(paragraph.pdfPage));
+   assert.equal(paragraph.printedPage, paragraph.pdfPage - 12);
+   assert.ok(paragraph.russian.trim() && paragraph.english.trim());
+  }
+  for (const quote of e.source.originalRussian) {
+   assert.ok(passage.paragraphs.some(p => p.pdfPage === quote.pdfPage && p.russian.includes(quote.text)));
+  }
+ }
+ const pencil = data.passages.find(p => p.exerciseId === 'pencil-sharpening');
+ assert.equal(pencil.paragraphs.find(p => p.id === '115-3').boundary, 'continues-on-116');
+ assert.equal(pencil.paragraphs.find(p => p.id === '116-1').boundary, 'continuation-from-115');
+ assert.match(pencil.paragraphs.find(p => p.id === '115-3').english, /time is at your disposal/);
+ assert.equal(curriculumStatus.complete, false);
+});

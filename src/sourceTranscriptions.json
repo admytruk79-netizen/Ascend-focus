@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
+  "complete": false,
+  "passages": [
+    {
+      "id": "XIII-pencil-pages",
+      "exerciseId": "pencil-sharpening",
+      "lesson": "XIII",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF115–116; printed headers excluded. Boundary fragments retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Claims, religious language, perfection demands and benefits are historical text, not endorsed guidance.",
+      "uncertainties": [
+        "Punctuation and word spacing require a second proofread; this is not an independently approved transcription.",
+        "First page begins mid-word continued from114; the initial fragment is retained, not reconstructed.",
+        "The lower-page parenthetical focus sentence on116 has awkward source syntax, translated without repairing the Russian."
+      ],
+      "paragraphs": [
+        {
+          "id": "115-1",
+          "pdfPage": 115,
+          "printedPage": 103,
+          "boundary": "continuation-from-114",
+          "russian": "бавить себя отъ нищеты и несчастія. Беритесь же за дѣло и беритесь теперь же.",
+          "english": "…rid yourself of poverty and misfortune. Set to work, then, and do so now."
+        },
+        {
+          "id": "115-2",
+          "pdfPage": 115,
+          "printedPage": 103,
+          "boundary": "complete-paragraph",
+          "russian": "Человѣкъ, который обладаетъ способностью сосредоточиваться, имѣетъ въ своихъ рукахъ вѣрное средство противъ неудачъ. Какимъ же образомъ? Благодаря тому, что онъ устраняетъ непріятныя мысли и сосредоточивается на болѣе возвышенныхъ предметахъ. Вы не должны говорить, что вы не можете этого сдѣлать. Если вы пріобрѣли «навыкъ», то вы будете способны дѣлать это. Тысячи людей нашли въ этомъ радикальное средство противъ неудачъ, отчаянія, страха, боязни и т. п. Попробуйте его и вы увидите, что жизнь явится для васъ въ совершенно иномъ свѣтѣ. Испробуйте его и вы будете такъ хорошо себя чувствовать, что едва ли пожелаете имѣть въ числѣ своихъ родственниковъ президента. Испробуйте его и вы будете ощущать «движеніе жизни» вокругъ себя и будете благодарить Бога за то, что живете, вмѣсто того чтобы проклинать день своего рожденія. Вы будете лучше выполнять свою работу; вы будете лучше себя чувствовать; вы сами станете лучше. Развѣ все это не стоитъ того, чтобы попытаться?",
+          "english": "A person who possesses the ability to concentrate has a sure means against failure in their hands. How? By setting aside unpleasant thoughts and concentrating on more elevated subjects. You must not say that you cannot do this. If you have acquired the habit, you will be able to do it. Thousands of people have found in it a radical remedy for failure, despair, fear, apprehension and the like. Try it, and you will see life in an entirely different light. Try it, and you will feel so well that you will hardly wish to have the president among your relatives. Try it, and you will feel the movement of life around you and thank God for being alive, instead of cursing the day of your birth. You will do your work better; you will feel better; you yourself will become better. Is all this not worth trying?"
+        },
+        {
+          "id": "115-3",
+          "pdfPage": 115,
+          "printedPage": 103,
+          "boundary": "continues-on-116",
+          "russian": "Можетъ быть вы предполагаете, что знаете кое-что о сосредоточеніи (концентраціи). Хорошо, пусть будетъ такъ; покажите же свои знанія. Возьмите карандашъ и постарайтесь очинить его какъ можно лучше. Время въ вашемъ распоряженіи, выполните только эту работу самымъ лучшимъ образомъ. Теперь посмотрите, въ состояніи ли вы сосредоточиться на очинкѣ карандаша и устранить при этомъ всѣ постороннія мысли. Постарайтесь посвятить работѣ всю свою энергію и мысль для лучшаго ея выполненія. Пусть на нѣкоторое время цѣлью вашей жизни будетъ хорошо очиненный кончикъ карандаша. Прекрасно, какъ вы себя чувствуете? Очень трудная, не правда ли, работа? Да, я",
+          "english": "Perhaps you suppose that you know something about concentration. Very well, let that be so; demonstrate your knowledge. Take a pencil and try to sharpen it as well as possible. The time is at your disposal; simply do this work in the best possible way. Now see whether you can concentrate on sharpening the pencil and set aside all unrelated thoughts while doing so. Try to devote all your energy and thought to the work so that it is done better. Let a well-sharpened pencil point be the aim of your life for a little while. Very good; how do you feel? Very difficult work, is it not? Yes, I…"
+        },
+        {
+          "id": "116-1",
+          "pdfPage": 116,
+          "printedPage": 104,
+          "boundary": "continuation-from-115",
+          "russian": "такъ думаю. Вамъ нужна практика, молодой человѣкъ. Возьмитесь за указанныя въ этой лекціи упражненія и продѣлывайте ихъ до тѣхъ поръ, пока вы не будете въ состояніи сдѣлать чего-нибудь, безразлично, что бы это ни было, не позволяя своимъ мыслямъ отвлекаться въ сторону. Каждый въ состояніи сосредоточиться на пріятной работѣ; но если дать ему непріятное и однообразное дѣло, то вы убѣдитесь, что его мысли будутъ отвлекаться отъ дѣла совершенно отъ него независимо; все это будетъ продолжаться до тѣхъ поръ, пока онъ не научится сосредоточиваться при помощи силы воли. Способность сосредоточиваться на непріятной невыносимой и однообразной работѣ является пробнымъ камнемъ. Если вы преодолѣете это затрудненіе, то вы можете быть увѣрены, что проломили брешь въ области безплодныхъ усилій и ненужныхъ движеній. При помощи концентраціи вы будете способны сосредоточивать свое вниманіе, мысль и энергію на опредѣленномъ предметѣ, и благодаря этому достигать лучшихъ по мѣрѣ возможности результатовъ. Лучи солнца, собранные на извѣстной точкѣ при помощи зажигательнаго стекла, нагрѣваютъ эту точку гораздо сильнѣе, чѣмъ обыкновенные лучи того же источника, того же напряженія и той же теплоты. Такъ же обстоитъ дѣло и съ вниманіемъ. Разсѣйте его и вы будете имѣть обыкновенные результаты; но если фокусъ его будетъ находиться на вещи (сконцентрировавъ его на вещи), которую нужно сдѣлать, вы получите изумительный подъемъ энергіи. Сосредоточивающійся человѣкъ концентрируетъ свое вниманіе и силу мысли на одномъ предметѣ; результатъ выражается въ томъ, что каждое его дѣйствіе, произвольное и непроизвольное, направляется къ достиженію цѣли. Какъ я уже говорилъ въ предыдущей лекціи, человѣкъ можетъ достичь всего, что онъ желаетъ, если только онъ непреклонно желаетъ.",
+          "english": "…think so. You need practice, young man. Take up the exercises indicated in this lesson and do them until you can do something—whatever it may be—without allowing your thoughts to wander. Anyone can concentrate on pleasant work; but give someone an unpleasant and monotonous task and you will find their thoughts wandering from it quite independently of them. This will continue until they learn to concentrate by means of willpower. The ability to concentrate on unpleasant, intolerable and monotonous work is the touchstone. If you overcome this difficulty, you may be sure you have broken through the realm of fruitless efforts and unnecessary movements. Through concentration you will be able to focus your attention, thought and energy on a definite subject and thus achieve the best results possible. The rays of the sun gathered at a particular point by a burning glass heat that point much more strongly than ordinary rays from the same source, with the same intensity and warmth. So it is with attention. Scatter it and you will obtain ordinary results; but focus it on the thing to be done and you will obtain an astonishing rise in energy. A concentrating person focuses attention and the power of thought on one subject; the result is that every action, voluntary and involuntary, is directed toward attaining the goal. As I said in the previous lesson, a person can attain everything they desire, provided they desire it unwaveringly."
+        }
+      ]
+    }
+  ]
+}

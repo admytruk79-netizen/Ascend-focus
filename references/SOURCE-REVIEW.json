@@ -1686,7 +1686,7 @@
       "pdfPage": 115,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1766,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [
         {
           "text": "Возьмите карандашъ и постарайтесь очинить его какъ можно лучше.",
@@ -1699,13 +1699,17 @@
       "readingCategories": [
         "historical-general-advice-and-claim",
         "unnumbered-historical-practice"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XIII-pencil-pages",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 116,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1904,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [],
       "readingStatus": "ocr-inspected",
       "readingImageChecked": true,
@@ -1713,7 +1717,11 @@
       "readingCategories": [
         "unnumbered-historical-practice",
         "historical-analogy-and-common-guidance"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XIII-pencil-pages",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 117,

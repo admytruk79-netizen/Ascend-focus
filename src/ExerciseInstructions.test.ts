@@ -33,4 +33,19 @@ describe('source presentation', () => {
     expect(guided).not.toContain('Additional historical lesson advice');
     expect(guided).toContain('Blink naturally');
   });
+  it('keeps aligned draft source text and page fragments in the historical view', () => {
+    const exercise = exercises.find(e => e.id === 'pencil-sharpening')!;
+    const historical = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+    const guided = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: false }));
+    expect(historical).toContain('Russian transcription and English translation');
+    expect(historical).toContain('independent proofreading is pending');
+    expect(historical).toContain('Source paragraph 115-3');
+    expect(historical).toContain('Source paragraph 116-1');
+    expect(historical).toContain('continuation from 115');
+    expect(historical).toContain('The time is at your disposal');
+    expect(historical).toContain('lang="en"');
+    expect(guided).not.toContain('Source paragraph');
+    expect(guided).not.toContain('radical remedy');
+  });
+
 });

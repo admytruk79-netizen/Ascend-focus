@@ -370,3 +370,12 @@ All15 lessons and125 embedded-text pages now have first-pass reading records.
 This does NOT certify full transcription, complete exact translation, exhaustive
 catalog or independent review; complete flags remainfalse. Uncertain text,
 citation provenance, cover lettering and full transcription still require work.
+
+## Transcription pass — Lesson XIII full pages115–116
+
+Full body-text draft transcription and editorial English translation stored in
+src/sourceTranscriptions.json, indexed by references/transcription/README.md.
+Paragraph/page boundaries and incomplete edge fragments preserved. Primary scans
+compared, independent proofreading pending; full-source complete flags remainfalse.
+The historical screen exposes the draft as a separate source panel; existing
+protocol paraphrase and modern guidance stay distinct. No timer/progression change.
