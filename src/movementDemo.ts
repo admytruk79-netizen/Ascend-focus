@@ -51,3 +51,28 @@ export function jointSegment(a: JointPoint, b: JointPoint): string {
   const point = (p: JointPoint, sign: number) => `${p.x + nx * p.radius * sign} ${p.y + ny * p.radius * sign}`;
   return `M${point(a, 1)} L${point(b, 1)} Q${b.x + tx * b.radius} ${b.y + ty * b.radius} ${point(b, -1)} L${point(a, -1)} Q${a.x - tx * a.radius} ${a.y - ty * a.radius} ${point(a, 1)}Z`;
 }
+
+/** Continuous soft contour around the rig; joints remain in the pose, not as cuffs. */
+export function fingerOutline(points: JointPoint[]): string {
+  if (points.length < 2 || points.some(p => !Number.isFinite(p.x + p.y + p.radius))) return '';
+  const left: { x: number; y: number }[] = [], right: { x: number; y: number }[] = [];
+  points.forEach((p, index) => {
+    const before = points[Math.max(0, index - 1)]!, after = points[Math.min(points.length - 1, index + 1)]!;
+    const dx = after.x - before.x, dy = after.y - before.y;
+    const length = Math.hypot(dx, dy) || 1;
+    const nx = -dy / length, ny = dx / length;
+    left.push({ x: p.x + nx * p.radius, y: p.y + ny * p.radius });
+    right.push({ x: p.x - nx * p.radius, y: p.y - ny * p.radius });
+  });
+  const last = points.at(-1)!, previous = points.at(-2)!;
+  const distance = Math.hypot(last.x - previous.x, last.y - previous.y) || 1;
+  const tip = { x: last.x + (last.x - previous.x) / distance * last.radius * .8, y: last.y + (last.y - previous.y) / distance * last.radius * .8 };
+  const outline = [...left, tip, ...right.reverse()];
+  let path = `M${outline[0]!.x} ${outline[0]!.y}`;
+  for (let i = 0; i < outline.length; i++) {
+    const a = outline[(i + outline.length - 1) % outline.length]!;
+    const b = outline[i]!, c = outline[(i + 1) % outline.length]!, d = outline[(i + 2) % outline.length]!;
+    path += `C${b.x + (c.x - a.x) / 6} ${b.y + (c.y - a.y) / 6} ${c.x - (d.x - b.x) / 6} ${c.y - (d.y - b.y) / 6} ${c.x} ${c.y}`;
+  }
+  return `${path}Z`;
+}

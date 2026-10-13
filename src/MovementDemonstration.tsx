@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import { boundedPhase, demonstrationDurationMs, fingerExtension, fingerPose, jointSegment, movementCue, type MovementKind } from './movementDemo';
+import { boundedPhase, demonstrationDurationMs, fingerExtension, fingerPose, fingerOutline, movementCue, type MovementKind } from './movementDemo';
 
 function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
   const id = useId().replaceAll(':', '');
@@ -15,12 +15,10 @@ function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
     <path d={path} stroke="#fff1d4" strokeOpacity=".22" strokeWidth="1.2" transform="translate(-4 -1)"/>
   </g>;
   const sculptedDigit = (points: ReturnType<typeof fingerPose>, prefix: string) => <g>
-    {points.slice(1).map((point, index) => <g key={`${prefix}-${index}`}>
-      <path d={jointSegment(points[index]!, point)} fill="#050d16" opacity=".3" transform="translate(2 3)"/>
-      <path d={jointSegment(points[index]!, point)} fill={`url(#${skin})`} stroke="#ead1a9" strokeOpacity=".16" strokeWidth=".65"/>
-      <path d={jointSegment(points[index]!, point)} fill={`url(#${rim})`}/>
-    </g>)}
-    {points.slice(1, 3).map((point, index) => <path key={`${prefix}-crease-${index}`} d={`M${point.x - point.radius * .65} ${point.y + 1}q${point.radius * .65} 2 ${point.radius * 1.3} 0m-${point.radius * 1.1} 3q${point.radius * .5} 1 ${point.radius} 0`} stroke="#634936" strokeOpacity=".32" strokeWidth=".85" fill="none"/>)}
+    <path d={fingerOutline(points)} fill="#050d16" opacity=".24" transform="translate(2 3)"/>
+    <path d={fingerOutline(points)} fill={`url(#${skin})`} stroke="#ead1a9" strokeOpacity=".12" strokeWidth=".65"/>
+    <path d={fingerOutline(points)} fill={`url(#${rim})`}/>
+    {points.slice(1, 3).map((point, index) => <path key={`${prefix}-crease-${index}`} d={`M${point.x - point.radius * .65} ${point.y + 1}q${point.radius * .65} 2 ${point.radius * 1.3} 0m-${point.radius * 1.1} 3q${point.radius * .5} 1 ${point.radius} 0`} stroke="#634936" strokeOpacity=".2" strokeWidth=".75" fill="none"/>)}
   </g>;
   const movingThumbPoints = [{ x: 128, y: 197, depth: 0, radius: 15 }, { x: 139, y: 153, depth: 0, radius: 13 }, { x: tipX - 13, y: tipY + 21, depth: 0, radius: 11 }, { x: tipX, y: tipY, depth: 0, radius: 9 }];
   const steadyThumbPoints = [{ x: 230, y: 197, depth: 0, radius: 15 }, { x: 212, y: 149, depth: 0, radius: 13 }, { x: 190, y: 123, depth: 0, radius: 11 }, { x: 176, y: 106, depth: 0, radius: 9 }];

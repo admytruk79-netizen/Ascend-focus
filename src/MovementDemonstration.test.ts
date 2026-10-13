@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { MovementDemonstration } from './MovementDemonstration';
-import { boundedPhase, fingerExtension, fingerPose, jointSegment, movementCue } from './movementDemo';
+import { boundedPhase, fingerExtension, fingerPose, jointSegment, fingerOutline, movementCue } from './movementDemo';
 
 describe('optional movement demonstrations', () => {
   it('starts still, describes the illustration and keeps a nonmoving alternative', () => {
@@ -44,6 +44,8 @@ describe('optional movement demonstrations', () => {
       for (let phase = 0; phase <= 10; phase += .125) {
         const pose = fingerPose(index, phase);
         const reverse = fingerPose(index, 10 - phase);
+        expect(fingerOutline(pose)).not.toMatch(/NaN|Infinity/);
+        expect(fingerOutline(pose)).toMatch(/^M.*Z$/);
         pose.forEach((point, joint) => {
           expect(Number.isFinite(point.x + point.y + point.depth + point.radius)).toBe(true);
           expect(point.radius).toBeGreaterThan(0);

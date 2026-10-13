@@ -54,3 +54,8 @@ This is an editorial teaching illustration, not an anatomically validated
 simulation or additional historical instruction. Geometry tests verify finite
 poses, tapering, symmetry and the original opening/closing sequence. Browser
 evidence includes a real mid-motion frame as well as still-frame closeups.
+
+Visual review refinement: each articulated digit has a continuous cubic contour
+around the joint rig, replacing segmented cuff-like surfaces. Soft creases
+remain; no rigid rings are rendered. The contour is tested across all sampled
+poses for finite output.
