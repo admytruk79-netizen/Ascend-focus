@@ -10,7 +10,7 @@ export function fingerExtension(index: number, phase: number): number {
   const amount = Math.max(0, Math.min(1, (p <= 5 ? p : 10 - p) - index));
   // Editorial dwell at both ends gives each gesture room to settle.
   const moving = Math.max(0, Math.min(1, (amount - .12) / .76));
-  return moving * moving * moving * (moving * (moving * 6 - 15) + 10);
+  return Math.max(0, Math.min(1, moving * moving * moving * (moving * (moving * 6 - 15) + 10)));
 }
 
 export function movementCue(kind: MovementKind, phase: number): string {
