@@ -2,7 +2,7 @@
 
 Edition: William Walker Atkinson, Сила мысли в деловой и повседневной жизни, scanned Russian edition (1910), 138 PDF pages.
 
-IMPORTANT: The original uploaded PDF is not accessible to Codex from this repository. This ledger was extracted from selected pages of the user's PDF in ChatGPT. It paraphrases rather than reproduces the source. Old-Russian OCR is imperfect. This is NOT a comprehensive extraction. PDF page numbers are 1-indexed scan pages, not printed page numbers.
+IMPORTANT: The original PDF is stored in Drive, not this repository. Its extracted text was accessed through the connected Drive tool on 2026-10-13; scan images have not been visually proofread in this update. This ledger was extracted from selected pages of the user's PDF in ChatGPT. It paraphrases rather than reproduces the source. Old-Russian OCR is imperfect. This is NOT a comprehensive extraction. PDF page numbers are 1-indexed scan pages, not printed page numbers.
 
 ## Lesson VII — Magnetic gaze (PDF pp. 51–56, printed pp. 39–44)
 - VII-1 Black point (PDF 52–53): Draw a black circle on white paper at eye level, hold visual attention, move target right and left; historical instruction discourages blinking and increases durations. Modern app: allow blinking and brief optional sessions; never force staring or strain.
@@ -63,3 +63,20 @@ Review: scan text verified on PDF pp 107–109, image proofreading still pending
 
 ## Full application specification
 [ASCEND Focus Complete Application Master Specification v2](https://docs.google.com/document/d/16U1Rs7_o1CjWGCzHBDjXCB2-hjpxapimrF27x4Qhebk/edit) defines screens, user journeys, state machine, AND/OR gates, matching and adaptation algorithms, data flows, API, backend permissions, community, paired experiments, animations, neuroinclusive requirements, acceptance tests and delivery stages. This does not mean all features exist in code.
+
+## Curriculum additions — 2026-10-13
+
+These additions bring the app catalog from 26 to 29 entries. They are modern adaptations or proposed practices, not newly discovered numbered historical exercises. All three have fidelity state needs-page-review; their durations are app defaults, not source prescriptions.
+
+- everyday-task-focus: Lesson XIII, printed pp. 99–107 (estimated scan range 111–119). Extracted text recommends applying attention to one task at a time. The five-minute guided workflow and reflection are modern additions.
+- attentive-listening: Lesson V, printed pp. 29–33 (estimated scan range 41–45). Extracted text discusses listening and the Carlyle anecdote. The three-minute session, transcript option and summary are modern additions.
+- small-habit-action: Lesson XII, printed pp. 84–98 (estimated scan range 96–110). Extracted text discusses acquired habits. The three-minute small-action and cue workflow is proposed-modern, not an original Atkinson protocol.
+- Ordinary-object and comfortable-movement variations stay inside existing entries. Lesson XIV explicitly invites variations (printed pp. 112–115; estimated scan pp. 124–127). Adaptations are labeled and do not inflate the catalog count.
+
+## Remaining source audit
+
+- Visually verify the scan against OCR, especially exact passages and scan-page numbering for the additions.
+- Audit all 138 scan pages; the accessible text does not establish a complete page-by-page audit.
+- Review Lesson XIV's continuation beyond scan p. 125 and distinguish variants from independent exercises.
+- Reconcile every existing entry with source fidelity, duration provenance and evidence category; these fields are not yet complete for the older catalog.
+- Verify cited authors, titles and editions before adding further historical exercises. See [Reading and source notes](READING-AND-SOURCE-NOTES.md).
