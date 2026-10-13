@@ -18,3 +18,14 @@ Verification: unit sequence/range/static guards, mobile browser play/pause, quie
 OS change, background, no automatic resume, and start-practice stop. Screenshot
 evidence captured from real SVG rendering in CI. Device/manual accessibility
 review still pending; no signed mobile release claim.
+
+## Studio rendering refinement
+
+Implemented: layered vector shading, soft contact shadows, directional bronze
+key/rim light, finger crease and nail cues, depth ordering of orbiting thumbs,
+stationary vignette and a restrained progress arc. Rendering targets one update
+per display frame (16ms minimum); sequential finger easing remains smoothstep.
+The scene has no idle loops, camera movement, flashing or animated background.
+Lighting, still-frame selection and text remain available with reduced motion.
+These are stylized illustrations, not anatomically validated models. The
+18-second modern demonstration timing and historical content are unchanged.
