@@ -41,3 +41,16 @@ at the current position and requires Play; it never changes the practice timer
 or historical timing. Palm-side fingertip highlights are deliberately subtle.
 Tests cover monotonic/symmetric poses, caption boundaries, pace changes,
 preserved pause position and keyboard still-frame selection during playback.
+
+## Articulated illustration rig
+
+The finger study now uses three projected joints per finger with independent
+curl angles, tapered silhouettes and palm-side occlusion. Fingers fold into the
+palm rather than shrinking into straight bars; the open hand has a slight
+oblique presentation and natural spread. The thumb has separate joints, and
+the paired-thumb study uses the same tapered rendering. Soft joint creases,
+subtle palm contours and a small active-finger indicator support legibility.
+This is an editorial teaching illustration, not an anatomically validated
+simulation or additional historical instruction. Geometry tests verify finite
+poses, tapering, symmetry and the original opening/closing sequence. Browser
+evidence includes a real mid-motion frame as well as still-frame closeups.

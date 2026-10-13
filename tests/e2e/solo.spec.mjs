@@ -304,6 +304,7 @@ test('slow demonstration pace preserves position and still-frame choice pauses m
  const slowPhase = Number(await demo.getAttribute('data-phase'));
  expect(slowPhase).toBeGreaterThan(2.4);
  expect(slowPhase).toBeLessThan(2.7);
+ await demo.locator('.demo-stage').screenshot({ path: 'test-results/screenshots/articulated-fingers-mid-motion.png', style: 'nav,.skip-link{visibility:hidden}' });
  await page.getByLabel('Demonstration pace', { exact: true }).selectOption('1');
  await expect(demo).toHaveAttribute('data-playing', 'false');
  const paused = await demo.getAttribute('data-phase');

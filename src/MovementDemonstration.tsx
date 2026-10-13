@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import { boundedPhase, demonstrationDurationMs, fingerExtension, movementCue, type MovementKind } from './movementDemo';
+import { boundedPhase, demonstrationDurationMs, fingerExtension, fingerPose, jointSegment, movementCue, type MovementKind } from './movementDemo';
 
 function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
   const id = useId().replaceAll(':', '');
@@ -14,9 +14,20 @@ function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
     <path d={path} stroke={`url(#${rim})`} strokeWidth={width - 5}/>
     <path d={path} stroke="#fff1d4" strokeOpacity=".22" strokeWidth="1.2" transform="translate(-4 -1)"/>
   </g>;
-  const movingThumb = <g>{digit(`M128 194 C121 166 ${tipX - 24} ${tipY + 25} ${tipX} ${tipY}`, 25)}
-    <ellipse cx={tipX} cy={tipY + 2} rx="6" ry="8" fill="#ead7b7" opacity=".65" transform={`rotate(-35 ${tipX} ${tipY + 2})`}/></g>;
-  const steadyThumb = <g>{digit('M228 194 C224 148 193 120 176 106', 27)}<ellipse cx="176" cy="108" rx="6" ry="8" fill="#ead7b7" opacity=".55" transform="rotate(-38 176 108)"/></g>;
+  const sculptedDigit = (points: ReturnType<typeof fingerPose>, prefix: string) => <g>
+    {points.slice(1).map((point, index) => <g key={`${prefix}-${index}`}>
+      <path d={jointSegment(points[index]!, point)} fill="#050d16" opacity=".3" transform="translate(2 3)"/>
+      <path d={jointSegment(points[index]!, point)} fill={`url(#${skin})`} stroke="#ead1a9" strokeOpacity=".16" strokeWidth=".65"/>
+      <path d={jointSegment(points[index]!, point)} fill={`url(#${rim})`}/>
+    </g>)}
+    {points.slice(1, 3).map((point, index) => <path key={`${prefix}-crease-${index}`} d={`M${point.x - point.radius * .65} ${point.y + 1}q${point.radius * .65} 2 ${point.radius * 1.3} 0m-${point.radius * 1.1} 3q${point.radius * .5} 1 ${point.radius} 0`} stroke="#634936" strokeOpacity=".32" strokeWidth=".85" fill="none"/>)}
+  </g>;
+  const movingThumbPoints = [{ x: 128, y: 197, depth: 0, radius: 15 }, { x: 139, y: 153, depth: 0, radius: 13 }, { x: tipX - 13, y: tipY + 21, depth: 0, radius: 11 }, { x: tipX, y: tipY, depth: 0, radius: 9 }];
+  const steadyThumbPoints = [{ x: 230, y: 197, depth: 0, radius: 15 }, { x: 212, y: 149, depth: 0, radius: 13 }, { x: 190, y: 123, depth: 0, radius: 11 }, { x: 176, y: 106, depth: 0, radius: 9 }];
+  const movingThumb = sculptedDigit(movingThumbPoints, 'moving-thumb');
+  const steadyThumb = sculptedDigit(steadyThumbPoints, 'steady-thumb');
+  const fingers = [0, 1, 2, 3].map(index => ({ index, points: fingerPose(index, phase), extension: fingerExtension(index + 1, phase) }));
+  const activeFinger = phase > 0 && phase < 10 ? (phase <= 5 ? Math.ceil(phase) - 1 : 10 - Math.ceil(phase)) : -1;
   return <svg viewBox="0 0 360 320" role="img" aria-label={kind === 'fingers' ? 'Simplified hand showing the selected finger movement' : 'Simplified hands showing one thumb circling the other'}>
     <defs>
       <linearGradient id={skin} x1="0" y1="0" x2="1" y2=".65"><stop stopColor="#8b674a"/><stop offset=".27" stopColor="#d6b88b"/><stop offset=".55" stopColor="#e9d3ac"/><stop offset=".82" stopColor="#b18a60"/><stop offset="1" stopColor="#68503e"/></linearGradient>
@@ -30,26 +41,24 @@ function HandDrawing({ kind, phase }: { kind: MovementKind; phase: number }) {
       <circle cx="180" cy="152" r="132" strokeWidth="1.5" strokeDasharray={`${phase / (kind === 'fingers' ? 10 : 4) * 829.38} 829.38`} transform="rotate(-90 180 152)" opacity=".5"/>
     </g>
     <ellipse cx="184" cy="285" rx="72" ry="12" fill="#050b12" opacity=".7" filter={`url(#${shadow})`}/>
-    {kind === 'fingers' ? <g>
-      {[149, 177, 205, 231].map((x, index) => {
-        const extension = fingerExtension(index + 1, phase);
-        const y = 151 - extension * [78, 102, 87, 63][index]!;
-        const width = index === 3 ? 18 : 22;
-        const path = `M${x} 179 C${x - 9 * (1 - extension)} 150 ${x - 5} ${y + 18} ${x} ${y}`;
-        return <g key={x}>{digit(path, width)}
-          <path d={`M${x - 6} ${y + 19}q6 3 12 0M${x - 5} ${y + 36}q5 2 10 0`} fill="none" stroke="#74533f" strokeOpacity={extension * .45} strokeWidth="1.2"/>
-          <ellipse cx={x} cy={y + 4} rx={width / 2 - 4} ry="8" fill="#f3dfbe" opacity={.06 + extension * .08}/>
-        </g>;
-      })}
-      <path d="M131 153 Q114 156 117 187 L129 227 Q141 246 141 277 L212 277 Q211 249 224 226 Q240 201 235 169 Q233 153 217 153Z" fill={`url(#${skin})`} stroke="#f3dcaf" strokeOpacity=".24"/>
-      <path d="M131 157Q120 183 140 219Q157 239 146 271L160 271Q168 235 144 207Q132 186 142 161Z" fill="#fff0ce" opacity=".12"/>
-      <path d="M141 190Q165 180 210 187M143 216Q165 207 202 216M143 196Q147 216 161 226M150 254q22 5 49 0M149 258q24 5 49 0" fill="none" stroke="#6f513d" strokeOpacity=".38" strokeWidth="1.3" strokeLinecap="round"/>
-      {digit(`M128 205 Q${119 - fingerExtension(0, phase) * 14} 170 ${191 - fingerExtension(0, phase) * 89} ${170 - fingerExtension(0, phase) * 27}`, 27)}
-      <path d="M149 278h53" stroke="#e0c49d" strokeOpacity=".18"/>
+    {kind === 'fingers' ? <g transform="matrix(.985 -.09 .09 .985 -10 15)">
+      {fingers.map(({ index, points }) => <g key={index}>{sculptedDigit(points, `finger-${index}`)}</g>)}
+      <path d="M135 159 Q126 155 122 172 Q114 191 129 223 Q140 243 138 277 L208 277 Q208 247 223 222 Q238 198 235 172 Q234 155 223 158 Q211 152 202 158 Q188 151 174 158 Q151 151 135 159Z" fill={`url(#${skin})`} stroke="#efd6ae" strokeOpacity=".2" strokeWidth=".8"/>
+      <path d="M133 172Q118 194 141 224Q157 239 148 268L159 268Q172 239 148 213Q135 193 144 177Z" fill="#fff0ce" opacity=".08"/>
+      <path d="M140 189C162 180 182 185 211 182M145 213C162 206 184 205 205 213M139 197C142 212 149 225 161 230M148 254q26 4 49 0m-48 4q25 4 48 0" fill="none" stroke="#674b38" strokeOpacity=".3" strokeWidth="1.15" strokeLinecap="round"/>
+      <path d="M155 181q9 -3 17 0m7 1q13 -3 21 0" fill="none" stroke="#ffedc9" strokeOpacity=".18" strokeWidth="1"/>
+      {fingers.filter(finger => finger.extension < .85).map(({ index, points, extension }) => <g key={`curl-${index}`} opacity={Math.min(1, (1 - extension) * 4)}>{sculptedDigit(points.slice(1), `curl-${index}`)}</g>)}
+      {sculptedDigit([
+        { x: 137, y: 222, depth: 0, radius: 17 },
+        { x: 128 - fingerExtension(0, phase) * 12, y: 191, depth: 0, radius: 14 },
+        { x: 143 - fingerExtension(0, phase) * 34, y: 170 - fingerExtension(0, phase) * 10, depth: 0, radius: 11 },
+        { x: 180 - fingerExtension(0, phase) * 81, y: 165 - fingerExtension(0, phase) * 27, depth: 0, radius: 9 },
+      ], 'thumb')}
+      {activeFinger > 0 && <g fill="none" stroke="#fff0ca" strokeWidth="1" opacity=".5"><circle cx={fingers[activeFinger - 1]!.points[3]!.x} cy={fingers[activeFinger - 1]!.points[3]!.y} r="13"/></g>}
     </g> : <g>
-      <path d="M91 279L101 193Q102 169 126 170L192 195Q212 216 200 236L178 280Z" fill={`url(#${skin})`} stroke="#f3dcaf" strokeOpacity=".2"/>
-      <path d="M269 279L257 191Q252 170 231 175L163 200Q145 215 158 239L183 280Z" fill={`url(#${skin})`} stroke="#f3dcaf" strokeOpacity=".2"/>
-      {[0, 1, 2, 3].map(i => <g key={i}>{digit(`M${114 + i * 4} ${188 + i * 13} Q180 ${165 + i * 14} 229 ${190 + i * 13}`, 13)}
+      <path d="M94 279L103 212Q96 192 108 177Q117 165 133 177L192 202Q210 219 196 237L177 279Z" fill={`url(#${skin})`} stroke="#f3dcaf" strokeOpacity=".2"/>
+      <path d="M267 279L256 211Q261 188 249 177Q238 169 225 179L169 206Q150 220 164 241L184 279Z" fill={`url(#${skin})`} stroke="#f3dcaf" strokeOpacity=".2"/>
+      {[0, 1, 2, 3].map(i => <g key={i}>{digit(`M${112 + i * 4} ${189 + i * 13} C${143 + i * 3} ${171 + i * 14} ${193 - i * 2} ${173 + i * 13} ${235 - i * 4} ${192 + i * 13}`, 13)}
         <path d={`M170 ${180 + i * 13}l-2 7m27 -5l-1 7`} stroke="#6f513d" strokeOpacity=".45" fill="none"/></g>)}
       <ellipse cx="179" cy="103" rx="27" ry="18" fill="none" stroke="#dbc196" strokeDasharray="1 5" strokeOpacity=".3"/>
       {Math.sin(angle) < 0 ? <>{movingThumb}{steadyThumb}</> : <>{steadyThumb}{movingThumb}</>}

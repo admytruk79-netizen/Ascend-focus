@@ -18,3 +18,36 @@ export function movementCue(kind: MovementKind, phase: number): string {
   if (kind === 'thumbs') return p >= 4 ? 'Circle complete. Let your hands rest.' : 'Circle one thumb gently around the other';
   return fingerFrames[Math.ceil(p)]!;
 }
+
+export type JointPoint = { x: number; y: number; depth: number; radius: number };
+/** A stylized three-joint rig, not a medical/anatomical model. */
+export function fingerPose(index: number, phase: number): JointPoint[] {
+  if (!Number.isInteger(index) || index < 0 || index > 3) return [];
+  const extension = fingerExtension(index + 1, phase);
+  const curl = 1 - extension;
+  const baseX = [147, 176, 204, 229][index]!;
+  const lengths = [[33, 25, 20], [40, 29, 24], [36, 27, 22], [27, 22, 17]][index]!;
+  const spread = [-.08, -.015, .035, .1][index]! * extension;
+  const radius = [11, 11.5, 10.5, 9][index]!;
+  const points: JointPoint[] = [{ x: baseX, y: 162, depth: 0, radius }];
+  let worldY = 162, depth = 0, x = baseX;
+  for (let joint = 0; joint < 3; joint++) {
+    const angle = curl * [1.12, 2.05, 2.65][joint]!;
+    const length = lengths[joint]!;
+    worldY -= Math.cos(angle) * length;
+    depth += Math.sin(angle) * length;
+    x += Math.sin(spread) * length;
+    points.push({ x, y: worldY + depth * .32, depth, radius: radius * [ .91, .8, .69 ][joint]! });
+  }
+  return points;
+}
+/** Tapered, rounded silhouette between articulated joints. */
+export function jointSegment(a: JointPoint, b: JointPoint): string {
+  const dx = b.x - a.x, dy = b.y - a.y;
+  const length = Math.hypot(dx, dy);
+  if (!Number.isFinite(length) || length < .001) return '';
+  const nx = -dy / length, ny = dx / length;
+  const tx = dx / length, ty = dy / length;
+  const point = (p: JointPoint, sign: number) => `${p.x + nx * p.radius * sign} ${p.y + ny * p.radius * sign}`;
+  return `M${point(a, 1)} L${point(b, 1)} Q${b.x + tx * b.radius} ${b.y + ty * b.radius} ${point(b, -1)} L${point(a, -1)} Q${a.x - tx * a.radius} ${a.y - ty * a.radius} ${point(a, 1)}Z`;
+}

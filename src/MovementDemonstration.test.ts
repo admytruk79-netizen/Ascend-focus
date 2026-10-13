@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { MovementDemonstration } from './MovementDemonstration';
-import { boundedPhase, fingerExtension, movementCue } from './movementDemo';
+import { boundedPhase, fingerExtension, fingerPose, jointSegment, movementCue } from './movementDemo';
 
 describe('optional movement demonstrations', () => {
   it('starts still, describes the illustration and keeps a nonmoving alternative', () => {
@@ -31,6 +31,33 @@ describe('optional movement demonstrations', () => {
       previous = next;
     }
     expect(fingerExtension(1, 1.5)).toBeCloseTo(.5);
+  });
+  it('articulates three tapered joints without invalid geometry or changing source order', () => {
+    expect(fingerPose(-1, 5)).toEqual([]);
+    expect(fingerPose(4, 5)).toEqual([]);
+    for (let index = 0; index < 4; index++) {
+      const open = fingerPose(index, 5);
+      const closed = fingerPose(index, 0);
+      expect(open).toHaveLength(4);
+      expect(open[3]!.y).toBeLessThan(open[0]!.y);
+      expect(closed[3]!.y).toBeGreaterThan(closed[0]!.y);
+      for (let phase = 0; phase <= 10; phase += .125) {
+        const pose = fingerPose(index, phase);
+        const reverse = fingerPose(index, 10 - phase);
+        pose.forEach((point, joint) => {
+          expect(Number.isFinite(point.x + point.y + point.depth + point.radius)).toBe(true);
+          expect(point.radius).toBeGreaterThan(0);
+          expect(point.y).toBeCloseTo(reverse[joint]!.y, 8);
+          if (joint > 0) {
+            const outline = jointSegment(pose[joint - 1]!, point);
+            expect(outline).not.toMatch(/NaN|Infinity/);
+            expect(outline).toMatch(/^M.*Z$/);
+          }
+        });
+      }
+    }
+    const a = { x: 0, y: 0, depth: 0, radius: 1 };
+    expect(jointSegment(a, a)).toBe('');
   });
   it('describes the movement underway rather than the previous frame', () => {
     expect(movementCue('fingers', 0)).toBe('Resting hand');
