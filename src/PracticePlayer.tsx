@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { MovementDemonstration } from './MovementDemonstration';
 import { GuidedSteps } from './GuidedSteps';
 import { ExerciseInstructions } from './ExerciseInstructions';
 import { FocusOrb } from './FocusOrb';
@@ -86,13 +87,14 @@ export function PracticePlayer({ exercise, quiet, onBack, onSaved }: { exercise:
     <button className="back" onClick={() => { dispatch('PAUSE'); onBack(); }}>← All practices</button>
     <p className="eyebrow">{exercise.discipline} · Lesson {exercise.lesson}</p><h2 id="practice-heading">{exercise.title}</h2>
     <div className="mode"><button aria-pressed={!historical} onClick={() => changeMode(false)}>Guided practice</button><button aria-pressed={historical} onClick={() => changeMode(true)}>Historical source</button></div>
+    {!historical && !reflection && (exercise.id === 'finger-unfolding' || exercise.id === 'thumb-circles') && <MovementDemonstration key={exercise.id} kind={exercise.id === 'finger-unfolding' ? 'fingers' : 'thumbs'} motionAllowed={!quiet} available={session.startedAt === null}/> }
     <ExerciseInstructions exercise={exercise} historical={historical}/>
     <p role="status">{message || (session.state === 'INTERRUPTED' ? 'Practice interrupted. Background time was not counted. Review safety, then resume when ready.' : reflection ? 'Practice ended. Reflection is optional; saving records this session once.' : session.state === 'PAUSED' ? 'Practice paused. Resume when you choose.' : '')}</p>
     {!reflection && <>
       {!storageReady && <label className="toggle"><input type="checkbox" checked={ephemeralAccepted} onChange={e => setEphemeralAccepted(e.target.checked)}/> Practice without saved progress. I understand that closing this page may lose my draft.</label>}
       <label className="toggle"><input type="checkbox" checked={session.safetyAccepted} disabled={running} onChange={e => update({ ...current.current, safetyAccepted: e.target.checked })}/> I understand I can move, blink naturally, pause or stop for discomfort.</label>
       <label className="toggle"><input type="checkbox" checked={session.durationMs !== null} disabled={session.startedAt !== null} onChange={e => update({ ...current.current, durationMs: e.target.checked ? exercise.minutes * 60000 : null })}/> Use an optional practice timer</label>
-      {session.durationMs !== null && <><label htmlFor="practice-duration">Selected duration — app choice, not historical progression</label><select id="practice-duration" value={session.durationMs / 1000} disabled={session.startedAt !== null} onChange={e => update({ ...current.current, durationMs: Number(e.target.value) * 1000 })}>{[30, 60, 120, 240, 300, 600, 900].map(value => <option value={value} key={value}>{value < 60 ? `${value} seconds` : `${value / 60} minutes`}</option>)}</select></>}
+      {session.durationMs !== null && <><label htmlFor="practice-duration">Selected duration — app choice, not historical progression</label><select id="practice-duration" value={session.durationMs / 1000} disabled={session.startedAt !== null} onChange={e => update({ ...current.current, durationMs: Number(e.target.value) * 1000 })}>{[30, 60, 120, 240, 300, 600, 900].map(value => <option value={value} key={value}>{value < 60 ? `${value} seconds` : `${value / 60} minute${value === 60 ? '' : 's'}`}</option>)}</select></>}
       {!historical && <GuidedSteps exerciseId={exercise.id} steps={exercise.guided} position={session.stage} onPositionChange={stage => update({ ...current.current, stage })}/>}
 
       {exercise.id === 'black-dot' && !historical && <VisualAttentionTarget enabled={running} motionAllowed={!quiet}/>}
