@@ -71,4 +71,16 @@ describe('source presentation', () => {
     expect(guided).toContain('Support your arm');
   });
 
+  it('reuses finger transcription for thumb circles without guiding historical fatigue persistence', () => {
+    const exercise = exercises.find(e => e.id === 'thumb-circles')!;
+    const historical = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+    const guided = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: false }));
+    expect(historical).toContain('Source paragraph 124-2');
+    expect(historical).toContain('five times during one session');
+    expect(historical).toContain('This exercise will cause you fatigue');
+    expect(guided).not.toContain('This exercise will cause you fatigue');
+    expect(guided).not.toContain('Source paragraph');
+    expect(guided).toContain('Stop or use a nonmovement alternative');
+  });
+
 });

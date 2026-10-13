@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
   "complete": false,
   "passages": [
@@ -185,6 +185,84 @@
       ],
       "relatedExerciseIds": [
         "water-glass"
+      ]
+    },
+    {
+      "id": "XIV-finger-pages",
+      "exerciseId": "finger-unfolding",
+      "relatedExerciseIds": [
+        "thumb-circles",
+        "pointing-finger"
+      ],
+      "lesson": "XIV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF123–124 / printed111–112; headers excluded. A4 continuation, B introduction, B1/B2/B3 and closing fragment retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical suppression of startle, fatigue-persistence demands and promised complete muscle control are documentary claims, not guided recommendations.",
+      "uncertainties": [
+        "Punctuation and word spacing await independent proofreading.",
+        "The printed label on124 is В.—3, not the raw OCR В.—8. English renders the section letter as B.",
+        "The source’s перенесенія мысли is translated thought transference; it is not silently replaced with the separate thought-absorption term.",
+        "The final Ва- fragment continues125; its missing continuation is not inserted into this page."
+      ],
+      "paragraphs": [
+        {
+          "id": "123-1",
+          "pdfPage": 123,
+          "printedPage": 111,
+          "boundary": "continuation-from-122",
+          "russian": "натурой. Вы легко можете ихъ уничтожить при помощи «перенесенія мысли» и упражненій въ концентраціи. Пріучите себя спокойно и хладнокровно относиться къ звукамъ, которые до настоящаго момента заставляли васъ вздрагивать, напримѣръ хлопанье быстро закрытой двери, паденіе книги или какой-нибудь другой вещи и т. п. Вообще крѣпче держите себя въ рукахъ. Указанныя упражненія окажутъ вамъ существенную пользу въ пріобрѣтеніи того, что вы желаете.",
+          "english": "…nature. You can easily eliminate them through thought transference and concentration exercises. Accustom yourself to respond calmly and coolly to sounds that until now have made you start, such as the slam of a quickly closed door, a falling book or some other object, and the like. In general, keep a firmer hold on yourself. The exercises indicated will be of substantial benefit in acquiring what you desire."
+        },
+        {
+          "id": "123-2",
+          "pdfPage": 123,
+          "printedPage": 111,
+          "boundary": "complete-paragraph",
+          "russian": "В. Вышеприведенныя упражненія дадутъ вамъ умѣнье управлять невольными мускульными движеніями и благодаря этому подчинять ваше тѣло контролю произвольныхъ функцій. Слѣдующія же упражненія предназначаются для того, чтобы подчинить ваши произвольныя мускульныя движенія непосредственному контролю, или, говоря иначе, для того, чтобы развить духовныя способности, вызывающія произвольныя мускульныя движенія.",
+          "english": "B. The preceding exercises will give you the ability to govern involuntary muscular movements and thereby bring your body under the control of voluntary functions. The following exercises are intended to bring your voluntary muscular movements under direct control or, in other words, to develop the mental faculties that initiate voluntary muscular movements."
+        },
+        {
+          "id": "123-3",
+          "pdfPage": 123,
+          "printedPage": 111,
+          "boundary": "complete-paragraph",
+          "russian": "В.—1. Сядьте прямо передъ столомъ, положите на него руки и сожмите кулаки, повернувъ ихъ при этомъ ладонями вверхъ такимъ образомъ, чтобы большой палецъ находился на другихъ. Устремите свой взоръ на кулакъ; послѣ этого постепенно отодвигайте большой палецъ, сосредоточивая все свое вниманіе на этомъ дѣйствіи, какъ будто бы это имѣетъ для васъ большое значеніе. Затѣмъ медленно вытяните (разогните) свой указательный палецъ, послѣ него второй и такъ далѣе вплоть до послѣдняго. Затѣмъ продѣлайте наоборотъ; сначала загните мизинецъ и продолжайте загибаніе пальцевъ далѣе, пока кулакъ не приметъ своего прежняго вида; при этомъ большой палецъ будетъ лежать на пальцахъ. Продолжайте то же самое съ лѣвой рукой. Повторите это упражненіе пять разъ во время одного сеанса, впослѣдствіи вы можете продѣлывать его по десяти разъ.",
+          "english": "B.—1. Sit upright before a table, rest your hands on it and close your fists, turning the palms upward so that the thumb lies over the other fingers. Direct your gaze at the fist; then gradually move the thumb away, concentrating all your attention on this action as though it were of great importance to you. Next slowly extend, or unfold, your index finger, then the next finger, and so on to the last. Then reverse the procedure: bend the little finger first and continue bending the fingers until the fist has resumed its previous form, with the thumb resting on the fingers. Do the same with the left hand. Repeat this exercise five times during one session; later you may perform it ten times."
+        },
+        {
+          "id": "124-1",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "complete-paragraph",
+          "russian": "Это упражненіе вызоветъ у васъ «утомленіе», но вамъ слѣдуетъ настойчиво повторять его, такъ какъ оно очень важно для васъ вслѣдствіе развитія вашего вниманія и направленія его на простыя и однообразныя дѣйствія; кромѣ этого оно дастъ вамъ непосредственный контроль надъ всѣми мускульными движеніями. Вы очень скоро почувствуете то благодѣтельное вліяніе, которое окажутъ на васъ эти простыя и, повидимому, неважныя упражненія. Вы не должны ни на одну секунду упускать изъ вниманія сгибаніе и разгибаніе пальцевъ. Въ этомъ заключается вся суть. Если вы пренебрежете этимъ, то вы тѣмъ самымъ окончательно утратите всю пользу отъ продѣлыванія упражненія.",
+          "english": "This exercise will cause you fatigue, but you should repeat it persistently, for it is very important in developing your attention and directing it toward simple and monotonous actions; moreover, it will give you direct control over all muscular movements. You will very soon feel the beneficial influence of these simple and apparently insignificant exercises. You must not lose sight of the bending and unfolding of the fingers for even one second. That is the whole point. If you neglect this, you will thereby lose all benefit from doing the exercise."
+        },
+        {
+          "id": "124-2",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "complete-paragraph",
+          "russian": "В.—2. Это упражненіе представляетъ изъ себя не что иное какъ старую шутку, которую часто можно видѣть у нашихъ крестьянъ; она извѣстна подъ именемъ «вращеніе большихъ пальцевъ». Помѣстите пальцы одной руки въ промежутки между пальцами другой; большіе пальцы оставьте свободными. Послѣ этого медленно начните вращать одинъ большой палецъ вокругъ другого, сосредоточивъ одновременно все свое вниманіе на концахъ большихъ пальцевъ.",
+          "english": "B.—2. This exercise is simply an old pastime often seen among our peasants, known as twirling the thumbs. Place the fingers of one hand in the spaces between the fingers of the other, leaving the thumbs free. Then slowly begin to rotate one thumb around the other while concentrating all your attention on the tips of the thumbs."
+        },
+        {
+          "id": "124-3",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "complete-paragraph",
+          "russian": "В.—3. Положите правую руку на колѣно, сжавъ всѣ ея пальцы, за исключеніемъ указательнаго пальца, вытянутаго впередъ, въ кулакъ; затѣмъ начните медленно водить пальцемъ изъ стороны въ сторону, сосредоточивъ все свое вниманіе на его кончикѣ.",
+          "english": "B.—3. Rest your right hand on your knee, closing all its fingers into a fist except the index finger, which is extended forward. Then slowly begin moving that finger from side to side, concentrating all your attention on its tip."
+        },
+        {
+          "id": "124-4",
+          "pdfPage": 124,
+          "printedPage": 112,
+          "boundary": "continues-on-125",
+          "russian": "Подобныя упражненія можно, конечно, видоизмѣнять до безконечности; вы должны поэтому обратиться къ своей изобрѣтательности для отыскиванія все новыхъ и новыхъ дальнѣйшихъ упражненій; главная идея заключается въ томъ, что упражненіе должно состоять изъ нѣсколькихъ простыхъ, обычныхъ, монотонныхъ мускульныхъ движеній, при чемъ все вниманіе сосредоточивается на движущейся части тѣла. Ва-",
+          "english": "Exercises of this kind can, of course, be varied indefinitely; you should therefore use your ingenuity to find further exercises. The main idea is that the exercise should consist of a few simple, ordinary, monotonous muscular movements, with all attention concentrated on the moving part of the body. Your…"
+        }
       ]
     }
   ]

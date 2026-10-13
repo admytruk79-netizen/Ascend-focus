@@ -226,3 +226,22 @@ test('shared water-glass transcription keeps source timing and suppression separ
  assert.match(seated.paragraphs[0].english, /five minutes.*ten minutes.*fifteen minutes/);
  assert.equal(seated.independentlyReviewed, false);
 });
+
+test('finger-page translation preserves counts, sequence and shared citation anchors', () => {
+ const d = JSON.parse(readFileSync(new URL('./sourceTranscriptions.json', import.meta.url), 'utf8'));
+ const p = d.passages.find(p => p.id === 'XIV-finger-pages');
+ assert.deepEqual(p.relatedExerciseIds, ['thumb-circles', 'pointing-finger']);
+ for (const id of [p.exerciseId, ...p.relatedExerciseIds]) {
+  const e = exercises.find(e => e.id === id);
+  for (const quote of e.source.originalRussian) assert.ok(p.paragraphs.some(r => r.pdfPage === quote.pdfPage && r.russian.includes(quote.text)));
+  assert.equal(e.sourceDuration.kind, 'not-specified');
+ }
+ const unfold = p.paragraphs.find(r => r.id === '123-3');
+ assert.match(unfold.english, /five times.*ten times/);
+ assert.match(unfold.english, /little finger first/);
+ assert.match(p.paragraphs.find(r => r.id === '124-3').russian, /В.—3/);
+ assert.match(p.paragraphs.find(r => r.id === '124-3').english, /side to side/);
+ assert.equal(p.paragraphs.at(-1).boundary, 'continues-on-125');
+ assert.ok(p.paragraphs.at(-1).russian.endsWith('Ва-'));
+ assert.equal(p.independentlyReviewed, false);
+});

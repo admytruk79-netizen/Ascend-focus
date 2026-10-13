@@ -173,3 +173,17 @@ test('shared source page is readable with a keyboard and remains historical only
  await expect(page.getByRole('region', { name: 'Source paragraph 122-3' })).toHaveCount(0);
  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Support your arm');
 });
+
+test('thumb practice exposes the shared finger-page translation only in historical mode', async ({ page }) => {
+ await page.goto('/');
+ await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+ await page.getByRole('button', { name: /Slow Thumb Circles/ }).click();
+ await page.getByRole('button', { name: 'Historical source', exact: true }).click();
+ await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
+ await expect(page.getByRole('region', { name: 'Source paragraph 123-3' })).toContainText('five times');
+ await expect(page.getByRole('region', { name: 'Source paragraph 124-2' })).toContainText('leaving the thumbs free');
+ await page.screenshot({ path: 'test-results/screenshots/finger-transcription-mobile.png', fullPage: true });
+ await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
+ await expect(page.getByRole('region', { name: 'Source paragraph 124-2' })).toHaveCount(0);
+ await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Stop or use a nonmovement alternative');
+});

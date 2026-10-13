@@ -30,3 +30,9 @@ fragments and neighboring A2/A3/A4 context. Shared page122 accessible from both
 arm-observation and water-glass, without duplicated transcription. Historical
 blink/fidget suppression and rest-cure claims are attributed, not guided.
 Five full body-text pages drafted so far; independent proofreading pending.
+
+Fourth batch: PDF123–124 / printed111–112, seven aligned paragraphs. Full body
+text includes A4 continuation, B introduction, B1 unfolding5→10 repetitions,
+B2 thumbs, B3 index motion, and final Ва- fragment into125. One shared passage
+serves all three finger practices. Printed B3/OCR8 discrepancy recorded.
+Seven full body-text pages drafted; independent proofreading still pending.

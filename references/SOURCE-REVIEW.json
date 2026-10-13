@@ -1828,7 +1828,7 @@
       "pdfPage": 123,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1743,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [
         "XIV-B1"
       ],
@@ -1838,13 +1838,17 @@
       "readingCategories": [
         "historical-daily-life-advice",
         "structured-historical-drill"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XIV-finger-pages",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 124,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1839,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [
         "XIV-B1",
         "XIV-B2",
@@ -1858,7 +1862,11 @@
         "structured-historical-drill",
         "structured-historical-drill",
         "historical-general-guidance"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XIV-finger-pages",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 125,

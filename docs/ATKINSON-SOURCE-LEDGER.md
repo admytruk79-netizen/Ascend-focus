@@ -398,3 +398,13 @@ Source full-page context preserved, modern movement/blinking allowances unchange
 Shared page122 panel available for arm and water modules. Drafts compared with
 scans; five body-text pages registered overall, independent proofreading pending.
 No new timer, dose, stage or source-complete claim.
+
+## Transcription pass — Lesson XIV full pages123–124
+
+Seven aligned paragraphs added and linked to finger-unfolding, thumb-circles and
+pointing-finger historical panels. Original B1 five/later-ten repetitions preserved;
+no source time/count invented for B2/B3. Fatigue persistence and uninterrupted
+attention demands remain historical; comfort-based guided movements unchanged.
+Printed B3 is3, not raw OCR8. A4 term перенесенія мысли and boundary fragments
+retained with editorial notes. Seven body-text draft pages total; full-source
+transcription and independent review incomplete.
