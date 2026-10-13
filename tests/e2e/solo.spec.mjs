@@ -116,8 +116,8 @@ test('source-grounded pencil sharpening runs untimed and saves private reflectio
  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Historical source instructions' })).toContainText('time is at your disposal');
  await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
- await expect(page.getByRole('region', { name: 'Source paragraph 115-3' })).toContainText('The time is at your disposal');
- await expect(page.getByRole('region', { name: 'Source paragraph 116-1' })).toContainText('continuation from 115');
+ await expect(page.getByRole('region', { name: 'Source paragraph 115-3', exact: true })).toContainText('The time is at your disposal');
+ await expect(page.getByRole('region', { name: 'Source paragraph 116-1', exact: true })).toContainText('continuation from 115');
  await page.screenshot({ path: 'test-results/screenshots/pencil-sharpening-source-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('non-sharpening alternative');
@@ -143,8 +143,8 @@ test('final-lesson reading practice runs and saves without an insight requiremen
  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
  await expect(page.getByRole('region', { name: 'Historical source instructions' })).toContainText('Reread the lessons');
  await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
- await expect(page.getByRole('region', { name: 'Source paragraph 132-2' })).toContainText('immerse yourself in silence');
- await expect(page.getByRole('region', { name: 'Source paragraph 132-2' })).toContainText('погрузитесь въ молчаніе');
+ await expect(page.getByRole('region', { name: 'Source paragraph 132-2', exact: true })).toContainText('immerse yourself in silence');
+ await expect(page.getByRole('region', { name: 'Source paragraph 132-2', exact: true })).toContainText('погрузитесь въ молчаніе');
  await page.screenshot({ path: 'test-results/screenshots/read-and-rest-source-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
  await page.getByRole('checkbox', { name: 'Use an optional practice timer' }).uncheck();
@@ -166,11 +166,11 @@ test('shared source page is readable with a keyboard and remains historical only
  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
  const disclosure = page.getByText('Russian transcription and English translation · draft', { exact: true });
  await disclosure.focus(); await page.keyboard.press('Enter');
- await expect(page.getByRole('region', { name: 'Source paragraph 122-2' })).toContainText('one minute');
- await expect(page.getByRole('region', { name: 'Source paragraph 122-3' })).toContainText('Do not blink');
+ await expect(page.getByRole('region', { name: 'Source paragraph 122-2', exact: true })).toContainText('one minute');
+ await expect(page.getByRole('region', { name: 'Source paragraph 122-3', exact: true })).toContainText('Do not blink');
  await page.screenshot({ path: 'test-results/screenshots/water-glass-transcription-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
- await expect(page.getByRole('region', { name: 'Source paragraph 122-3' })).toHaveCount(0);
+ await expect(page.getByRole('region', { name: 'Source paragraph 122-3', exact: true })).toHaveCount(0);
  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Support your arm');
 });
 
@@ -180,13 +180,37 @@ test('thumb practice exposes the shared finger-page translation only in historic
  await page.getByRole('button', { name: /Slow Thumb Circles/ }).click();
  await page.getByRole('button', { name: 'Historical source', exact: true }).click();
  await page.getByText('Russian transcription and English translation · draft', { exact: true }).click();
- await expect(page.getByRole('region', { name: 'Source paragraph 123-3' })).toContainText('five times');
- await expect(page.getByRole('region', { name: 'Source paragraph 124-2' })).toContainText('leaving the thumbs free');
- await page.getByRole('region', { name: 'Source paragraph 124-2' }).screenshot({ path: 'test-results/screenshots/thumb-source-closeup.png' });
+ await expect(page.getByRole('region', { name: 'Source paragraph 123-3', exact: true })).toContainText('five times');
+ await expect(page.getByRole('region', { name: 'Source paragraph 124-2', exact: true })).toContainText('leaving the thumbs free');
+ await page.getByRole('region', { name: 'Source paragraph 124-2', exact: true }).screenshot({ path: 'test-results/screenshots/thumb-source-closeup.png' });
  await page.evaluate(() => window.scrollTo(0, 0));
  await page.screenshot({ path: 'test-results/screenshots/thumb-practice-viewport.png', fullPage: false });
  await page.screenshot({ path: 'test-results/screenshots/finger-transcription-mobile.png', fullPage: true });
  await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
- await expect(page.getByRole('region', { name: 'Source paragraph 124-2' })).toHaveCount(0);
+ await expect(page.getByRole('region', { name: 'Source paragraph 124-2', exact: true })).toHaveCount(0);
  await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Stop or use a nonmovement alternative');
+});
+
+test('training screens keep attribution in source view with original text immediately readable', async ({ page }) => {
+ await page.goto('/');
+ await expect(page.getByRole('complementary', { name: 'Historical book source' })).toHaveCount(0);
+ await expect(page.getByText('William Walker Atkinson', { exact: true })).toHaveCount(0);
+ await page.screenshot({ path: 'test-results/screenshots/today-training-viewport.png', fullPage: false });
+ await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+ await expect(page.getByRole('complementary', { name: 'Historical book source' })).toHaveCount(0);
+ await page.getByRole('button', { name: /Slow Thumb Circles/ }).click();
+ await expect(page.getByRole('complementary', { name: 'Historical book source' })).toHaveCount(0);
+ await page.screenshot({ path: 'test-results/screenshots/thumb-training-viewport.png', fullPage: false });
+ await page.getByRole('button', { name: 'Historical source', exact: true }).click();
+ await expect(page.getByRole('complementary', { name: 'Historical book source' })).toContainText('William Walker Atkinson');
+ await expect(page.getByRole('complementary', { name: 'Historical book source' })).toContainText('Сила мысли в деловой и повседневной жизни');
+ await expect(page.getByRole('link', { name: 'Read the original 1910 Russian PDF' })).toHaveAttribute('href', 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view');
+ const original = page.getByRole('region', { name: 'Original exercise text', exact: true });
+ await expect(original).toBeVisible();
+ await expect(original).toContainText('большіе пальцы оставьте свободными');
+ await expect(original).toContainText('leaving the thumbs free');
+ await original.screenshot({ path: 'test-results/screenshots/visible-thumb-source-text.png', style: 'nav { visibility: hidden; }' });
+ await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
+ await expect(original).toHaveCount(0);
+ await expect(page.getByRole('complementary', { name: 'Historical book source' })).toHaveCount(0);
 });

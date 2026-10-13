@@ -83,4 +83,30 @@ describe('source presentation', () => {
     expect(guided).toContain('Stop or use a nonmovement alternative');
   });
 
+  it('keeps author, book, edition and PDF citation in the source view', () => {
+    for (const exercise of exercises) {
+      const html = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+      const guided = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: false }));
+      expect(guided).not.toContain('Historical book source');
+      expect(guided).not.toContain('William Walker Atkinson');
+      expect(guided).not.toContain('Сила мысли в деловой и повседневной жизни');
+      expect(html).toContain('William Walker Atkinson');
+      expect(html).toContain('Сила мысли в деловой и повседневной жизни');
+      expect(html).toContain('1910 Russian edition');
+      expect(html).toContain('1jWooZQ-arFVtNDHOCoqalcsBShRdxewb');
+    }
+  });
+  it('includes the relevant full source text directly, including cross-page arm instructions', () => {
+    const exercise = exercises.find(e => e.id === 'arm-observation')!;
+    const html = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+    expect(html).toContain('aria-label="Original exercise text"');
+    expect(html).toContain('Exercise source paragraph 121-2');
+    expect(html).toContain('Exercise source paragraph 122-1');
+    const direct = html.slice(html.indexOf('aria-label="Original exercise text"'), html.indexOf('Historical protocol — English paraphrase'));
+    expect(direct).not.toContain('<details');
+    expect(direct).toContain('English translation');
+    expect(direct).toContain('Independent proofreading is pending');
+    expect(direct).toContain('two'); expect(direct).toContain('minutes, then to three');
+  });
+
 });

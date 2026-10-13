@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
-import { exercises, curriculumStatus, historicalLessonNotes, timerLabel } from './exercises.ts';
+import { exercises, curriculumStatus, historicalLessonNotes, timerLabel, atkinsonSource } from './exercises.ts';
 
 test('every runnable historical practice has checked page-specific source evidence', () => {
   assert.equal(new Set(exercises.map(e => e.id)).size, exercises.length);
@@ -244,4 +244,26 @@ test('finger-page translation preserves counts, sequence and shared citation anc
  assert.equal(p.paragraphs.at(-1).boundary, 'continues-on-125');
  assert.ok(p.paragraphs.at(-1).russian.endsWith('Ва-'));
  assert.equal(p.independentlyReviewed, false);
+});
+
+test('master-source identity and visible text selections have page-level provenance', () => {
+ for (const e of exercises) {
+  assert.equal(e.source.author, atkinsonSource.author);
+  assert.equal(e.source.title, atkinsonSource.titleRussian);
+  assert.equal(e.source.language, 'Russian');
+  assert.equal(e.source.sourceLink, curriculumStatus.sourceUrl);
+ }
+ const d = JSON.parse(readFileSync(new URL('./sourceTranscriptions.json', import.meta.url), 'utf8'));
+ const paragraphs = d.passages.flatMap(p => p.paragraphs);
+ assert.equal(new Set(paragraphs.map(p => p.id)).size, paragraphs.length);
+ assert.equal(new Set(d.exerciseSelections.map(s => s.exerciseId)).size, d.exerciseSelections.length);
+ for (const selection of d.exerciseSelections) {
+  const e = exercises.find(e => e.id === selection.exerciseId); assert.ok(e);
+  assert.ok(selection.paragraphIds.length);
+  for (const id of selection.paragraphIds) {
+   const p = paragraphs.find(p => p.id === id); assert.ok(p);
+   assert.ok(e.source.scanPages.includes(p.pdfPage));
+  }
+ }
+ assert.deepEqual(d.exerciseSelections.find(s => s.exerciseId === 'arm-observation').paragraphIds, ['121-2', '122-1']);
 });

@@ -55,3 +55,9 @@ main:focus{outline:none}.skip-link{position:fixed;top:8px;left:8px;z-index:100;t
 .guided-steps{margin:22px 0;padding:20px;background:#112738;border:1px solid #3a5362;border-radius:14px}
 .guided-steps progress{width:100%;height:8px;accent-color:#d2b386}
 .guided-instruction{font-family:Georgia,serif;font-size:clamp(21px,4vw,29px);line-height:1.5;min-height:110px}
+
+.source-citation{border:1px solid #62707a;border-radius:12px;padding:14px 16px;margin:16px 0;background:#132432;overflow-wrap:anywhere}
+.source-citation p{margin:4px 0}.source-citation a{display:inline-flex;align-items:center;min-height:44px;color:#edc991;text-decoration:underline}
+.original-exercise-text{border-top:1px solid #62707a;border-bottom:1px solid #62707a;padding:8px 0 18px;margin:18px 0}
+.original-exercise-text p[lang]{font-size:16px;line-height:1.75;overflow-wrap:anywhere}
+.original-exercise-text h5{font-size:16px;margin-bottom:6px}

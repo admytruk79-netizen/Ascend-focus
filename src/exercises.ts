@@ -1,3 +1,11 @@
+export const atkinsonSource = {
+  author: 'William Walker Atkinson',
+  titleRussian: 'Сила мысли в деловой и повседневной жизни',
+  titleEnglishTranslation: 'The Power of Thought in Business and Everyday Life',
+  edition: '1910 Russian edition', language: 'Russian', scanPages: 138,
+  url: 'https://drive.google.com/file/d/1jWooZQ-arFVtNDHOCoqalcsBShRdxewb/view',
+  specificationUrl: 'https://docs.google.com/document/d/16U1Rs7_o1CjWGCzHBDjXCB2-hjpxapimrF27x4Qhebk/edit',
+} as const;
 export type Discipline = 'Attention' | 'Will' | 'Imagination' | 'Mental Rapport';
 export type SourceDuration =
   | { kind: 'verified'; initialMinutes: number; progressionMinutes: number[]; details: string; pdfPage: number }
@@ -6,6 +14,7 @@ export type Exercise = {
   id: string; title: string; discipline: Discipline; lesson: string; pdfPages: string;
   minutes: number; guided: string[]; history: string; notice: string;
   source: {
+    author: string; title: string; language: 'Russian'; sourceLink: string;
     edition: '1910 Russian'; fidelity: 'verified-excerpt'; ledgerIds: string[];
     scanPages: number[]; printedPages: number[]; checkedAgainst: 'primary-scan';
     originalRussian: { text: string; pdfPage: number; printedPage: number }[];
@@ -27,7 +36,7 @@ export const curriculumStatus = {
 const reflection: Exercise['reflection'] = { fields: ['notes', 'comfort', 'perceived-usefulness'], privateByDefault: true };
 const note = 'Short Russian excerpt checked against the scan; line breaks and spacing normalized. English instructions below are a paraphrase, not a quotation or full transcription.';
 function source(ledgerIds: string[], scanPages: number[], quote: string, quotePage: number): Exercise['source'] {
-  return { edition: '1910 Russian', fidelity: 'verified-excerpt', ledgerIds, scanPages, printedPages: scanPages.map(p => p - 12), checkedAgainst: 'primary-scan', originalRussian: [{ text: quote, pdfPage: quotePage, printedPage: quotePage - 12 }], transcriptionNote: note };
+  return { author: atkinsonSource.author, title: atkinsonSource.titleRussian, language: 'Russian', sourceLink: atkinsonSource.url, edition: '1910 Russian', fidelity: 'verified-excerpt', ledgerIds, scanPages, printedPages: scanPages.map(p => p - 12), checkedAgainst: 'primary-scan', originalRussian: [{ text: quote, pdfPage: quotePage, printedPage: quotePage - 12 }], transcriptionNote: note };
 }
 
 export const exercises: Exercise[] = [

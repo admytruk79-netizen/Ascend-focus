@@ -64,11 +64,11 @@ export default function App() {
           <h3>Explore your path</h3><div className="tiles">{['Attention', 'Will', 'Imagination', 'Mental Rapport'].map(x => <button className="tile" key={x} onClick={() => { setDiscipline(x); navigate('Practice'); }}><Brain size={22} aria-hidden="true"/>{x}</button>)}</div>
         </>}
         {tab === 'Practice' && <>
-          <p className="eyebrow">THE LIBRARY</p><h2>Practices</h2><p className="muted">{curriculumStatus.note} Historical protocols and modern adaptations remain separate.</p>
+          <p className="eyebrow">THE LIBRARY</p><h2>Practices</h2><p className="muted">Choose a practice and a comfortable duration. Original text and citations are available in each practice’s Historical source view. The catalog is still being completed.</p>
           <label htmlFor="practice-search">Search practices or lessons</label><input id="practice-search" value={query} onChange={e => setQuery(e.target.value)}/>
           <label htmlFor="discipline-filter">Discipline</label><select id="discipline-filter" value={discipline} onChange={e => setDiscipline(e.target.value)}>{['All', 'Attention', 'Will', 'Imagination', 'Mental Rapport'].map(x => <option key={x}>{x}</option>)}</select>
           {!matches.length && <p className="empty">No matching practices. <button className="secondary" onClick={() => { setQuery(''); setDiscipline('All'); }}>Clear filters</button></p>}
-          <div className="cards">{matches.map(e => <button className="exercise" key={e.id} onClick={() => openExercise(e)}><span className="eyebrow">{e.discipline} · Optional guided timer {e.minutes} min</span><strong>{e.title}</strong><span className="muted">Lesson {e.lesson} · PDF pp. {e.pdfPages}</span><span className="open">Explore →</span></button>)}</div>
+          <div className="cards">{matches.map(e => <button className="exercise" key={e.id} onClick={() => openExercise(e)}><span className="eyebrow">{e.discipline} · Optional guided timer {e.minutes} min</span><strong>{e.title}</strong><span className="muted">{e.objectives[0]}</span><span className="open">Explore →</span></button>)}</div>
         </>}
         {tab === 'Journal' && <>
           <p className="eyebrow">PERSONAL RECORD</p><h2>Your journal</h2><p className="muted">Private by default, stored only in this browser. Clearing browser storage erases these entries. Export a backup when needed.</p>

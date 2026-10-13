@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
   "complete": false,
   "passages": [
@@ -263,6 +263,59 @@
           "russian": "Подобныя упражненія можно, конечно, видоизмѣнять до безконечности; вы должны поэтому обратиться къ своей изобрѣтательности для отыскиванія все новыхъ и новыхъ дальнѣйшихъ упражненій; главная идея заключается въ томъ, что упражненіе должно состоять изъ нѣсколькихъ простыхъ, обычныхъ, монотонныхъ мускульныхъ движеній, при чемъ все вниманіе сосредоточивается на движущейся части тѣла. Ва-",
           "english": "Exercises of this kind can, of course, be varied indefinitely; you should therefore use your ingenuity to find further exercises. The main idea is that the exercise should consist of a few simple, ordinary, monotonous muscular movements, with all attention concentrated on the moving part of the body. Your…"
         }
+      ]
+    }
+  ],
+  "exerciseSelections": [
+    {
+      "exerciseId": "pencil-sharpening",
+      "paragraphIds": [
+        "115-3",
+        "116-1"
+      ]
+    },
+    {
+      "exerciseId": "reading-reflection",
+      "paragraphIds": [
+        "132-2"
+      ]
+    },
+    {
+      "exerciseId": "stillness",
+      "paragraphIds": [
+        "121-1"
+      ]
+    },
+    {
+      "exerciseId": "arm-observation",
+      "paragraphIds": [
+        "121-2",
+        "122-1"
+      ]
+    },
+    {
+      "exerciseId": "water-glass",
+      "paragraphIds": [
+        "122-2"
+      ]
+    },
+    {
+      "exerciseId": "finger-unfolding",
+      "paragraphIds": [
+        "123-3",
+        "124-1"
+      ]
+    },
+    {
+      "exerciseId": "thumb-circles",
+      "paragraphIds": [
+        "124-2"
+      ]
+    },
+    {
+      "exerciseId": "pointing-finger",
+      "paragraphIds": [
+        "124-3"
       ]
     }
   ]
