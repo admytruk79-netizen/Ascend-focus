@@ -389,3 +389,12 @@ and духъ translation choice explicitly documented, not silently reconstructe
 Three full body-text draft pages now registered; independent review and full
 source transcription incomplete. Historical predicted insight is not a guarantee
 in modern guidance; no timer or exercise catalog count changed.
+
+## Transcription pass — Lesson XIV full pages121–122
+
+Five additional aligned paragraphs: stillness5/10/15 and no-overfatigue; arm1/2/3/5;
+water glass1→5; A4 daily-life movement suppression with boundary into123.
+Source full-page context preserved, modern movement/blinking allowances unchanged.
+Shared page122 panel available for arm and water modules. Drafts compared with
+scans; five body-text pages registered overall, independent proofreading pending.
+No new timer, dose, stage or source-complete claim.

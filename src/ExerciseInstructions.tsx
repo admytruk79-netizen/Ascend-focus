@@ -3,7 +3,7 @@ import { curriculumStatus, historicalLessonNotes, timerLabel, type Exercise } fr
 
 export function ExerciseInstructions({ exercise, historical }: { exercise: Exercise; historical: boolean }) {
   const lessonNotes = historicalLessonNotes[exercise.lesson];
-  const transcription = transcriptions.passages.find(p => p.exerciseId === exercise.id);
+  const transcription = transcriptions.passages.find(p => p.exerciseId === exercise.id || ('relatedExerciseIds' in p && Array.isArray(p.relatedExerciseIds) && p.relatedExerciseIds.includes(exercise.id)));
   return <section aria-label={historical ? 'Historical source instructions' : 'Modern guided instructions'}>
     <p className="muted">Lesson {exercise.lesson} · PDF pp. {exercise.pdfPages} · printed pp. {exercise.source.printedPages.join(', ')} · Verified excerpt</p>
     {historical ? <>

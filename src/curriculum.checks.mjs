@@ -211,3 +211,18 @@ test('final-page translation retains the silence instruction without adding a so
  assert.equal(p.independentlyReviewed, false);
  assert.ok(p.uncertainties.some(q => q.includes('without an explicit')));
 });
+
+test('shared water-glass transcription keeps source timing and suppression separate from guidance', () => {
+ const d = JSON.parse(readFileSync(new URL('./sourceTranscriptions.json', import.meta.url), 'utf8'));
+ const shared = d.passages.find(p => p.id === 'XIV-page-122');
+ assert.deepEqual(shared.relatedExerciseIds, ['water-glass']);
+ const e = exercises.find(e => e.id === 'water-glass');
+ for (const q of e.source.originalRussian) assert.ok(shared.paragraphs.some(p => p.pdfPage === q.pdfPage && p.russian.includes(q.text)));
+ const water = shared.paragraphs.find(p => p.id === '122-2');
+ assert.match(water.english, /one minute.*five minutes/);
+ assert.match(shared.paragraphs.find(p => p.id === '122-3').english, /Do not blink/);
+ assert.doesNotMatch(e.guided.join(' '), /Do not blink|Stop tapping/);
+ const seated = d.passages.find(p => p.id === 'XIV-page-121');
+ assert.match(seated.paragraphs[0].english, /five minutes.*ten minutes.*fifteen minutes/);
+ assert.equal(seated.independentlyReviewed, false);
+});

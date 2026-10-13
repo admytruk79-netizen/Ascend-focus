@@ -59,4 +59,16 @@ describe('source presentation', () => {
     expect(guided).toContain('No new insight is required');
   });
 
+  it('shares page122 with water-glass while excluding historical suppression from guided view', () => {
+    const exercise = exercises.find(e => e.id === 'water-glass')!;
+    const historical = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: true }));
+    const guided = renderToStaticMarkup(createElement(ExerciseInstructions, { exercise, historical: false }));
+    expect(historical).toContain('Source paragraph 122-2');
+    expect(historical).toContain('Source paragraph 122-3');
+    expect(historical).toContain('Do not blink your eyes');
+    expect(guided).not.toContain('Do not blink your eyes');
+    expect(guided).not.toContain('Source paragraph');
+    expect(guided).toContain('Support your arm');
+  });
+
 });

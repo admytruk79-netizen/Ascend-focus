@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "sourceSha256": "aae7f2aae38b281177fa0eecf2136b8bd99e18b07ce229c41396cfc37edaadbe",
   "complete": false,
   "passages": [
@@ -108,6 +108,83 @@
           "russian": "Я благодарю васъ за ваше любезное вниманіе.",
           "english": "I thank you for your kind attention."
         }
+      ]
+    },
+    {
+      "id": "XIV-page-121",
+      "exerciseId": "stillness",
+      "lesson": "XIV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF121 / printed109; header excluded. Adjacent exercise context and boundary fragments retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical movement suppression, mastery demands and rest-cure claims are transcribed for comparison, not endorsed guidance.",
+      "uncertainties": [
+        "Punctuation and word spacing await independent proofreading.",
+        "Opening and closing page fragments are not reconstructed from neighboring pages.",
+        "спокойствіе is rendered stillness in the seated task; the Russian also carries a sense of calm."
+      ],
+      "paragraphs": [
+        {
+          "id": "121-1",
+          "pdfPage": 121,
+          "printedPage": 109,
+          "boundary": "continuation-from-120",
+          "russian": "сосредоточиваться, задерживать невольныя мускульныя движенія; послѣ небольшой практики вы будете способны спокойно сидѣть, не двигая мускулами, пятнадцать и болѣе минутъ. Самый лучшій способъ для этого состоитъ въ слѣдующемъ: сядьте въ удобное кресло, займите удобное положеніе, ослабьте всѣ мускулы и постарайтесь сохранять полнѣйшее спокойствіе въ продолженіе пяти минутъ. Продолжайте продѣлывать это упражненіе до тѣхъ поръ, пока вы будете способны очень легко выполнять его; затѣмъ увеличьте время до десяти минутъ; послѣ того, какъ вы научитесь сохранять спокойствіе въ теченіе десяти минутъ, продлите время до пятнадцати минутъ; этого времени будетъ вполнѣ достаточно. Вы не должны переутомлять себя какъ этимъ, такъ и какимъ-либо другимъ упражненіемъ. Лучше всего упражняться понемногу, но какъ можно чаще. Имѣйте въ виду, что вы отнюдь не должны сидѣть въ оцѣпенѣломъ положеніи; не должно имѣть мѣсто ни малѣйшее напряженіе мускуловъ; вамъ слѣдуетъ совсѣмъ ихъ ослабить. Подобный способъ ослабленія очень полезенъ въ тѣхъ случаяхъ, когда вы пожелаете хорошо отдохнуть послѣ утомительнаго напряженія. Въ немъ заключается идеальное «леченіе отдыхомъ», которое можно производить сидя въ креслѣ или лежа въ постели или на диванѣ.",
+          "english": "…to concentrate and restrain involuntary muscular movements; after a little practice you will be able to sit quietly, without moving your muscles, for fifteen minutes or more. The best method is this: sit in a comfortable chair, adopt a comfortable position, relax all the muscles and try to remain completely still for five minutes. Continue this exercise until you can perform it very easily; then increase the time to ten minutes. After you have learned to remain still for ten minutes, extend it to fifteen minutes; that will be quite sufficient. You must not overfatigue yourself with this or any other exercise. It is best to practise a little at a time, but as often as possible. Bear in mind that you must not sit rigidly; there should be no muscular tension at all. You should relax the muscles completely. This method of relaxation is very useful when you wish to rest well after tiring exertion. It is an ideal rest cure, which can be practised sitting in a chair or lying in bed or on a sofa."
+        },
+        {
+          "id": "121-2",
+          "pdfPage": 121,
+          "printedPage": 109,
+          "boundary": "continues-on-122",
+          "russian": "А.—2. Сядьте прямо (выпрямившись) въ своемъ креслѣ; поднимите голову, выставьте впередъ подбородокъ и отодвиньте назадъ плечи. Протяните свою правую руку въ горизонтальномъ направленіи направо на одномъ уровнѣ съ плечомъ. Поверните свою голову и направьте пристальный взглядъ на свою руку; держите ее въ выпрямленномъ положеніи въ теченіе одной минуты. Продѣлайте то же самое съ лѣвой рукой. Когда вы будете способны въ совершенствѣ выполнять это упражненіе, увеличьте время до двухъ",
+          "english": "A.—2. Sit upright in your chair; raise your head, put your chin forward and draw your shoulders back. Extend your right arm horizontally to the right at shoulder level. Turn your head and look intently at your arm; hold it extended for one minute. Do the same with your left arm. When you can perform this exercise perfectly, increase the time to two…"
+        }
+      ]
+    },
+    {
+      "id": "XIV-page-122",
+      "exerciseId": "arm-observation",
+      "lesson": "XIV",
+      "status": "draft-scan-compared",
+      "independentlyReviewed": false,
+      "coverage": "Full body text of PDF122 / printed110; header excluded. Adjacent exercise context and boundary fragments retained.",
+      "editorialPolicy": "Historical spelling retained; line wrapping and line-break hyphenation normalized. Paragraph/page boundaries retained. English is a new editorial translation of this Russian printing, not Atkinson’s original English wording.",
+      "attribution": "Historical movement suppression, mastery demands and rest-cure claims are transcribed for comparison, not endorsed guidance.",
+      "uncertainties": [
+        "Punctuation and word spacing await independent proofreading.",
+        "рюмка is translated small glass; specific vessel size is not inferred.",
+        "A4 suppression of blinking/fidgeting is historical documentation, never modern guided advice."
+      ],
+      "paragraphs": [
+        {
+          "id": "122-1",
+          "pdfPage": 122,
+          "printedPage": 110,
+          "boundary": "continuation-from-121",
+          "russian": "минутъ, затѣмъ до трехъ и такъ далѣе до тѣхъ поръ, пока вы будете способны сохранять подобное положеніе въ теченіе пяти минутъ. Ладонь руки при этомъ должна быть обращена къ низу, такъ какъ это является наиболѣе легкимъ положеніемъ. Направляя взглядъ на кончики пальцевъ, вы всегда будете въ состояніи опредѣлить, сохраняетъ ли ваша рука вполнѣ спокойное положеніе.",
+          "english": "…minutes, then to three, and so on until you can maintain this position for five minutes. The palm should face downward, as this is the easiest position. By looking at the fingertips, you will always be able to tell whether your arm remains completely still."
+        },
+        {
+          "id": "122-2",
+          "pdfPage": 122,
+          "printedPage": 110,
+          "boundary": "complete-paragraph",
+          "russian": "А.—3. Наполните рюмку водой вплоть до краевъ и возьмите ее пальцами; вытяните правую руку прямо предъ собой. Устремите глаза на рюмку и постарайтесь настолько спокойно держать руку, чтобы невозможно было замѣтить колебанія воды. Начинайте это упражненіе съ минуты и постепенно увеличьте его до пяти минутъ; здѣсь будетъ граница; упражняйтесь поперемѣнно правой и лѣвой рукой.",
+          "english": "A.—3. Fill a small glass with water to the brim and hold it with your fingers; extend your right arm straight in front of you. Fix your eyes on the glass and try to hold your arm so still that no movement of the water can be seen. Begin this exercise with one minute and gradually increase it to five minutes; that is the limit. Practise alternately with the right and left hand."
+        },
+        {
+          "id": "122-3",
+          "pdfPage": 122,
+          "printedPage": 110,
+          "boundary": "continues-on-123",
+          "russian": "А.—4. Въ своей повседневной жизни по возможности избѣгайте натянутаго напряженнаго состоянія мускуловъ, когда чувствуете расположеніе къ покою. Постарайтесь пріобрѣсти уравновѣшенныя манеры и походку. Выработайте пріятное обращеніе и самообладаніе взамѣнъ нервозности и крайне озабоченнаго вида. Умственныя упражненія принесутъ вамъ пользу при выработкѣ умѣнія держать себя и обходиться съ окружающими. Перестаньте стучать въ «тактъ» пальцами по столу или стулу; подобныя дѣйствія показываютъ отсутствіе контроля надъ самимъ собой. Не топайте ногами и не болтайте ими, когда вы говорите или сидите. Вы не должны раскачиваться въ качалкѣ подобно поршню въ машинѣ или маятнику въ часахъ. Не грызите своихъ ногтей и не кусайте своихъ губъ; не щелкайте языкомъ во время чтенія, занятій или письма; не мигайте своими глазами, устраните привычку вздрагивать или подергивать какой-нибудь частью своего тѣла; привычки обыкновенно дѣлаются второй",
+          "english": "A.—4. In everyday life, avoid muscular stiffness and tension as far as possible when you wish to rest. Try to acquire composed manners and a steady gait. Develop pleasant conduct and self-possession instead of nervousness and an excessively worried appearance. Mental exercises will help you develop your bearing and your manner toward others. Stop tapping your fingers in time on a table or chair; such actions show a lack of self-control. Do not stamp or swing your feet while speaking or sitting. Do not rock in a rocking chair like a piston in a machine or a pendulum in a clock. Do not bite your nails or lips; do not click your tongue while reading, studying or writing. Do not blink your eyes; eliminate the habit of starting or twitching any part of the body. Habits commonly become second…"
+        }
+      ],
+      "relatedExerciseIds": [
+        "water-glass"
       ]
     }
   ]

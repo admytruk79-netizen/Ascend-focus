@@ -158,3 +158,18 @@ test('final-lesson reading practice runs and saves without an insight requiremen
  await page.getByRole('navigation').getByRole('button', { name: 'Journal', exact: true }).click();
  await expect(page.locator('.entry')).toContainText('A question remains');
 });
+
+test('shared source page is readable with a keyboard and remains historical only', async ({ page }) => {
+ await page.goto('/');
+ await page.getByRole('navigation').getByRole('button', { name: 'Practice', exact: true }).click();
+ await page.getByRole('button', { name: /Steady Hand/ }).click();
+ await page.getByRole('button', { name: 'Historical source', exact: true }).click();
+ const disclosure = page.getByText('Russian transcription and English translation · draft', { exact: true });
+ await disclosure.focus(); await page.keyboard.press('Enter');
+ await expect(page.getByRole('region', { name: 'Source paragraph 122-2' })).toContainText('one minute');
+ await expect(page.getByRole('region', { name: 'Source paragraph 122-3' })).toContainText('Do not blink');
+ await page.screenshot({ path: 'test-results/screenshots/water-glass-transcription-mobile.png', fullPage: true });
+ await page.getByRole('button', { name: 'Guided practice', exact: true }).click();
+ await expect(page.getByRole('region', { name: 'Source paragraph 122-3' })).toHaveCount(0);
+ await expect(page.getByRole('region', { name: 'Modern guided instructions' })).toContainText('Support your arm');
+});

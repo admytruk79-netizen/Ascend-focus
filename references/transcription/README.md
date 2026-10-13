@@ -24,3 +24,9 @@ missing quotation reconstructed. Russian warning construction and contextual
 translation of духъ documented as editorial questions. Draft scan-compared only.
 Current coverage: three full body-text pages (115,116,132); source completeness
 and independent review remainfalse.
+
+Third batch: full body text PDF121–122 / printed109–110, including page-boundary
+fragments and neighboring A2/A3/A4 context. Shared page122 accessible from both
+arm-observation and water-glass, without duplicated transcription. Historical
+blink/fidget suppression and rest-cure claims are attributed, not guided.
+Five full body-text pages drafted so far; independent proofreading pending.

@@ -1781,7 +1781,7 @@
       "pdfPage": 121,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1786,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [
         "XIV-A1",
         "XIV-A2",
@@ -1796,13 +1796,17 @@
       "readingCategories": [
         "structured-historical-drill",
         "structured-historical-drill"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XIV-page-121",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 122,
       "embeddedTextPresent": true,
       "embeddedTextCharacters": 1751,
-      "fullPageTranscriptionStatus": "needs-page-review",
+      "fullPageTranscriptionStatus": "draft-transcribed-scan-compared",
       "scanCheckedExcerpts": [
         "XIV-A2",
         "XIV-A3"
@@ -1814,7 +1818,11 @@
         "structured-historical-drill",
         "structured-historical-drill",
         "historical-daily-life-advice"
-      ]
+      ],
+      "transcriptionFile": "src/sourceTranscriptions.json",
+      "transcriptionPassageId": "XIV-page-122",
+      "translationStatus": "editorial-draft",
+      "independentlyReviewed": false
     },
     {
       "pdfPage": 123,
