@@ -22,11 +22,14 @@ Six historical experiments are described. Their purported remote influence effec
 Modern adaptations: private visualization, optional consenting paired word/picture guessing, and pre-registered blind trials; not stranger targeting.
 
 ## Lesson X — Telepathic Will (PDF pp. 75–85, printed pp. 63–73)
+STATUS: fully read and ledgered end-to-end (PDF 75–85) via direct PDF text extraction (`pdftotext`, not the earlier partial Drive-text pull this ledger was built from). Lesson X ends and Lesson XI ("Attractive Power of Thought," theory only, no exercises - Mulford/Williams quotations on "thoughts are things") begins on PDF 85.
+- X-0 PDF 75–78 (printed 63–66): Theoretical setup for "telepathic willing" - no numbered exercise here, just the rapport/vibration theory and Atkinson's warning against using these techniques to cause harm ("you will pay for it with your own suffering"; do not cause damage to the influenced person). Not implemented as an exercise, but is the textual source backing the app's existing non-covert-influence safety notices on the Mental Rapport exercises.
 - X-1 PDF 79: Find a quiet place; sit or lie comfortably; relax muscles and settle thoughts.
 - X-2 PDF 79: Form a mental image of another person; historical text treats vividness as evidence of rapport, which is not established.
 - X-3 PDF 79–80: Imagine the person's behavior as mental communication.
 - X-4 PDF 80–81: Visualize a long hollow tube/corridor connecting imagined people as a concentration method.
 - X-5 PDF 81: Affirm personal agency ('I am') as a historical mental-boundary technique.
+- X-6 PDF 82–83 (printed 70–71): Atkinson extends the 'I am' affirmation into an explicit defensive practice - surrounding the affirmed self-image with "guarding thoughts," described as a protective "mental castle," used to think clearly under outside pressure or crowd feeling before returning (same page) to the chapter's main thread on influencing others. Implemented as `mental-shielding` ("The Mental Castle").
 Modern adaptation must not claim telepathic communication is scientifically established or encourage belief in unwanted external thought intrusion.
 
 ## Lesson XIV — Concentration (PDF pp. 120–125 and continuing; printed pp. 108–113+)
@@ -46,6 +49,7 @@ Modern adaptation must not claim telepathic communication is scientifically esta
 - Never claim the exercise inventory is complete until all 138 PDF pages are audited, including the continuation beyond PDF 125.
 - Do not silently invent historically attributed exercises or durations.
 - Obtain the scanned PDF through an authorized accessible workspace if exact transcription or complete extraction is requested.
+- Extraction method note: the PDF already has an embedded OCR text layer (Adobe Acrobat Pro Paper Capture), 138 pages confirmed via `pdfinfo`. Fetching it through a generic "read this Drive file as text" tool truncated at ~120K characters (roughly through PDF page 80). Downloading the raw file and running `pdftotext -layout` locally (or `pdftotext -f N -l N` per page) extracts the full 138 pages (~400K characters) and is the reliable method - use that, not a generic Drive text read, when auditing pages beyond ~80.
 
 ## Lesson XII — Thought absorption (PDF pp 107–109; printed pp 95–97)
 These six numbered instructions belong to ONE continuous historical protocol, not six unrelated lessons.
