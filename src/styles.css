@@ -118,3 +118,10 @@ summary{cursor:pointer;min-height:24px;color:#ddc49d}
 /* Last in the cascade: both preferences stop every decorative transition. */
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 .app.quiet *,.app.quiet *::before,.app.quiet *::after{animation:none!important;transition:none!important}
+
+/* Administration uses the same accessible gloss surfaces as practice. */
+.logo-admin{min-height:44px;padding:0;font-weight:400;flex:none;color:#d1b992!important;background:radial-gradient(circle at 30% 18%,#f4d7a13d,transparent 65%),linear-gradient(145deg,#263b49,#101e2b)!important}
+.admin-panel input,.admin-panel select{display:block;width:100%;min-height:44px;margin:8px 0 18px;padding:12px;font:inherit;color:#f0ede5;background:#0d1b28;border:1px solid #617586;border-radius:10px}
+.admin-panel label{font-size:14px}
+.admin-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media(max-width:420px){.admin-grid{grid-template-columns:1fr}}

@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'src/**'
+      - 'server/**'
       - 'index.html'
       - 'package.json'
       - 'package-lock.json'
@@ -44,6 +45,7 @@ jobs:
         run: |
           npm run typecheck
           npm test
+          npm run api:test
           npm run build
       - name: Sync web assets into the committed Android project
         run: npx cap sync android

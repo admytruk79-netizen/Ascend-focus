@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'src/**'
+      - 'server/**'
       - 'index.html'
       - 'package.json'
       - 'tsconfig.json'
@@ -23,4 +24,5 @@ jobs:
       - run: npm install --no-audit --no-fund
       - run: npm run typecheck
       - run: npm test
+      - run: npm run api:test
       - run: npm run build
