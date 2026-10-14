@@ -14,7 +14,7 @@ on:
       - '.github/workflows/android-preview.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   debug-apk:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
           "$SDKMANAGER" --install "platforms;android-35" "build-tools;35.0.0"
           "$SDKMANAGER" --list_installed | grep -E "platforms;android-35|build-tools;35.0.0"
       - name: Install npm dependencies
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
       - name: Validate web application
         run: |
           npm run typecheck
@@ -57,8 +57,41 @@ jobs:
           APK=android/app/build/outputs/apk/debug/app-debug.apk
           test -s "$APK"
           file "$APK"
+          BUILD_TOOLS="${ANDROID_HOME}/build-tools/35.0.0"
+          "$BUILD_TOOLS/apksigner" verify --verbose --print-certs "$APK"
+          "$BUILD_TOOLS/zipalign" -c -P 16 -v 4 "$APK"
+          "$BUILD_TOOLS/aapt" dump badging "$APK" > android/app/build/outputs/apk/debug/APK-METADATA.txt
+          grep -F "package: name='com.hiddenlaws.ascendfocus.debug'" android/app/build/outputs/apk/debug/APK-METADATA.txt
+          grep -F "sdkVersion:'23'" android/app/build/outputs/apk/debug/APK-METADATA.txt
+          grep -F "targetSdkVersion:'35'" android/app/build/outputs/apk/debug/APK-METADATA.txt
           sha256sum "$APK" | tee android/app/build/outputs/apk/debug/SHA256SUMS.txt
           ls -lh "$APK"
+      - name: Test normal APK installation and launch on Android 35
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          disable-animations: true
+          script: |
+            adb install android/app/build/outputs/apk/debug/app-debug.apk
+            adb shell am start -W -n com.hiddenlaws.ascendfocus.debug/com.hiddenlaws.ascendfocus.MainActivity
+            adb shell pidof com.hiddenlaws.ascendfocus.debug
+      - name: Publish direct install APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: focus-preview-${{ github.run_number }}
+          name: ASCEND Focus Android Preview ${{ github.run_number }}
+          prerelease: true
+          body: |
+            Direct Android APK download. No Developer Mode required.
+            Requires Android 6.0 or later.
+            Installs as ASCEND Focus (Preview).
+            Signature, alignment, package metadata and Android 35 emulator installation checked in CI.
+          files: |
+            android/app/build/outputs/apk/debug/app-debug.apk
+            android/app/build/outputs/apk/debug/SHA256SUMS.txt
+            android/app/build/outputs/apk/debug/APK-METADATA.txt
       - name: Publish debug APK
         uses: actions/upload-artifact@v4
         with:
