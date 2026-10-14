@@ -66,6 +66,11 @@ jobs:
           grep -F "targetSdkVersion:'35'" android/app/build/outputs/apk/debug/APK-METADATA.txt
           sha256sum "$APK" | tee android/app/build/outputs/apk/debug/SHA256SUMS.txt
           ls -lh "$APK"
+      - name: Enable hardware acceleration for the test phone
+        run: |
+          sudo chmod 666 /dev/kvm
+          test -r /dev/kvm
+          test -w /dev/kvm
       - name: Test normal APK installation and launch on Android 35
         uses: reactivecircus/android-emulator-runner@v2
         with:
@@ -73,6 +78,7 @@ jobs:
           target: google_apis
           arch: x86_64
           disable-animations: true
+          emulator-boot-timeout: 180
           script: |
             adb install android/app/build/outputs/apk/debug/app-debug.apk
             adb shell am start -W -n com.hiddenlaws.ascendfocus.debug/com.hiddenlaws.ascendfocus.MainActivity
