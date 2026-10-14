@@ -50,3 +50,71 @@
 .guided-instruction{font-family:Georgia,serif;font-size:clamp(21px,4vw,29px);line-height:1.5;min-height:110px}
 .guided-steps .actions{justify-content:space-between}
 .guided-steps button:disabled{opacity:.45;cursor:not-allowed}
+
+/* Gloss surfaces retain an opaque base when backdrop filtering is unavailable. */
+:root{
+ --gloss-edge:rgba(219,236,245,.19);
+ --gloss-shadow:0 14px 36px rgba(0,5,12,.24),inset 0 1px 0 rgba(241,249,255,.12),inset 0 -1px 0 rgba(0,0,0,.18);
+ --motion-ease:cubic-bezier(.22,1,.36,1);
+}
+.app{background:radial-gradient(ellipse at top right,rgba(78,115,137,.23),transparent 52%),radial-gradient(ellipse at 0 35%,rgba(165,131,78,.06),transparent 45%),#0b1420}
+header{background:linear-gradient(125deg,rgba(228,244,255,.045),transparent 60%);box-shadow:0 1px 0 rgba(230,240,248,.025)}
+.mark{background:radial-gradient(circle at 30% 18%,rgba(244,215,161,.24),transparent 65%),linear-gradient(145deg,#263b49,#101e2b);box-shadow:inset 0 1px 1px #f6d8a347,0 4px 14px #0005}
+.feature,.panel,.entry,.tile,.exercise,.guided-steps{
+ position:relative;isolation:isolate;
+ border-color:var(--gloss-edge);
+ background:radial-gradient(ellipse at 12% 0%,rgba(203,232,246,.08),transparent 58%),linear-gradient(145deg,#1c3344,#122535 60%,#10212f);
+ box-shadow:var(--gloss-shadow);
+}
+.feature::before,.panel::before,.entry::before,.tile::before,.exercise::before,.guided-steps::before{
+ content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;
+ background:linear-gradient(115deg,rgba(231,247,255,.065),transparent 35%,transparent 70%,rgba(204,177,131,.035));
+}
+.feature{background:radial-gradient(ellipse at 16% 0%,rgba(213,234,245,.12),transparent 62%),linear-gradient(145deg,#213b4d,#122738 70%);box-shadow:var(--gloss-shadow),0 0 42px rgba(114,164,188,.035)}
+button:not(.tile):not(.exercise):not(.secondary):not(.back):not(nav button):not(.mode button){
+ background:linear-gradient(135deg,#e2c79b,#c1a174 55%,#aa8554);
+ box-shadow:inset 0 1px 0 #fff7,0 3px 10px #0003;
+}
+button:hover{filter:none}
+button:disabled{cursor:not-allowed;opacity:.45}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #e8cf9b;outline-offset:3px}
+.mode{padding:4px;background:#07162199;border:1px solid #abc5d11c;border-radius:15px}
+.mode button{background:transparent;border-color:transparent;box-shadow:none}
+.mode button[aria-pressed=true]{background:linear-gradient(145deg,#685c464d,#b4935926);border-color:#ccb17e85;box-shadow:inset 0 1px 0 #f4e1b826,0 3px 8px #0003}
+.secondary,.back{background:linear-gradient(135deg,#d9ecf20b,#c3d7e903);border-color:#b2c6d542;box-shadow:inset 0 1px 0 #e9f8ff0d}
+textarea,.library-controls input,.library-controls select,.attention-controls select{box-shadow:inset 0 2px 7px #0003;border-color:#a4bec044}
+.notice{background:linear-gradient(110deg,#9d845b21,#213441aa);border-radius:0 10px 10px 0}
+nav{background:#0d1b27f5;box-shadow:0 -8px 28px #0003,inset 0 1px 0 #e2f4ff0c;border-color:#b1cfe126}
+@supports(backdrop-filter:blur(12px)){
+ nav{background:#0d1b27dc;backdrop-filter:blur(18px) saturate(130%);-webkit-backdrop-filter:blur(18px) saturate(130%)}
+}
+nav button{position:relative;isolation:isolate;border-radius:12px}
+nav button.selected{background:linear-gradient(160deg,#d1b07d19,#d1b07d05);box-shadow:inset 0 1px 0 #e8cf9b1a}
+nav button.selected::after{border-radius:3px;box-shadow:0 0 8px #edc99144}
+.focus-orb{border-radius:50%;background:radial-gradient(circle at 32% 23%,#e4f5ff12,transparent 43%),radial-gradient(circle,#c8a86c0d,transparent 66%);box-shadow:inset 0 1px 1px #d8efff0d}
+.orb-core{filter:drop-shadow(0 0 5px #e4c99925)}
+.orb-point{filter:drop-shadow(0 0 4px #ebd3a266)}
+details{border:1px solid #abc5d126;border-radius:12px;padding:12px 16px;background:#081a2859}
+summary{cursor:pointer;min-height:24px;color:#ddc49d}
+@media(prefers-reduced-motion:no-preference){
+ .app:not(.quiet) main{animation:gloss-page-enter .38s var(--motion-ease) both}
+ .app:not(.quiet) .guided-instruction{animation:gloss-step-enter .25s var(--motion-ease) both}
+ .app:not(.quiet) button{
+  transition:transform .22s var(--motion-ease),background-color .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease;
+ }
+ .app:not(.quiet) textarea,.app:not(.quiet) input,.app:not(.quiet) select{transition:border-color .2s ease,box-shadow .2s ease}
+ .app:not(.quiet) button:not(:disabled):active{transform:scale(.98);transition-duration:.1s}
+ .app:not(.quiet) nav button.selected svg{animation:gloss-nav-enter .3s var(--motion-ease) both}
+ @media(hover:hover) and (pointer:fine){
+  .app:not(.quiet) .tile::before,.app:not(.quiet) .exercise::before{transition:opacity .3s ease,background-position .65s var(--motion-ease);background-image:linear-gradient(115deg,transparent 20%,#e7f7ff16 42%,transparent 64%);background-size:220% 100%;background-position:100% 0;opacity:.5}
+  .app:not(.quiet) .tile:hover::before,.app:not(.quiet) .exercise:hover::before{background-position:0 0;opacity:1}
+  .app:not(.quiet) .tile:hover,.app:not(.quiet) .exercise:hover{transform:translateY(-3px);border-color:#d1e4ef55;box-shadow:0 19px 40px #0005,inset 0 1px 0 #f1f9ff29}
+  .app:not(.quiet) button:not(.tile):not(.exercise):not(:disabled):hover{transform:translateY(-1px);box-shadow:inset 0 1px 0 #fff3,0 5px 16px #0004}
+ }
+}
+@keyframes gloss-page-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes gloss-step-enter{from{opacity:.2;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@keyframes gloss-nav-enter{from{transform:translateY(3px) scale(.94)}to{transform:translateY(0) scale(1)}}
+/* Last in the cascade: both preferences stop every decorative transition. */
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.app.quiet *,.app.quiet *::before,.app.quiet *::after{animation:none!important;transition:none!important}

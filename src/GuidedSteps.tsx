@@ -10,7 +10,7 @@ export function GuidedSteps({steps,exerciseId}:Props){
  return <div className="guided-steps" aria-label="Guided exercise instructions">
   <p className="eyebrow">STEP {current+1} OF {steps.length}</p>
   <progress value={current+1} max={steps.length} aria-label="Instruction progress"/>
-  <p className="guided-instruction" aria-live="polite" aria-atomic="true">{steps[current]}</p>
+  <p key={current} className="guided-instruction" aria-live="polite" aria-atomic="true">{steps[current]}</p>
   <div className="actions">
    <button type="button" className="secondary" disabled={current===0} onClick={()=>navigate(current-1)}>Previous</button>
    <button type="button" disabled={current===steps.length-1} onClick={()=>navigate(current+1)}>Next step</button>
