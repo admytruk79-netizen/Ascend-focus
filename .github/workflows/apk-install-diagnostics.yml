@@ -1,0 +1,68 @@
+name: Inspect published APK installation
+on:
+  push:
+    paths:
+      - '.github/workflows/apk-install-diagnostics.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-published-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Inspect exact download supplied to user
+        run: |
+          mkdir -p android/app/build/outputs/apk/debug
+          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          curl --fail --location --retry 3 https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-34/app-debug.apk -o "$APK"
+          curl --fail --location --retry 3 https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-34/SHA256SUMS.txt -o SHA256SUMS.txt
+          sha256sum --check SHA256SUMS.txt
+          unzip -t "$APK"
+          TOOLS="${ANDROID_HOME}/build-tools/35.0.0"
+          "$TOOLS/apksigner" verify --verbose --print-certs "$APK"
+          "$TOOLS/aapt" dump badging "$APK" | tee APK-METADATA.txt
+          "$TOOLS/aapt" dump xmltree "$APK" AndroidManifest.xml > MANIFEST.txt
+          unzip -Z1 "$APK" > APK-FILES.txt
+          python3 - <<'PY'
+          import pathlib
+          text=pathlib.Path('APK-METADATA.txt').read_text()
+          files=pathlib.Path('APK-FILES.txt').read_text().splitlines()
+          native=[p for p in files if p.startswith('lib/') and p.endswith('.so')]
+          print('NATIVE LIBRARIES:',native)
+          print('PROCESSOR REQUIREMENT:',next((line for line in text.splitlines() if line.startswith('native-code:')),'No native-code ABI restriction'))
+          assert not native or any(p.startswith('lib/arm64-v8a/') for p in native),'Missing ARM64 support for Galaxy S25'
+          assert "package: name='com.hiddenlaws.ascendfocus.debug'" in text
+          assert "targetSdkVersion:'35'" in text
+          assert 'maxSdkVersion' not in text
+          assert 'split=' not in text
+          PY
+      - name: Enable test acceleration
+        run: sudo chmod 666 /dev/kvm
+      - name: Install the downloaded APK on Android 16
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 36
+          target: google_apis
+          arch: x86_64
+          emulator-boot-timeout: 180
+          disable-animations: true
+          script: |
+            adb install android/app/build/outputs/apk/debug/app-debug.apk
+            adb shell am start -W -n com.hiddenlaws.ascendfocus.debug/com.hiddenlaws.ascendfocus.MainActivity
+            adb shell pidof com.hiddenlaws.ascendfocus.debug
+      - name: Save reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: galaxy-s25-apk-report
+          path: |
+            APK-METADATA.txt
+            MANIFEST.txt
+            APK-FILES.txt
+            SHA256SUMS.txt
+          retention-days: 7
