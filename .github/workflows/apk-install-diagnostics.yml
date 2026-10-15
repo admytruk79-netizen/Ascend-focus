@@ -17,12 +17,15 @@ jobs:
           java-version: '21'
       - name: Inspect exact download supplied to user
         run: |
-          mkdir -p android/app/build/outputs/apk/debug
-          APK=android/app/build/outputs/apk/debug/app-debug.apk
-          curl --fail --location --retry 3 https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-34/app-debug.apk -o "$APK"
-          curl --fail --location --retry 3 https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-34/SHA256SUMS.txt -o SHA256SUMS.txt
+          mkdir -p install
+          APK=install/ASCEND-Focus.apk
+          curl --fail --location --retry 3 https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-35/ASCEND-Focus.apk -o "$APK"
+          curl --fail --location --retry 3 https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-35/SHA256SUMS.txt -o SHA256SUMS.txt
           sha256sum --check SHA256SUMS.txt
           unzip -t "$APK"
+          curl --fail --location --retry 6 --retry-all-errors --retry-delay 10 https://ascend-focus-api.onrender.com/downloads/ASCEND-Focus.apk -o mirror.apk
+          cmp "$APK" mirror.apk
+          echo "Direct mirror is byte-for-byte identical to the signed release."
           TOOLS="${ANDROID_HOME}/build-tools/35.0.0"
           "$TOOLS/apksigner" verify --verbose --print-certs "$APK"
           "$TOOLS/aapt" dump badging "$APK" | tee APK-METADATA.txt
@@ -52,7 +55,7 @@ jobs:
           emulator-boot-timeout: 180
           disable-animations: true
           script: |
-            adb install android/app/build/outputs/apk/debug/app-debug.apk
+            adb install install/ASCEND-Focus.apk
             adb shell am start -W -n com.hiddenlaws.ascendfocus.debug/com.hiddenlaws.ascendfocus.MainActivity
             adb shell pidof com.hiddenlaws.ascendfocus.debug
       - name: Save reports

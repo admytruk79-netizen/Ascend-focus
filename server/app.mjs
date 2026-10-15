@@ -4,6 +4,7 @@ import {HttpError,validateCatalog,ownerPrincipal} from "./validation.mjs";
 const hash=v=>createHash("sha256").update(v).digest("hex");
 export function createApi({db,baseline,authUrl,ownerEmail,origins,fetcher=fetch}){
  const allowed=new Set(origins);
+ let apkCache=null;
  async function auth(path,body,cookies){
   const response=await fetcher(authUrl+"/"+path,{method:body?"POST":"GET",headers:{"content-type":"application/json",...(cookies?{cookie:cookies}:{}),origin:origins[0]},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(15000)});
   const data=await response.json().catch(()=>({}));
@@ -43,6 +44,18 @@ export function createApi({db,baseline,authUrl,ownerEmail,origins,fetcher=fetch}
    res.setHeader("access-control-allow-methods","GET,POST,PUT,OPTIONS");
    if(req.method==="OPTIONS"){res.writeHead(204);res.end();return;}
    const path=new URL(req.url,"http://localhost").pathname;
+   if(path==="/downloads/ASCEND-Focus.apk"&&(req.method==="GET"||req.method==="HEAD")){
+    const expected="8831f5f2ce12bca604488d9231f6cb68fe942f188c8efe8e0f20d8dcb1d80f32";
+    if(!apkCache){
+     const upstream=await fetch("https://github.com/admytruk79-netizen/Ascend-focus/releases/download/focus-preview-35/ASCEND-Focus.apk",{signal:AbortSignal.timeout(60000)});
+     if(!upstream.ok)throw new HttpError(503,"APK download is temporarily unavailable.");
+     const bytes=Buffer.from(await upstream.arrayBuffer());
+     if(bytes.length!==3216098||createHash("sha256").update(bytes).digest("hex")!==expected)throw new HttpError(503,"APK integrity verification failed. No file was sent.");
+     apkCache=bytes;
+    }
+    res.writeHead(200,{"content-type":"application/vnd.android.package-archive","content-disposition":'attachment; filename="ASCEND-Focus-1.1.1.apk"',"content-length":apkCache.length,"cache-control":"no-store","x-content-type-options":"nosniff","x-apk-sha256":expected});
+    res.end(req.method==="HEAD"?undefined:apkCache);return;
+   }
    if(path==="/health"&&req.method==="GET"){await db.query("SELECT 1");return send(200,{ok:true});}
    if(path==="/api/catalog"&&req.method==="GET"){const r=await db.query("SELECT revision,exercises FROM focus_catalog WHERE singleton=true");return send(200,r.rows[0]??{revision:1,exercises:baseline});}
    if(path.startsWith("/api/admin/auth/")&&req.method==="POST"){
