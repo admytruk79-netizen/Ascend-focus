@@ -1,4 +1,4 @@
-name: ASCEND Focus Android debug preview
+name: ASCEND Focus Android install preview
 on:
   push:
     paths:
@@ -17,7 +17,7 @@ on:
 permissions:
   contents: write
 jobs:
-  debug-apk:
+  preview-apk:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -49,24 +49,39 @@ jobs:
           npm run build
       - name: Sync web assets into the committed Android project
         run: npx cap sync android
-      - name: Build debug APK
+      - name: Build non-debuggable preview APK
         working-directory: android
-        run: bash ./gradlew assembleDebug --no-daemon
-      - name: Verify debug APK and write SHA-256
+        run: bash ./gradlew assemblePreview --no-daemon -Pandroid.injected.testOnly=false
+      - name: Verify installable preview APK and write SHA-256
         shell: bash
         run: |
           set -euo pipefail
-          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          APK=android/app/build/outputs/apk/preview/app-preview.apk
           test -s "$APK"
           file "$APK"
           BUILD_TOOLS="${ANDROID_HOME}/build-tools/35.0.0"
           "$BUILD_TOOLS/apksigner" verify --verbose --print-certs "$APK"
           "$BUILD_TOOLS/zipalign" -c -P 16 -v 4 "$APK"
-          "$BUILD_TOOLS/aapt" dump badging "$APK" > android/app/build/outputs/apk/debug/APK-METADATA.txt
-          grep -F "package: name='com.hiddenlaws.ascendfocus.debug'" android/app/build/outputs/apk/debug/APK-METADATA.txt
-          grep -F "sdkVersion:'23'" android/app/build/outputs/apk/debug/APK-METADATA.txt
-          grep -F "targetSdkVersion:'35'" android/app/build/outputs/apk/debug/APK-METADATA.txt
-          sha256sum "$APK" | tee android/app/build/outputs/apk/debug/SHA256SUMS.txt
+          "$BUILD_TOOLS/aapt" dump badging "$APK" > android/app/build/outputs/apk/preview/APK-METADATA.txt
+          grep -F "package: name='com.hiddenlaws.ascendfocus.debug'" android/app/build/outputs/apk/preview/APK-METADATA.txt
+          grep -F "sdkVersion:'23'" android/app/build/outputs/apk/preview/APK-METADATA.txt
+          grep -F "targetSdkVersion:'35'" android/app/build/outputs/apk/preview/APK-METADATA.txt
+          "$BUILD_TOOLS/aapt" dump xmltree "$APK" AndroidManifest.xml > android/app/build/outputs/apk/preview/APK-MANIFEST.txt
+          python3 - <<'PY'
+          import pathlib,zipfile
+          path=pathlib.Path('android/app/build/outputs/apk/preview')
+          metadata=(path/'APK-METADATA.txt').read_text()
+          manifest=(path/'APK-MANIFEST.txt').read_text()
+          assert 'application-debuggable' not in metadata, 'APK must not be debuggable'
+          for line in manifest.splitlines():
+              if 'android:testOnly' in line or 'android:debuggable' in line:
+                  assert '0xffffffff' not in line, line
+          with zipfile.ZipFile(path/'app-preview.apk') as apk:
+              native=[n for n in apk.namelist() if n.startswith('lib/') and n.endswith('.so')]
+              assert not native or any(n.startswith('lib/arm64-v8a/') for n in native), 'Missing ARM64 support'
+          print('Verified: non-debuggable, not test-only, ARM64-compatible package.')
+          PY
+          sha256sum "$APK" | tee android/app/build/outputs/apk/preview/SHA256SUMS.txt
           ls -lh "$APK"
       - name: Enable hardware acceleration for the test phone
         run: |
@@ -82,9 +97,14 @@ jobs:
           disable-animations: true
           emulator-boot-timeout: 180
           script: |
-            adb install android/app/build/outputs/apk/debug/app-debug.apk
+            adb install android/app/build/outputs/apk/preview/app-preview.apk
             adb shell am start -W -n com.hiddenlaws.ascendfocus.debug/com.hiddenlaws.ascendfocus.MainActivity
             adb shell pidof com.hiddenlaws.ascendfocus.debug
+      - name: Prepare clearly named download
+        run: |
+          mkdir -p install
+          cp android/app/build/outputs/apk/preview/app-preview.apk install/ASCEND-Focus.apk
+          sha256sum install/ASCEND-Focus.apk > install/SHA256SUMS.txt
       - name: Publish direct install APK
         uses: softprops/action-gh-release@v2
         with:
@@ -92,20 +112,21 @@ jobs:
           name: ASCEND Focus Android Preview ${{ github.run_number }}
           prerelease: true
           body: |
-            Direct Android APK download. No Developer Mode required.
+            Direct Android APK download. Non-debuggable preview; no Developer Mode required.
             Requires Android 6.0 or later.
             Installs as ASCEND Focus (Preview).
             Signature, alignment, package metadata and Android 35 emulator installation checked in CI.
           files: |
-            android/app/build/outputs/apk/debug/app-debug.apk
-            android/app/build/outputs/apk/debug/SHA256SUMS.txt
-            android/app/build/outputs/apk/debug/APK-METADATA.txt
+            install/ASCEND-Focus.apk
+            install/SHA256SUMS.txt
+            android/app/build/outputs/apk/preview/APK-METADATA.txt
+            android/app/build/outputs/apk/preview/APK-MANIFEST.txt
       - name: Publish debug APK
         uses: actions/upload-artifact@v4
         with:
           name: ascend-focus-android-debug
           path: |
-            android/app/build/outputs/apk/debug/app-debug.apk
-            android/app/build/outputs/apk/debug/SHA256SUMS.txt
+            android/app/build/outputs/apk/preview/app-preview.apk
+            android/app/build/outputs/apk/preview/SHA256SUMS.txt
           if-no-files-found: error
           retention-days: 7
